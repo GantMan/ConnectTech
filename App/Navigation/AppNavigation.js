@@ -39,7 +39,7 @@ const TabNav = TabNavigator({
   animationEnabled: true,
   swipeEnabled: true,
   headerMode: 'none',
-  initialRouteName: 'Schedule',
+  initialRouteName: 'Speaker',
   tabBarOptions: {
     style: styles.tabBar,
     labelStyle: styles.tabBarLabel,

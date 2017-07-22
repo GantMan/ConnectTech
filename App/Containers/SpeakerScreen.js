@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { AppState, View, Image, FlatList } from 'react-native'
 import PurpleGradient from '../Components/PurpleGradient'
 import DayToggle from '../Components/DayToggle'
-import Talk from '../Components/Talk'
+import Speaker from '../Components/Speaker'
 import Break from '../Components/Break'
 import ScheduleActions, { getSpeakers } from '../Redux/ScheduleRedux'
 import { connect } from 'react-redux'
@@ -26,6 +26,7 @@ import NotificationActions from '../Redux/NotificationRedux'
 import Config from '../Config/AppConfig'
 import { Images } from '../Themes'
 import styles from './Styles/ScheduleScreenStyle'
+import Icon from 'react-native-vector-icons/FontAwesome'
 
 class SpeakerScreen extends Component {
   constructor (props) {
@@ -35,11 +36,13 @@ class SpeakerScreen extends Component {
   static navigationOptions = {
     tabBarLabel: 'Speakers',
     tabBarIcon: ({ focused }) => (
-      <Image
-        source={
+      <Icon
+        name='users'
+        size={25}
+        color={
           focused
-            ? Images.activeScheduleIcon
-            : Images.inactiveScheduleIcon
+            ? '#fff'
+            : '#ccf'
         }
       />
     )
@@ -109,25 +112,14 @@ class SpeakerScreen extends Component {
     const { currentTime, setReminder, removeReminder } = this.props
 
     return (
-      <Talk
+      <Speaker
         key={item.name}
-        type={'talk'}
         name={item.bio}
-        avatarURL={`https://infinite.red/images/chainreact/gant.png`}
-        title={item.name}
-        start={new Date()}
-        duration={30}
+        avatarURL={item.speakerPhoto || 'https://infinite.red/images/chainreact/gant.png'}
+        description={item.name}
         onPress={() => this.onEventPress(null)}
         onPressTwitter={this.funcOrFalse(this.props.onPressTwitter, item.twitter)}
         onPressGithub={this.funcOrFalse(this.props.onPressGithub, item.github)}
-        setReminder={() => setReminder(item.title)}
-        removeReminder={() => removeReminder(item.title)}
-        currentTime={currentTime}
-        isCurrentDay={false}
-        isActive={false}
-        isSpecial={false}
-        isFinished={false}
-        showWhenFinished
       />
     )
   }

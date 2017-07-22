@@ -97,8 +97,8 @@ export default class Talk extends React.Component<TalkProps, TalkState> {
           <Animated.View style={containerStyles}>
             <View style={styles.info}>
               <View style={styles.infoText}>
-                <Text style={styles.name}>{name}</Text>
                 <Text style={styles.title}>{title}</Text>
+                <Text style={styles.name}>{name}</Text>
               </View>
               <FadeIn>
                 <Image style={styles.avatar} source={{uri: avatarURL}} />
