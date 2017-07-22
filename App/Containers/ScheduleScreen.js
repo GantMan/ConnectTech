@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import { AppState, View, Image, FlatList } from 'react-native'
-import PurpleGradient from '../Components/PurpleGradient'
+import BackgroundGradient from '../Components/BackgroundGradient'
 import DayToggle from '../Components/DayToggle'
 import Talk from '../Components/Talk'
 import Break from '../Components/Break'
 import ScheduleActions from '../Redux/ScheduleRedux'
 import { connect } from 'react-redux'
+import Icon from 'react-native-vector-icons/FontAwesome'
 import {
   compareAsc,
   isSameDay,
@@ -50,11 +51,13 @@ class ScheduleScreen extends Component {
   static navigationOptions = {
     tabBarLabel: 'Schedule',
     tabBarIcon: ({ focused }) => (
-      <Image
-        source={
+      <Icon
+        name='calendar'
+        size={25}
+        color={
           focused
-            ? Images.activeScheduleIcon
-            : Images.inactiveScheduleIcon
+            ? '#fff'
+            : '#ccf'
         }
       />
     )
@@ -224,7 +227,7 @@ class ScheduleScreen extends Component {
   render () {
     const { isCurrentDay, activeDay, data } = this.state
     return (
-      <PurpleGradient style={styles.linearGradient}>
+      <BackgroundGradient style={styles.linearGradient}>
         <DayToggle
           activeDay={activeDay}
           onPressIn={this.setActiveDay}
@@ -240,7 +243,7 @@ class ScheduleScreen extends Component {
           getItemLayout={this.getItemLayout}
           showsVerticalScrollIndicator={false}
         />
-      </PurpleGradient>
+      </BackgroundGradient>
     )
   }
 }

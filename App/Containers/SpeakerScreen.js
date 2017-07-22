@@ -1,18 +1,9 @@
 import React, { Component } from 'react'
 import { AppState, View, Image, FlatList } from 'react-native'
-import PurpleGradient from '../Components/PurpleGradient'
-import DayToggle from '../Components/DayToggle'
+import BackgroundGradient from '../Components/BackgroundGradient'
 import Speaker from '../Components/Speaker'
-import Break from '../Components/Break'
 import ScheduleActions, { getSpeakers } from '../Redux/ScheduleRedux'
 import { connect } from 'react-redux'
-import {
-  compareAsc,
-  isSameDay,
-  addMinutes,
-  isWithinRange,
-  subMilliseconds
-} from 'date-fns'
 import {
   merge,
   groupWith,
@@ -48,22 +39,6 @@ class SpeakerScreen extends Component {
     )
   }
 
-  getEventsByDayFromSchedule = (schedule) => {
-    const mergeTimes = (e) => {
-      const eventDuration = Number(e.duration)
-      const eventStart = new Date(e.time)
-      const eventFinal = addMinutes(eventStart, eventDuration)
-      // ends 1 millisecond before event
-      const eventEnd = subMilliseconds(eventFinal, 1)
-
-      return merge(e, { eventStart, eventEnd, eventDuration, eventFinal })
-    }
-    const sorted = [...schedule].map(mergeTimes).sort((a, b) => {
-      return compareAsc(a.eventStart, b.eventStart)
-    })
-    return groupWith((a, b) => isSameDay(a.eventStart, b.eventStart), sorted)
-  }
-
   onEventPress = (item) => {
     const { navigation, setSelectedEvent } = this.props
     setSelectedEvent(item)
@@ -74,7 +49,6 @@ class SpeakerScreen extends Component {
   }
 
   componentDidMount () {
-    console.tron.log(this.props.speakers)
     AppState.addEventListener('change', this._handleAppStateChange)
   }
 
@@ -125,7 +99,7 @@ class SpeakerScreen extends Component {
 
   render () {
     return (
-      <PurpleGradient key='speakerGradient' style={styles.linearGradient}>
+      <BackgroundGradient key='speakerGradient' style={styles.linearGradient}>
         <FlatList
           ref='speakerList'
           data={this.props.speakers}
@@ -136,7 +110,7 @@ class SpeakerScreen extends Component {
           getItemLayout={this.getItemLayout}
           showsVerticalScrollIndicator={false}
         />
-      </PurpleGradient>
+      </BackgroundGradient>
     )
   }
 }

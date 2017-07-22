@@ -10,7 +10,8 @@ import {
   PanResponder,
   LayoutAnimation
 } from 'react-native'
-import PurpleGradient from '../Components/PurpleGradient'
+import BackgroundGradient from '../Components/BackgroundGradient'
+import Icon from 'react-native-vector-icons/FontAwesome'
 
 import VenueMap from '../Components/VenueMap'
 import Gallery from '../Components/Gallery'
@@ -42,7 +43,15 @@ class LocationScreen extends React.Component {
   static navigationOptions = {
     tabBarLabel: 'Location',
     tabBarIcon: ({ focused }) => (
-      <Image source={focused ? Images.activeLocationIcon : Images.inactiveLocationIcon} />
+      <Icon
+        name='map-marker'
+        size={25}
+        color={
+          focused
+            ? '#fff'
+            : '#ccf'
+        }
+      />
     )
   }
 
@@ -197,7 +206,7 @@ class LocationScreen extends React.Component {
     const { event } = Animated
 
     return (
-      <PurpleGradient style={[styles.linearGradient, {flex: 1}]}>
+      <BackgroundGradient style={[styles.linearGradient, {flex: 1}]}>
         <ScrollView
           ref='scrolly'
           onScroll={event([{nativeEvent: {contentOffset: {y: this.state.scrollY}}}])}
@@ -257,7 +266,7 @@ class LocationScreen extends React.Component {
             />
           </View>
         </ScrollView>
-      </PurpleGradient>
+      </BackgroundGradient>
     )
   }
 }

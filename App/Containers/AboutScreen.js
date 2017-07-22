@@ -7,7 +7,8 @@ import {
   Text,
   LayoutAnimation
 } from 'react-native'
-import PurpleGradient from '../Components/PurpleGradient'
+import BackgroundGradient from '../Components/BackgroundGradient'
+import Icon from 'react-native-vector-icons/FontAwesome'
 import InfiniteRed from '../Components/InfiniteRed'
 import SeeProcess from '../Components/SeeProcess'
 import Twitter from '../Components/Twitter'
@@ -22,7 +23,15 @@ class AboutScreen extends React.Component {
   static navigationOptions = {
     tabBarLabel: 'General Info',
     tabBarIcon: ({ focused }) => (
-      <Image source={focused ? Images.activeInfoIcon : Images.inactiveInfoIcon} />
+      <Icon
+        name='info-circle'
+        size={25}
+        color={
+          focused
+            ? '#fff'
+            : '#ccf'
+        }
+      />
     )
   }
 
@@ -84,7 +93,7 @@ class AboutScreen extends React.Component {
 
   render () {
     return (
-      <PurpleGradient style={[styles.linearGradient, {flex: 1}]}>
+      <BackgroundGradient style={[styles.linearGradient, {flex: 1}]}>
         <ScrollView>
           <View style={styles.container}>
             <InfiniteRed />
@@ -94,7 +103,7 @@ class AboutScreen extends React.Component {
             {this.renderTabs()}
           </View>
         </ScrollView>
-      </PurpleGradient>
+      </BackgroundGradient>
     )
   }
 }
