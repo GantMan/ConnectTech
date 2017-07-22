@@ -113,7 +113,6 @@ class SpeakerScreen extends Component {
 
     return (
       <Speaker
-        key={item.name}
         name={item.bio}
         avatarURL={item.speakerPhoto || 'https://infinite.red/images/chainreact/gant.png'}
         description={item.name}
@@ -129,11 +128,10 @@ class SpeakerScreen extends Component {
       <PurpleGradient key='speakerGradient' style={styles.linearGradient}>
         <FlatList
           ref='speakerList'
-          key='speakerList'
           data={this.props.speakers}
           extraData={this.props}
           renderItem={this.renderItem}
-          keyExtractor={(item, idx) => item.eventStart}
+          keyExtractor={(item, idx) => item.name}
           contentContainerStyle={styles.listContent}
           getItemLayout={this.getItemLayout}
           showsVerticalScrollIndicator={false}
