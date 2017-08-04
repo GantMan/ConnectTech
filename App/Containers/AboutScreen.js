@@ -10,7 +10,6 @@ import {
 import BackgroundGradient from '../Components/BackgroundGradient'
 import Icon from 'react-native-vector-icons/FontAwesome'
 import InfiniteRed from '../Components/InfiniteRed'
-import SeeProcess from '../Components/SeeProcess'
 import Twitter from '../Components/Twitter'
 import Sponsors from '../Components/Sponsors'
 import LiveHelp from '../Components/LiveHelp'
@@ -97,7 +96,6 @@ class AboutScreen extends React.Component {
         <ScrollView>
           <View style={styles.container}>
             <InfiniteRed />
-            <SeeProcess />
             <ConferenceAnnouncements currentDate={this.props.currentTime} />
             <Twitter />
             {this.renderTabs()}
