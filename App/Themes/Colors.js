@@ -35,7 +35,8 @@ const colors = {
   lightText: '#656565',
   text: '#000000',
   transparentBump: (Platform.OS === 'ios') ? 'rgba(140,42,140, 0.5)' : 'rgba(140,42,140, 0.9)',
-  black: 'black'
+  black: 'black',
+  lightPurple: '#FDE5FF'
 }
 
 export default colors

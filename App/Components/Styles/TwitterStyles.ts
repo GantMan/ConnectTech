@@ -13,14 +13,14 @@ export default StyleSheet.create({
   },
   description: {
     textAlign: 'center',
-    fontFamily: 'Montserrat-Medium',
+    fontFamily: Fonts.type.medium,
     fontSize: 15,
-    color: '#FDE5FF',
+    color: Colors.lightPurple,
     letterSpacing: 0.47,
     lineHeight: 23
   },
   hashtag: {
-    fontFamily: 'Montserrat-SemiBold',
+    fontFamily: Fonts.type.semiBold,
     color: Colors.snow
   },
   twitter: {

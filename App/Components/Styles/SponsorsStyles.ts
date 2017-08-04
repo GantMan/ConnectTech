@@ -31,7 +31,7 @@ const SponsorsStyles: SponsorStyles = {
   },
   description: {
     textAlign: 'center',
-    fontFamily: 'Montserrat-Medium',
+    fontFamily: Fonts.type.medium,
     fontSize: 15,
     color: '#FDE5FF',
     letterSpacing: 0.47,
