@@ -20,8 +20,11 @@ import { connect } from 'react-redux'
 import Secrets from 'react-native-config'
 import styles from './Styles/LocationScreenStyle'
 
-const VENUE_LATITUDE = 45.524166
-const VENUE_LONGITUDE = -122.681645
+const VENUE_NAME = 'Cobb Galleria Centre'
+const VENUE_ADDRESS_1 = '2 Galleria Pkwy SE,'
+const VENUE_ADDRESS_2 = 'Atlanta, GA 30339'
+const VENUE_LATITUDE = 33.8833157
+const VENUE_LONGITUDE = -84.4687615
 const { UBER_CLIENT_ID } = Secrets
 const MAP_TAP_THRESHOLD = 100
 
@@ -72,7 +75,7 @@ class LocationScreen extends React.Component {
     this.setState({mapTouchStart: ''})
   }
 
-  openMaps (daddr = '128+NW+Eleventh+Ave+Portland,+OR+97209') {
+  openMaps (daddr = '2+Galleria+Pkwy+SE+Atlanta,+GA+30339') {
     const googleMaps = `comgooglemaps://?daddr=${daddr}`
     const appleMaps = `http://maps.apple.com?daddr=${daddr}`
 
@@ -119,7 +122,7 @@ class LocationScreen extends React.Component {
     const lat = `dropoff[latitude]=${VENUE_LATITUDE}`
     const lng = `dropoff[longitude]=${VENUE_LONGITUDE}`
     const nick = `dropoff[nickname]=The%20Armory`
-    const daddr = `dropoff[formatted_address]=128%20NW%20Eleventh%20Ave%2C%20Portland%2C%20OR%2097209`
+    const daddr = `dropoff[formatted_address]=2%20Galleria%20Pkwy%20SE%2C%20Atlanta%2C%20GA%2030339`
     const uber = `uber://?${pickup}&${client}&${lat}&${lng}&${nick}&${daddr}`
 
     Linking.canOpenURL(uber).then((supported) => {
@@ -185,10 +188,10 @@ class LocationScreen extends React.Component {
         }]
       }}>
         <View style={styles.headingContainer}>
-          <Text style={styles.mainHeading}>The Armory</Text>
+          <Text style={styles.mainHeading}>{VENUE_NAME}</Text>
           <Text style={styles.address}>
-            128 NW Eleventh Ave{'\n'}
-            Portland, OR 97209
+            {VENUE_ADDRESS_1}{'\n'}
+            {VENUE_ADDRESS_2}
           </Text>
         </View>
       </Animated.View>
@@ -223,10 +226,10 @@ class LocationScreen extends React.Component {
                 <View style={styles.getDirections}>
                   <View style={styles.addressContainer}>
                     <Text style={styles.venueName}>
-                      The Armory
+                      {VENUE_NAME}
                     </Text>
                     <Text style={styles.venueAddress}>
-                      128 NW Eleventh Ave.{'\n'}Portland, OR 97209
+                      {VENUE_ADDRESS_1}{'\n'}{VENUE_ADDRESS_2}
                     </Text>
                   </View>
                   <View style={styles.directionsIcon}>
