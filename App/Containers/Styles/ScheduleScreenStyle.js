@@ -25,7 +25,7 @@ export default StyleSheet.create({
   },
   timeline: {
     width: 2,
-    backgroundColor: '#6E3C7B',
+    backgroundColor: Colors.mediumPurple,
     position: 'absolute',
     top: 85,
     bottom: 0,

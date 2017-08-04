@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native'
-import { ApplicationStyles, Metrics, Colors } from '../../Themes/'
+import { ApplicationStyles, Metrics, Colors, Fonts } from '../../Themes/'
 
 export default StyleSheet.create({
   ...ApplicationStyles.screen,
@@ -9,18 +9,18 @@ export default StyleSheet.create({
     marginTop: 40
   },
   mainHeading: {
-    fontFamily: 'Montserrat-SemiBold',
+    fontFamily: Fonts.type.semiBold,
     fontSize: 31,
     letterSpacing: 0.2,
     color: Colors.snow
   },
   address: {
-    fontFamily: 'Montserrat-Medium',
+    fontFamily: Fonts.type.medium,
     fontSize: 15,
     letterSpacing: 0.47,
     lineHeight: 23,
     textAlign: 'center',
-    color: '#FDE5FF'
+    color: Colors.lightPurple
   },
   map: {
     width: '100%',
@@ -52,13 +52,13 @@ export default StyleSheet.create({
     borderBottomColor: '#DEDEDE'
   },
   venueName: {
-    fontFamily: 'Montserrat-SemiBold',
+    fontFamily: Fonts.type.semiBold,
     fontSize: 17,
     letterSpacing: 0,
     color: Colors.darkPurple
   },
   venueAddress: {
-    fontFamily: 'Montserrat-Light',
+    fontFamily: Fonts.type.base,
     fontSize: 13,
     lineHeight: 18,
     letterSpacing: 0,
@@ -72,7 +72,7 @@ export default StyleSheet.create({
     flex: 1
   },
   directionsLabel: {
-    fontFamily: 'Montserrat-Medium',
+    fontFamily: Fonts.type.medium,
     fontSize: 11,
     letterSpacing: 0,
     color: Colors.darkPurple
@@ -84,7 +84,7 @@ export default StyleSheet.create({
     paddingVertical: 16
   },
   getRideLabel: {
-    fontFamily: 'Montserrat-Medium',
+    fontFamily: Fonts.type.medium,
     fontSize: 15,
     lineHeight: 23,
     letterSpacing: 0.5,

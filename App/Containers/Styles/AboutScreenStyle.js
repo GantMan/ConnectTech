@@ -16,9 +16,9 @@ export default StyleSheet.create({
   },
   description: {
     textAlign: 'center',
-    fontFamily: 'Montserrat-Medium',
+    fontFamily: Fonts.type.medium,
     fontSize: 15,
-    color: '#FDE5FF',
+    color: Colors.lightPurple,
     letterSpacing: 0.47,
     lineHeight: 23
   },
@@ -35,7 +35,7 @@ export default StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     borderBottomWidth: 1,
-    borderBottomColor: 'rgba(253,229,255,0.5)',
+    borderBottomColor: Colors.lightYellow,
     padding: Metrics.baseMargin
   },
   activeTab: {
@@ -46,7 +46,7 @@ export default StyleSheet.create({
     fontSize: 15,
     lineHeight: 23,
     letterSpacing: 0.47,
-    color: 'rgba(253,229,255,0.5)'
+    color: Colors.lightYellow
   },
   activeTabText: {
     fontWeight: '600',

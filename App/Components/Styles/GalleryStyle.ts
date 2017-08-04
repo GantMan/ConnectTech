@@ -29,7 +29,7 @@ const GalleryStyle: GalleryStyleType = {
     alignItems: 'center',
     justifyContent: 'center',
     borderBottomWidth: 1,
-    borderBottomColor: 'rgba(253,229,255,0.5)',
+    borderBottomColor: Colors.lightYellow,
     padding: 5
   },
   tabText: {
@@ -37,7 +37,7 @@ const GalleryStyle: GalleryStyleType = {
     fontSize: 15,
     lineHeight: 23,
     letterSpacing: 0.47,
-    color: 'rgba(253,229,255,0.5)'
+    color: Colors.lightYellow
   },
   activeTab: {
     borderBottomColor: Colors.snow
