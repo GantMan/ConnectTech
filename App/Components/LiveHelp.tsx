@@ -3,6 +3,7 @@ import { View, Text, Linking } from 'react-native'
 import RoundedButton from './RoundedButton'
 import styles from './Styles/LiveHelpStyles'
 
+// TODO: Update phone number or refactor whole component.
 const LiveHelp = (props) => {
   return (
     <View style={styles.liveHelp}>
