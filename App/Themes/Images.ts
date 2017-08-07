@@ -108,7 +108,6 @@ const images = {
   starsIcon: require('../Images/Icons/icon-bg-stars.png'),
   stumptown: require('../Images/img-stumptown.jpg'),
   tastyNAlder: require('../Images/tasty-n-alder.jpg'),
-  thankYou: require('../Images/bg-thank-you.jpg'),
   theArmory: require('../Images/the-armory.png'),
   theme: require('../Images/Icons/icon-theme.png'),
   tileBg: require('../Images/tile_bg.png'),
