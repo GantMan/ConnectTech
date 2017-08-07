@@ -3,6 +3,7 @@ import { View, Modal, Text, TouchableOpacity } from 'react-native'
 import StatusBarAlert from 'react-native-statusbar-alert'
 import styles from './Styles/ModalStyle'
 import { BlurView } from 'react-native-blur'
+import { Colors } from '../Themes'
 
 const NotificationScreen = ({notifications, onDismissModal}) => {
   const notificationItems = notifications.map((message) => (
@@ -80,7 +81,7 @@ class NotificationsBar extends Component<NotificationsBarProps, NotificationsBar
         <StatusBarAlert
           visible
           message='Talk coming up! (tap for details)'
-          backgroundColor='#a843af'
+          backgroundColor={Colors.red}
           color='white'
           pulse='background'
           onPress={this.onPressStatusBarAlert}

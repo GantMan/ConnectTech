@@ -40,7 +40,7 @@ const colors = {
   avatarBorder: '#DCE3E8',
   lightText: '#656565',
   text: '#000000',
-  transparentBump: (Platform.OS === 'ios') ? 'rgba(140,42,140, 0.5)' : 'rgba(140,42,140, 0.9)',
+  transparentBump: (Platform.OS === 'ios') ? 'rgba(49, 46, 59, 0.5)' : 'rgba(49, 46, 59, 0.9)',
   black: 'black',
   // Now a lighter version of purpleShadow2
   lightPurple: '#E1E0E2',
