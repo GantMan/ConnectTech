@@ -13,20 +13,27 @@ const tweetWithHashtag = () => {
 
 const Twitter = (props) => {
   return (
-    <View style={styles.twitter}>
-      <Image style={styles.blowhorn} source={Images.blowhorn} />
-      <TouchableOpacity onPress={() => tweetWithHashtag()}>
-        <Text style={styles.heading}>
-          #ConnectTech2017
-        </Text>
-      </TouchableOpacity>
-      <Text style={styles.description}>
-        Make your friends jealous by tweeting, posting,
-        or whatever it is you do with the hashtag&nbsp;
-        <Text style={styles.hashtag} onPress={() => tweetWithHashtag()}>
-          #ConnectTech2017
-        </Text>.
-      </Text>
+    <View>
+      <Image source={Images.atlanta} style={styles.backgroundImage}>
+        <View style={styles.twitter}>
+          <View style={styles.headerImageContainer}>
+            <Image source={Images.ctLogo} style={styles.headerImage} />
+          </View>
+          <Image style={styles.blowhorn} source={Images.blowhorn} />
+          <TouchableOpacity onPress={() => tweetWithHashtag()}>
+            <Text style={styles.heading}>
+              #ConnectTech2017
+            </Text>
+          </TouchableOpacity>
+          <Text style={styles.description}>
+            Make your friends jealous by tweeting, posting,
+            or whatever it is you do with the hashtag&nbsp;
+            <Text style={styles.hashtag} onPress={() => tweetWithHashtag()}>
+              #ConnectTech2017
+            </Text>.
+          </Text>
+        </View>
+      </Image>
     </View>
   )
 }
