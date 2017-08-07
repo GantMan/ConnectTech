@@ -23,22 +23,31 @@ const colors = {
   banner: '#5F3E63',
 
   snow: 'white',
-  red: '#E64044',
-  redShadow: '#E83E3F',
+  // Now both red and redShadow are mustard
+  red: '#f0ba33',
+  redShadow: '#f0ba33',
   silver: '#F3F5F6',
-  purple: '#5C195A',
-  darkPurple: '#140034',
-  purpleShadow1: '#694F6C',
-  purpleShadow2: '#B997BC',
-  headerPurple: '#571757',
+  // Actually charcoal
+  purple: '#312e3b',
+  // Actually dark slate grey (tinged blue)
+  darkPurple: '#1F1B2C',
+  // Actually lighter version of dark slate grey
+  purpleShadow1: '#504C5F',
+  // Actually lighter version of purpleShadow1
+  purpleShadow2: '#6E697E',
+  // Change to use same as darkPurple
+  headerPurple: '#312e3b',
   avatarBorder: '#DCE3E8',
   lightText: '#656565',
   text: '#000000',
   transparentBump: (Platform.OS === 'ios') ? 'rgba(140,42,140, 0.5)' : 'rgba(140,42,140, 0.9)',
   black: 'black',
-  lightPurple: '#FDE5FF',
+  // Now a lighter version of purpleShadow2
+  lightPurple: '#E1E0E2',
+  // slightly darker than lightPurple is #B5B3BB
   lightYellow: 'rgba(253,229,255,0.5)',
-  mediumPurple: '#6E3C7B'
+  // Now more saturated version of purpleShadow1
+  mediumPurple: '#312e3b'
 }
 
 export default colors
