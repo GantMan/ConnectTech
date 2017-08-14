@@ -2,7 +2,6 @@ import React from 'react'
 import {
   ScrollView,
   TouchableOpacity,
-  Image,
   View,
   Text,
   LayoutAnimation
@@ -12,7 +11,6 @@ import Icon from 'react-native-vector-icons/FontAwesome'
 import Twitter from '../Components/Twitter'
 import Sponsors from '../Components/Sponsors'
 import LiveHelp from '../Components/LiveHelp'
-import { Images } from '../Themes'
 import { connect } from 'react-redux'
 import styles from './Styles/AboutScreenStyle'
 
