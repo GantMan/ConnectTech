@@ -46,7 +46,7 @@ const colors = {
   lightPurple: '#E1E0E2',
   // slightly darker than lightPurple is #B5B3BB
   lightYellow: 'rgba(253,229,255,0.5)',
-  // Now more saturated version of purpleShadow1
+  // Same as purple
   mediumPurple: '#312e3b'
 }
 
