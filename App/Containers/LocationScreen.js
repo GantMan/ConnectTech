@@ -260,6 +260,19 @@ class LocationScreen extends React.Component {
             </View>
             <View style={styles.nearby}>
               <Text style={styles.mainHeading}>
+                Venue Map
+              </Text>
+            </View>
+            <View style={styles.venueMap}>
+              <View style={styles.venueMapContainer}>
+                <Image
+                  source={Images.venueFloorplan}
+                  style={styles.venueMapImage}
+                />
+              </View>
+            </View>
+            <View style={styles.nearby}>
+              <Text style={styles.mainHeading}>
                 Nearby
               </Text>
             </View>

@@ -111,5 +111,24 @@ export default StyleSheet.create({
   nearby: {
     alignItems: 'center',
     paddingTop: 40
+  },
+  venueMap: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 50,
+    backgroundColor: Colors.transparent
+  },
+  venueMapContainer: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: Metrics.baseMargin,
+    backgroundColor: Colors.snow
+  },
+  venueMapImage: {
+    resizeMode: 'contain',
+    flexShrink: 1,
+    paddingHorizontal: 20
   }
 })
