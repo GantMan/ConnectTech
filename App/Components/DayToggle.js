@@ -2,6 +2,7 @@ import React from 'react'
 import { View, Text, TouchableOpacity } from 'react-native'
 import LinearGradient from 'react-native-linear-gradient'
 import styles from './Styles/DayToggleStyle'
+import { Colors } from '../Themes/'
 
 const DayToggle = props => {
   const { activeDay, onPressIn } = props
@@ -13,7 +14,7 @@ const DayToggle = props => {
       start={{x: 0, y: 0}}
       end={{x: 1, y: 1}}
       locations={[0.0, 0.38, 1.0]}
-      colors={['#46114E', '#521655', '#571757']}
+      colors={[Colors.darkPurple, Colors.purple, Colors.purpleShadow1]}
       style={styles.headerGradient}>
       <View style={styles.dayToggle}>
         <TouchableOpacity onPressIn={() => onPressIn(0)}>

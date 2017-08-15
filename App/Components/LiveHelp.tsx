@@ -3,6 +3,7 @@ import { View, Text, Linking } from 'react-native'
 import RoundedButton from './RoundedButton'
 import styles from './Styles/LiveHelpStyles'
 
+// TODO: Update phone number or refactor whole component.
 const LiveHelp = (props) => {
   return (
     <View style={styles.liveHelp}>
@@ -11,7 +12,7 @@ const LiveHelp = (props) => {
       </Text>
       <Text style={styles.liveHelpText}>
         Text or call us at anytime for directions, suspicious activity,
-        violations of our <Text style={styles.link} onPress={() => Linking.openURL('http://confcodeofconduct.com')}>Code of Conduct</Text>, or any other concern.
+        violations of our <Text style={styles.link} onPress={() => Linking.openURL('http://connect.tech/conduct.html')}>Code of Conduct</Text>, or any other concern.
       </Text>
       <RoundedButton
         text='Send Text Message (SMS)'

@@ -1,29 +1,14 @@
 import React, { Component } from 'react'
-import { AppState, View, Image, FlatList } from 'react-native'
+import { AppState, FlatList } from 'react-native'
 import BackgroundGradient from '../Components/BackgroundGradient'
 import Speaker from '../Components/Speaker'
 import ScheduleActions, { getSpeakers } from '../Redux/ScheduleRedux'
 import { connect } from 'react-redux'
-import {
-  merge,
-  groupWith,
-  contains,
-  assoc,
-  map,
-  sum,
-  findIndex
-} from 'ramda'
-import NotificationActions from '../Redux/NotificationRedux'
-import Config from '../Config/AppConfig'
-import { Images } from '../Themes'
+import { sum } from 'ramda'
 import styles from './Styles/ScheduleScreenStyle'
 import Icon from 'react-native-vector-icons/FontAwesome'
 
 class SpeakerScreen extends Component {
-  constructor (props) {
-    super(props)
-  }
-
   static navigationOptions = {
     tabBarLabel: 'Speakers',
     tabBarIcon: ({ focused }) => (
@@ -83,8 +68,6 @@ class SpeakerScreen extends Component {
   funcOrFalse = (func, val) => val ? () => func.call(this, val) : false
 
   renderItem = ({item}) => {
-    const { currentTime, setReminder, removeReminder } = this.props
-
     return (
       <Speaker
         name={item.bio}

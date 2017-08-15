@@ -2,20 +2,15 @@ import React from 'react'
 import {
   ScrollView,
   TouchableOpacity,
-  Image,
   View,
   Text,
   LayoutAnimation
 } from 'react-native'
 import BackgroundGradient from '../Components/BackgroundGradient'
 import Icon from 'react-native-vector-icons/FontAwesome'
-import InfiniteRed from '../Components/InfiniteRed'
-import SeeProcess from '../Components/SeeProcess'
 import Twitter from '../Components/Twitter'
 import Sponsors from '../Components/Sponsors'
 import LiveHelp from '../Components/LiveHelp'
-import ConferenceAnnouncements from '../Components/ConferenceAnnouncements'
-import { Images } from '../Themes'
 import { connect } from 'react-redux'
 import styles from './Styles/AboutScreenStyle'
 
@@ -96,9 +91,6 @@ class AboutScreen extends React.Component {
       <BackgroundGradient style={[styles.linearGradient, {flex: 1}]}>
         <ScrollView>
           <View style={styles.container}>
-            <InfiniteRed />
-            <SeeProcess />
-            <ConferenceAnnouncements currentDate={this.props.currentTime} />
             <Twitter />
             {this.renderTabs()}
           </View>

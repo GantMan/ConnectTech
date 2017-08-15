@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { AppState, View, Image, FlatList } from 'react-native'
+import { AppState, View, FlatList } from 'react-native'
 import BackgroundGradient from '../Components/BackgroundGradient'
 import DayToggle from '../Components/DayToggle'
 import Talk from '../Components/Talk'
@@ -25,7 +25,6 @@ import {
 } from 'ramda'
 import NotificationActions from '../Redux/NotificationRedux'
 import Config from '../Config/AppConfig'
-import { Images } from '../Themes'
 import styles from './Styles/ScheduleScreenStyle'
 
 const isActiveCurrentDay = (currentTime, activeDay) =>

@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native'
-import { Colors, Metrics } from '../../Themes/'
+import { Colors, Metrics, Fonts } from '../../Themes/'
 
 export default StyleSheet.create({
   container: {
@@ -40,13 +40,13 @@ export default StyleSheet.create({
     paddingRight: Metrics.doubleBaseMargin
   },
   title: {
-    fontFamily: 'Montserrat-SemiBold',
+    fontFamily: Fonts.type.semiBold,
     fontSize: 17,
     color: Colors.darkPurple,
     letterSpacing: 0
   },
   name: {
-    fontFamily: 'Montserrat-Light',
+    fontFamily: Fonts.type.base,
     fontSize: 13,
     color: Colors.lightText,
     letterSpacing: 0,
@@ -75,13 +75,13 @@ export default StyleSheet.create({
     paddingRight: Metrics.doubleBaseMargin
   },
   detailLabel: {
-    fontFamily: 'Montserrat-Light',
+    fontFamily: Fonts.type.base,
     fontSize: 11,
     color: Colors.lightText,
     letterSpacing: 0
   },
   detailText: {
-    fontFamily: 'Montserrat-SemiBold',
+    fontFamily: Fonts.type.semiBold,
     fontSize: 11,
     color: Colors.darkPurple,
     letterSpacing: 0

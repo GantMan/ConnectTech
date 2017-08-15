@@ -37,7 +37,7 @@ const ModalStyle: ModalStyleType = {
     textAlign: 'center',
     fontFamily: Fonts.style.medium,
     fontSize: 15,
-    color: '#FDE5FF',
+    color: Colors.lightPurple,
     letterSpacing: 0.47,
     lineHeight: 23,
     paddingVertical: 10

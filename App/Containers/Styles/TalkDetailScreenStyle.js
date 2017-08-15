@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native'
-import { ApplicationStyles, Colors, Metrics } from '../../Themes/'
+import { ApplicationStyles, Colors, Metrics, Fonts } from '../../Themes/'
 
 export default StyleSheet.create({
   ...ApplicationStyles.screen,
@@ -20,7 +20,7 @@ export default StyleSheet.create({
     marginRight: 5
   },
   backButtonText: {
-    fontFamily: 'Montserrat-Light',
+    fontFamily: Fonts.type.base,
     fontSize: 17,
     letterSpacing: 0,
     backgroundColor: Colors.transparent,
@@ -63,21 +63,21 @@ export default StyleSheet.create({
   sectionHeading: {
     alignSelf: 'flex-start',
     marginBottom: 12,
-    fontFamily: 'Montserrat-Light',
+    fontFamily: Fonts.type.base,
     fontSize: 11,
     letterSpacing: 3,
     color: Colors.lightText
   },
   heading: {
     marginBottom: 5,
-    fontFamily: 'Montserrat-SemiBold',
+    fontFamily: Fonts.type.semiBold,
     fontSize: 17,
     letterSpacing: 0,
     color: Colors.darkPurple
   },
   description: {
     marginBottom: 30,
-    fontFamily: 'Montserrat-Light',
+    fontFamily: Fonts.type.base,
     fontSize: 16,
     letterSpacing: 0,
     lineHeight: 24,

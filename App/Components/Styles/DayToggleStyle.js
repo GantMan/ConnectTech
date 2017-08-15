@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native'
-import { Colors, Metrics } from '../../Themes/'
+import { Colors, Metrics, Fonts } from '../../Themes/'
 
 export default StyleSheet.create({
   headerGradient: {
@@ -8,10 +8,10 @@ export default StyleSheet.create({
       height: 0
     },
     shadowRadius: 20,
-    shadowColor: 'black',
+    shadowColor: Colors.black,
     shadowOpacity: 0.8,
     elevation: 20,
-    backgroundColor: 'black'
+    backgroundColor: Colors.black
   },
   dayToggle: {
     flexDirection: 'row',
@@ -23,14 +23,14 @@ export default StyleSheet.create({
   },
   inactiveDay: {
     backgroundColor: Colors.clear,
-    fontFamily: 'Montserrat-Light',
+    fontFamily: Fonts.type.base,
     fontSize: 20,
     color: 'rgba(255,255,255,0.80)',
     letterSpacing: 0
   },
   activeDay: {
     backgroundColor: Colors.clear,
-    fontFamily: 'Montserrat-SemiBold',
+    fontFamily: Fonts.type.semiBold,
     fontSize: 20,
     color: Colors.snow,
     letterSpacing: 0
