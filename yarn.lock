@@ -3183,6 +3183,11 @@ ignite-i18n@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/ignite-i18n/-/ignite-i18n-1.0.0.tgz#4e7f5ecebf00ceeac0b52a1a2fb5227b5ecb3faa"
 
+"ignite-ir-boilerplate@file:/Users/gantman/Documents/Projects/rn/ignite-ir-next":
+  version "2.0.2"
+  dependencies:
+    ramda "^0.23.0"
+
 ignite-ir-next@0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/ignite-ir-next/-/ignite-ir-next-0.1.0.tgz#1bea70e645ccd752961cce0b0103d11961b20216"
