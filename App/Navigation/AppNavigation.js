@@ -1,5 +1,6 @@
 import { StackNavigator, TabNavigator, TabBarBottom } from 'react-navigation'
-import ScheduleScreen from '../Containers/ScheduleScreen'
+import Tracks from '../Containers/Tracks'
+import ScheduleScreen from '../Containers/ScheduleScreen2'
 import SpeakerScreen from '../Containers/SpeakerScreen'
 import TalkDetailScreen from '../Containers/TalkDetailScreen'
 import BreakDetailScreen from '../Containers/BreakDetailScreen'
