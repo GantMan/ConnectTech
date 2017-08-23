@@ -14,7 +14,6 @@ import BackgroundGradient from '../Components/BackgroundGradient'
 import Icon from 'react-native-vector-icons/FontAwesome'
 
 import VenueMap from '../Components/VenueMap'
-import Gallery from '../Components/Gallery'
 import { Images, Metrics } from '../Themes'
 import { connect } from 'react-redux'
 import Secrets from 'react-native-config'
@@ -88,16 +87,6 @@ class LocationScreen extends React.Component {
           ? Linking.openURL(appleMaps)
           : window.alert('Unable to find maps application.')
         )
-      }
-    })
-  }
-
-  openLink (url) {
-    Linking.canOpenURL(url).then((supported) => {
-      if (supported) {
-        Linking.openURL(url)
-      } else {
-        window.alert('Unable to open link')
       }
     })
   }
@@ -205,7 +194,6 @@ class LocationScreen extends React.Component {
 
   render () {
     const { showRideOptions, mapViewMode } = this.state
-    const { nearbyData } = this.props
     const { event } = Animated
 
     return (
@@ -271,15 +259,6 @@ class LocationScreen extends React.Component {
                 />
               </View>
             </View>
-            <View style={styles.nearby}>
-              <Text style={styles.mainHeading}>
-                Nearby
-              </Text>
-            </View>
-            <Gallery
-              data={nearbyData}
-              onItemPress={(link) => this.openLink(link)}
-            />
           </View>
         </ScrollView>
       </BackgroundGradient>
@@ -289,7 +268,6 @@ class LocationScreen extends React.Component {
 
 const mapStateToProps = (state) => {
   return {
-    nearbyData: state.location.nearby
   }
 }
 
