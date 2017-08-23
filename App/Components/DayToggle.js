@@ -18,10 +18,13 @@ const DayToggle = props => {
       style={styles.headerGradient}>
       <View style={styles.dayToggle}>
         <TouchableOpacity onPressIn={() => onPressIn(0)}>
-          <Text style={dayStyle(0)}>Monday</Text>
+          <Text style={dayStyle(0)}>Weds</Text>
         </TouchableOpacity>
         <TouchableOpacity onPressIn={() => onPressIn(1)}>
-          <Text style={dayStyle(1)}>Tuesday</Text>
+          <Text style={dayStyle(1)}>Thurs</Text>
+        </TouchableOpacity>
+        <TouchableOpacity onPressIn={() => onPressIn(2)}>
+          <Text style={dayStyle(2)}>Fri</Text>
         </TouchableOpacity>
       </View>
     </LinearGradient>

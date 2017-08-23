@@ -37,10 +37,11 @@ const isActiveCurrentDay = (currentTime, activeDay) =>
 const addSpecials = (specialTalksList, talks) =>
   map((talk) => assoc('special', contains(talk.title, specialTalksList), talk), talks)
 
+const groupByTimes = groupBy(prop('time'))
+
 class ScheduleScreen extends Component {
   constructor (props) {
     super(props)
-    const groupByTimes = groupBy(prop('time'))
     const { schedule, specialTalks, currentTime } = props
     const eventsByDay = this.getEventsByDayFromSchedule(schedule)
     const activeDay = 0
@@ -161,18 +162,26 @@ class ScheduleScreen extends Component {
   setActiveDay = (activeDay) => {
     const { eventsByDay } = this.state
     const { currentTime, specialTalks } = this.props
-    const data = addSpecials(specialTalks, eventsByDay[activeDay])
+    const events = groupByTimes(addSpecials(specialTalks, eventsByDay[activeDay]))
+    // format data to fit sections
+    const data = reduce((acc, value) => {
+      let dataFriendly = {}
+      dataFriendly.key = value
+      dataFriendly.data = events[value]
+      acc.push(dataFriendly)
+      return acc
+    }, [], keys(events))
     const isCurrentDay = isActiveCurrentDay(currentTime, activeDay)
 
     this.setState({data, activeDay, isCurrentDay}, () => {
-      if (isCurrentDay) {
+      // if (isCurrentDay) {
         // Scroll to active
         // const index = this.getActiveIndex(data)
         // this.refs.scheduleList.scrollToIndex({index, animated: false})
-      } else {
+      // } else {
         // Scroll to top
         // this.refs.scheduleList.scrollToOffset({y: 0, animated: false})
-      }
+      // }
     })
   }
 
