@@ -1,8 +1,6 @@
 #  ChainReactApp
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
-[![marketing_image](./_art/marketing.jpg)](https://itunes.apple.com/us/app/chain-react-conf/id1239112816?mt=8)
-
 * Standard compliant React Native App Utilizing [Ignite](https://github.com/infinitered/ignite)
 
 ## :arrow_up: How to Setup
