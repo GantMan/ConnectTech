@@ -1,7 +1,6 @@
 import React from 'react'
 import { View, Text, Image, TouchableWithoutFeedback, LayoutAnimation, Animated } from 'react-native'
 import TalkInfo from './TalkInfo'
-import TimeIndicator from './TimeIndicator'
 import styles from './Styles/TalkStyle'
 import PushNotification from 'react-native-push-notification'
 import PNHelpers from '../Lib/PushNotificationHelpers'
@@ -116,9 +115,6 @@ export default class Talk extends React.Component<TalkProps, TalkState> {
             />
           </Animated.View>
         </TouchableWithoutFeedback>
-        {isActive &&
-          <TimeIndicator start={start} duration={duration} time={currentTime} />
-        }
       </View>
     )
   }
