@@ -8,9 +8,9 @@ import { Images } from './DevTheme'
 
 // Examples Render Engine
 import ExamplesRegistry from '../../App/Services/ExamplesRegistry'
-import SectionExample. from '../Examples/Containers/ignite-ir-boilerplate/examples/SectionExample.js.ejs'
-import GridExample. from '../Examples/Containers/ignite-ir-boilerplate/examples/GridExample.js.ejs'
-import RowExample. from '../Examples/Containers/ignite-ir-boilerplate/examples/RowExample.js.ejs'
+import SectionExample from '../Examples/Containers/ignite-ir-boilerplate/examples/SectionExample.js.ejs'
+import GridExample from '../Examples/Containers/ignite-ir-boilerplate/examples/GridExample.js.ejs'
+import RowExample from '../Examples/Containers/ignite-ir-boilerplate/examples/RowExample.js.ejs'
 import RoundedButton from '../../App/Components/RoundedButton'
 import '../Examples/Components/MapsExample.js'
 import '../Examples/Components/animatableExample.js'

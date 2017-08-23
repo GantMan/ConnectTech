@@ -20,8 +20,6 @@ import {
   contains,
   assoc,
   map,
-  sum,
-  findIndex,
   groupBy,
   prop,
   reduce,
