@@ -49,7 +49,7 @@
       "image":"gant",
       "title":"Chain React Announcements",
       "description":"Wifi Password, Intros, and More - OH MY!",
-      "time":"7/10/2017 8:50 AM",
+      "time":"7/10/2017 8:45 AM",
       "duration":"10",
       "speakerInfo": [
         {
@@ -543,6 +543,22 @@
       "type":"party",
       "title": "Monday Happy Hour",
       "time":"7/10/2017 5:00 PM",
+      "duration":"150",
+      "options": ["Heater-Allen Pilsner (McMinnville, OR)", "2 Towns Cider (Corvallis, OR)", "2014 Brooks Amycas 5-varietal White Blend (OR)", "Rosé 2015 REAL, Freja Vineyard Pinot Noir Rosé (OR)", "2014 REAL, Freja Vineyard Pinot Noir (OR)", "Table Red and White by Devil's Food Catering", "Regular and Diet Coca-Cola", "7*Up", "Ginger Ale", "San Pellegrino Limonata and Sparkling Water"],
+      "veganOptions": []
+    },
+    {
+      "type":"party",
+      "title": "Friday Happy Hour",
+      "time":"7/12/2017 5:00 PM",
+      "duration":"150",
+      "options": ["Heater-Allen Pilsner (McMinnville, OR)", "2 Towns Cider (Corvallis, OR)", "2014 Brooks Amycas 5-varietal White Blend (OR)", "Rosé 2015 REAL, Freja Vineyard Pinot Noir Rosé (OR)", "2014 REAL, Freja Vineyard Pinot Noir (OR)", "Table Red and White by Devil's Food Catering", "Regular and Diet Coca-Cola", "7*Up", "Ginger Ale", "San Pellegrino Limonata and Sparkling Water"],
+      "veganOptions": []
+    },
+    {
+      "type":"party",
+      "title": "Friday Happy Hour 2",
+      "time":"7/12/2017 5:00 PM",
       "duration":"150",
       "options": ["Heater-Allen Pilsner (McMinnville, OR)", "2 Towns Cider (Corvallis, OR)", "2014 Brooks Amycas 5-varietal White Blend (OR)", "Rosé 2015 REAL, Freja Vineyard Pinot Noir Rosé (OR)", "2014 REAL, Freja Vineyard Pinot Noir (OR)", "Table Red and White by Devil's Food Catering", "Regular and Diet Coca-Cola", "7*Up", "Ginger Ale", "San Pellegrino Limonata and Sparkling Water"],
       "veganOptions": []

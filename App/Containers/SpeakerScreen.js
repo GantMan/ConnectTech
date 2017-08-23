@@ -42,11 +42,13 @@ class SpeakerScreen extends Component {
   }
 
   _handleAppStateChange = (nextAppState) => {
-    const { appState } = this.state
-    if (appState.match(/inactive|background/) && nextAppState === 'active') {
-      this.props.getScheduleUpdates()
+    if (this.state) {
+      const { appState } = this.state
+      if (appState.match(/inactive|background/) && nextAppState === 'active') {
+        this.props.getScheduleUpdates()
+      }
+      this.setState({appState: nextAppState})
     }
-    this.setState({appState: nextAppState})
   }
 
   getItemLayout = (data, index) => {
