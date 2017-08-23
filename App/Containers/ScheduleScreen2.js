@@ -257,10 +257,10 @@ class ScheduleScreen extends Component {
           activeDay={activeDay}
           onPressIn={this.setActiveDay}
         />
-        {isCurrentDay && <View style={styles.timeline} />}
         <SectionList
           ref='scheduleList'
           renderSectionHeader={this.renderSectionHeader}
+          stickySectionHeadersEnabled={false}
           sections={data}
           renderItem={this.renderItem}
           keyExtractor={(item, idx) => idx}

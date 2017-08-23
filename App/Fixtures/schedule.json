@@ -6,7 +6,7 @@
       "image":"jamon",
       "title":"Welcome to Chain React",
       "description":"Welcome to our Conference!  Greetings opening remarks",
-      "time":"7/10/2017 8:45 AM",
+      "time":"9/20/2017 8:45 AM",
       "duration":"5",
       "speakerInfo": [
         {
@@ -24,7 +24,7 @@
       "image":"panel",
       "title":"Goodbye from Chain React",
       "description":"We will be giving away prizes, including tickets to next year's conference!  And some parting words.",
-      "time":"7/11/2017 5:00 PM",
+      "time":"9/21/2017 5:00 PM",
       "duration":"15",
       "speakerInfo": [
         {
@@ -49,7 +49,7 @@
       "image":"gant",
       "title":"Chain React Announcements",
       "description":"Wifi Password, Intros, and More - OH MY!",
-      "time":"7/10/2017 8:45 AM",
+      "time":"9/20/2017 8:45 AM",
       "duration":"10",
       "speakerInfo": [
         {
@@ -67,7 +67,7 @@
       "image":"gant",
       "title":"Welcome to Day Two!",
       "description":"Code of Conduct",
-      "time":"7/11/2017 8:45 AM",
+      "time":"9/21/2017 8:45 AM",
       "duration":"15",
       "speakerInfo": [
         {
@@ -85,7 +85,7 @@
       "image":"mike",
       "title":"The Dark Art of Bundlers",
       "description":"Designing mobile applications for different content access patterns, pub/sub, and data transformations can be challenging at scale. Leveraging cloud services effectively can help you deliver higher quality applications and new functionality in a short amount of time. In this session, you will learn how to use AWS services with React Native for implementing fine-grained access controls, event driven data transformations, message optimizations with low latencies for real-time transmission, and content streaming for uploads and downloads on lossy networks using \"Serverless\" techniques. We'll also cover when a fully JavaScript approach works in React Native and when it's necessary to drop down to native bridging.",
-      "time":"7/10/2017 9:00 AM",
+      "time":"9/20/2017 9:00 AM",
       "duration":"30",
       "speakerInfo": [
         {
@@ -103,7 +103,7 @@
       "image":"brent",
       "title":"React Native Sandpaper",
       "description":"An analysis of the roughest areas of developing apps with React Native from my point of view. I deal with developers building greenfield apps every day. I see everything from total beginners working on a side project to agencies, large companies, and startups building apps for their clients and their own businesses. React Native has come so far, but we have much more work to do. As a community we really need to step up our game if we want our bet in React Native to pay off in the long-run.",
-      "time":"7/10/2017 9:30 AM",
+      "time":"9/20/2017 9:30 AM",
       "duration":"30",
       "speakerInfo": [
         {
@@ -121,7 +121,7 @@
       "image":"richard",
       "title":"Realtime Event Processing, Streaming and Subscription for React Native Using Cloud Services",
       "description":"Designing mobile applications for different content access patterns, pub/sub, and data transformations can be challenging at scale. Leveraging cloud services effectively can help you deliver higher quality applications and new functionality in a short amount of time. In this session, you will learn how to use AWS services with React Native for implementing fine-grained access controls, event driven data transformations, message optimizations with low latencies for real-time transmission, and content streaming for uploads and downloads on lossy networks using \"Serverless\" techniques. We'll also cover when a fully JavaScript approach works in React Native and when it's necessary to drop down to native bridging.",
-      "time":"7/10/2017 10:30 AM",
+      "time":"9/20/2017 10:30 AM",
       "duration":"30",
       "speakerInfo": [
         {
@@ -139,7 +139,7 @@
       "image":"poornima",
       "title":"Experimenting with a Paypal Checkout SDK using React Native",
       "description":"This talk is a technical deep-dive of how we use react-native as a means to deliver Checkout experience in our open sourced Paypal SDK. It will also layout how react-native has given us the power to steer without merchants having to reintegrate and republish with every incremental SDK release.",
-      "time":"7/10/2017 11:00 AM",
+      "time":"9/20/2017 11:00 AM",
       "duration":"30",
       "speakerInfo": [
         {
@@ -158,7 +158,7 @@
 
       "title":"React Native + ES.next = ♥︎",
       "description":"Discover how to leverage the new JavaScript language features and apply them to our React Native project.",
-      "time":"7/10/2017 11:30 AM",
+      "time":"9/20/2017 11:30 AM",
       "duration":"30",
       "speakerInfo": [
         {
@@ -176,7 +176,7 @@
       "image":"nader",
       "title":"JavaScript Futurism",
       "description":"Working consistently across multiple platforms with different file types in React Native can be challenging. In this talk, I will discuss and implement working with and opening a multitude of different file types consistently on both iOS and Android.",
-      "time":"7/10/2017 1:30 PM",
+      "time":"9/20/2017 1:30 PM",
       "duration":"30",
       "speakerInfo": [
         {
@@ -194,7 +194,7 @@
       "image":"naoufal",
       "title":"Accepting Mobile Payments with React Native",
       "description":"In this talk, we’ll dive into the mobile payments landscape and explore the various ways that we can accept payments in our React Native applications.  We’ll then focus in on mobile wallets and see how we can leverage them to eliminate the payment form and reduce friction in our checkouts.  Finally, we’ll learn how we can do all this while sharing our payment code across platforms.",
-      "time":"7/10/2017 2:00 PM",
+      "time":"9/20/2017 2:00 PM",
       "duration":"30",
       "speakerInfo": [
         {
@@ -212,7 +212,7 @@
       "image":"kyle_thomas",
       "title":"Gestures Here. Gestures There. Gestures Everywhere!",
       "description":"This talk digs into building rich touch interactions with React Native. There’s a deeper level than Touchable* components and PanResponders. Kyle and Thomas will uncover it, and show off its full potential!",
-      "time":"7/10/2017 2:30 PM",
+      "time":"9/20/2017 2:30 PM",
       "duration":"30",
       "speakerInfo": [
         {
@@ -237,7 +237,7 @@
       "image":"javier",
       "title":"Rewriting a Large Hybrid App with React Native",
       "description":"In this talk we’ll share Gudog’s experience on rewriting our large Ionic / Cordova hybrid mobile app with React Native (using Ignite, redux, redux-saga & normalizr).",
-      "time":"7/10/2017 4:00 PM",
+      "time":"9/20/2017 4:00 PM",
       "duration":"30",
       "speakerInfo": [
         {
@@ -255,7 +255,7 @@
       "image":"chris",
       "title":"From Idea to App Store: A Guide to Shipping React Native Apps",
       "description":"We’ll walk through everything involved in taking an app from initial concept all the way to submitting an iOS and Android app to the App Stores.",
-      "time":"7/11/2017 4:30 PM",
+      "time":"9/20/2017 4:00 PM",
       "duration":"30",
       "speakerInfo": [
         {
@@ -273,7 +273,7 @@
       "image":"peggy",
       "title":"Breaking Down React Native Bridging",
       "description":"Crossing the bridge between native and JavaScript code can seem daunting, but it doesn’t have to be! This talk will simplify the process of bridging native modules & components by breaking down common patterns found in bridging implementations for iOS & Android.",
-      "time":"7/11/2017 9:00 AM",
+      "time":"9/21/2017 9:00 AM",
       "duration":"30",
       "speakerInfo": [
         {
@@ -291,7 +291,7 @@
       "image":"eric",
       "title":"From RPC to GraphQL: APIs from Past to Present",
       "description":"This talk attempts to lay bare the lessons learned from 60 years of API development, from RPC to REST. With mounting pressure from mobile and distributed computing, RESTs viability is waning. This talk will present emerging designs like GraphQL as a post REST paradigm (but not a silver bullet).",
-      "time":"7/11/2017 9:30 AM",
+      "time":"9/21/2017 9:30 AM",
       "duration":"30",
       "speakerInfo": [
         {
@@ -309,7 +309,7 @@
       "image":"parashuram",
       "title":"From Zero to DevOps",
       "description":"React Native brought the web’s enviable development patterns to mobile, without needing to sacrifice native UI. Code Push for React Native brings web like release agility to mobile apps by enabling developers to update apps instantly. This talk will cover the next iteration of Code Push and how it fits into a complete suite of DevOps services built for called Mobile Center, built for React Native. We will look at the end to end workflow - from a single commit on github triggering continuous builds and tests, to the final, signed app distributed to testers, clients or end users. From monitoring services like JavaScript enabled crashes to understanding user behavior with analytics, we will look at ways to get better mobile apps to your users. We will look at the internals of Mobile Center to use with your existing toolchain, other services that are planned as a part of the suite, and integration with popular community tools and services.",
-      "time":"7/11/2017 10:30 AM",
+      "time":"9/21/2017 10:30 AM",
       "duration":"30",
       "speakerInfo": [
         {
@@ -327,7 +327,7 @@
       "image":"leland",
       "title":"React as a Platform: A Path Towards a Truly Cross-Platform UI",
       "description":"React provides an abstraction between the description of a UI and the details of how it's rendered on a given platform. The problem is that <div> and <span> are a hidden dependency on react-dom, and similarly, React Native's <View> is an explicit dependency on Native, making both not quite as \"cross-platform\" as we want them to be. Learn how we as a community can get around these issues, and what we can unlock by doing so.",
-      "time":"7/11/2017 11:00 AM",
+      "time":"9/21/2017 11:00 AM",
       "duration":"30",
       "speakerInfo": [
         {
@@ -345,7 +345,7 @@
       "image":"kevin",
       "title":"Building Serverless Backends with AWS Lambda for React Native Apps",
       "description":"This talk will explore a Serverless Architecture and how it can can aid any React Native developer in building scalable backends for their applications. Our provider of choice will be the AWS ecosystem. Lambda, DynamoDB, Cognito, and API Gateway will be among the resources covered.",
-      "time":"7/11/2017 11:30 AM",
+      "time":"9/21/2017 11:30 AM",
       "duration":"30",
       "speakerInfo": [
         {
@@ -363,7 +363,7 @@
       "image":"panel",
       "title":"Panel",
       "description":"Join our selected panelists as we discuss a variety of tools and tech in React Native.",
-      "time":"7/11/2017 1:30 PM",
+      "time":"9/21/2017 1:30 PM",
       "duration":"30",
       "speakerInfo": [
         {
@@ -415,7 +415,7 @@
       "image":"harry",
       "title":"When to Go Native Over JavaScript",
       "description":"React Native is great for writing cross platform apps. Certain use-cases, however, still require native code. Together we will look at how to evaluate when native code is the better choice. I’ll cover strategies for dealing with performance issues and how to handle background tasks like geolocation.",
-      "time":"7/11/2017 2:00 PM",
+      "time":"9/21/2017 2:00 PM",
       "duration":"30",
       "speakerInfo": [
         {
@@ -433,7 +433,7 @@
       "image":"alex",
       "title":"Building Stellar User Experiences with React Native",
       "description":"As React Native developers we take so much pride in how fast it takes us to build something functional on mobile. However, the development speed is only half of the story. In this talk Alex, a former React Native team member, will share his insight about building amazing user experiences, and how attention to little design details can fundamentally change the quality of your app.",
-      "time":"7/11/2017 2:30 PM",
+      "time":"9/21/2017 2:30 PM",
       "duration":"30",
       "speakerInfo": [
         {
@@ -451,7 +451,7 @@
       "image":"doug",
       "title":"React Native on the Apple TV Platform",
       "description":"Support for the Apple TV platform has recently been added to React Native. This talk will cover differences between the Apple TV and other platforms, details on the changes that were made to React Native core code to support Apple TV, and examples of React Native applications running on Apple TV.",
-      "time":"7/11/2017 4:00 PM",
+      "time":"9/21/2017 4:00 PM",
       "duration":"30",
       "speakerInfo": [
         {
@@ -469,7 +469,7 @@
       "image":"ken",
       "title":"Why We Need an App Browser",
       "description":"An exploration of the current browser ecosystem, and its shortcomings, and a proposal for mixing the best parts of web and native",
-      "time":"7/10/2017 4:30 PM",
+      "time":"9/20/2017 4:30 PM",
       "duration":"30",
       "speakerInfo": [
         {
@@ -484,7 +484,7 @@
     {
       "type":"breakfast",
       "title": "Registration and Breakfast",
-      "time":"7/10/2017 7:30 AM",
+      "time":"9/20/2017 7:30 AM",
       "duration":"75",
       "options": ["Assorted Coco Donuts", "Whole Fruit", "Bowery Bagels with Whipped Herb Cream Cheese"],
       "veganOptions": []
@@ -492,49 +492,56 @@
     {
       "type":"breakfast",
       "title": "Breakfast",
-      "time":"7/11/2017 7:30 AM",
+      "time":"9/21/2017 7:30 AM",
       "duration":"75",
       "options": ["Assorted Coco Donuts", "Whole Fruit", "Bowery Bagels with Whipped Herb Cream Cheese"],
       "veganOptions": []
     },
     {
       "type":"coffee",
-      "time":"7/10/2017 10:00 AM",
+      "time":"9/20/2017 10:00 AM",
       "duration":"30",
       "options": ["Spella Caffe Coffee, Hot Tea, and Water"],
       "veganOptions": []
     },
     {
       "type":"coffee",
-      "time":"7/11/2017 10:00 AM",
+      "time":"9/21/2017 10:00 AM",
       "duration":"30",
       "options": ["Spella Caffe Coffee, Hot Tea, and Water"],
       "veganOptions": []
     },
     {
       "type":"lunch",
-      "time":"7/10/2017 12:00 PM",
+      "time":"9/20/2017 12:00 PM",
       "duration":"90",
       "options": ["Chopped Radicchio Salad", "Moroccan Chicken Tagine", "Saffron Scented Rice", "Assorted Cookies"],
       "veganOptions": ["Moroccan Vegetable Tagine"]
     },
     {
       "type":"lunch",
-      "time":"7/11/2017 12:00 PM",
+      "time":"9/21/2017 12:00 PM",
       "duration":"90",
       "options": ["Kale Caesar with Shaved Parmigiano & Grilled Crouton", "Steak Sandwiches with Arugula, Red Onion Chutney, and Horseradish Aioli", "Assorted Cookies and NW Potato Chips"],
       "veganOptions": ["Massaged Kale with Shaved Spring Vegetables and Citrus-Herb Vinaigrette", "Smoked Portobello Wraps (GF)"]
     },
     {
       "type":"coffee",
-      "time":"7/10/2017 3:00 PM",
+      "time":"9/20/2017 3:00 PM",
       "duration":"60",
       "options": ["Rosemary Caramel Corn with Almonds and Fleur de Sel", "Roasted Nuts and Whole Fruit", "Spella Caffe Coffee, Hot Tea, and Water"],
       "veganOptions": ["All beverage options", "Roasted Nuts and Whole Fruit"]
     },
     {
       "type":"coffee",
-      "time":"7/11/2017 3:00 PM",
+      "time":"9/20/2017 3:00 PM",
+      "duration":"60",
+      "options": ["Rosemary Caramel Corn with Almonds and Fleur de Sel", "Roasted Nuts and Whole Fruit", "Spella Caffe Coffee, Hot Tea, and Water"],
+      "veganOptions": ["All beverage options", "Roasted Nuts and Whole Fruit"]
+    },
+    {
+      "type":"coffee",
+      "time":"9/21/2017 3:00 PM",
       "duration":"60",
       "options": ["Spella Caffe Coffee, Hot Tea, and Water", "Cheddar Medallions: Spicy Baked Cheddar Crackers", "Roasted Nuts and Whole Fruit"],
       "veganOptions": ["All beverage options", "Roasted Nuts and Whole Fruit"]
@@ -542,7 +549,7 @@
     {
       "type":"party",
       "title": "Monday Happy Hour",
-      "time":"7/10/2017 5:00 PM",
+      "time":"9/20/2017 5:00 PM",
       "duration":"150",
       "options": ["Heater-Allen Pilsner (McMinnville, OR)", "2 Towns Cider (Corvallis, OR)", "2014 Brooks Amycas 5-varietal White Blend (OR)", "Rosé 2015 REAL, Freja Vineyard Pinot Noir Rosé (OR)", "2014 REAL, Freja Vineyard Pinot Noir (OR)", "Table Red and White by Devil's Food Catering", "Regular and Diet Coca-Cola", "7*Up", "Ginger Ale", "San Pellegrino Limonata and Sparkling Water"],
       "veganOptions": []
@@ -550,7 +557,7 @@
     {
       "type":"party",
       "title": "Friday Happy Hour",
-      "time":"7/12/2017 5:00 PM",
+      "time":"9/22/2017 5:00 PM",
       "duration":"150",
       "options": ["Heater-Allen Pilsner (McMinnville, OR)", "2 Towns Cider (Corvallis, OR)", "2014 Brooks Amycas 5-varietal White Blend (OR)", "Rosé 2015 REAL, Freja Vineyard Pinot Noir Rosé (OR)", "2014 REAL, Freja Vineyard Pinot Noir (OR)", "Table Red and White by Devil's Food Catering", "Regular and Diet Coca-Cola", "7*Up", "Ginger Ale", "San Pellegrino Limonata and Sparkling Water"],
       "veganOptions": []
@@ -558,7 +565,7 @@
     {
       "type":"party",
       "title": "Friday Happy Hour 2",
-      "time":"7/12/2017 5:00 PM",
+      "time":"9/22/2017 5:00 PM",
       "duration":"150",
       "options": ["Heater-Allen Pilsner (McMinnville, OR)", "2 Towns Cider (Corvallis, OR)", "2014 Brooks Amycas 5-varietal White Blend (OR)", "Rosé 2015 REAL, Freja Vineyard Pinot Noir Rosé (OR)", "2014 REAL, Freja Vineyard Pinot Noir (OR)", "Table Red and White by Devil's Food Catering", "Regular and Diet Coca-Cola", "7*Up", "Ginger Ale", "San Pellegrino Limonata and Sparkling Water"],
       "veganOptions": []
