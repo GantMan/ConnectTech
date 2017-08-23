@@ -260,6 +260,7 @@ class ScheduleScreen extends Component {
         <SectionList
           ref='scheduleList'
           renderSectionHeader={this.renderSectionHeader}
+          stickySectionHeadersEnabled={false}
           sections={data}
           renderItem={this.renderItem}
           keyExtractor={(item, idx) => idx}
