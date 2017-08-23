@@ -49,15 +49,15 @@ class PluginExamplesScreen extends React.Component {
 
           <View style={styles.screenButtons} />
 
-            <RoundedButton onPress={() => this.props.navigation.navigate('SectionExample.')}>
+            <RoundedButton onPress={() => this.props.navigation.navigate('SectionExample')}>
               Sections Example
             </RoundedButton>
 
-            <RoundedButton onPress={() => this.props.navigation.navigate('GridExample.')}>
+            <RoundedButton onPress={() => this.props.navigation.navigate('GridExample')}>
               Grid Example
             </RoundedButton>
 
-            <RoundedButton onPress={() => this.props.navigation.navigate('RowExample.')}>
+            <RoundedButton onPress={() => this.props.navigation.navigate('RowExample')}>
               Row Example
             </RoundedButton>
 
@@ -68,9 +68,9 @@ class PluginExamplesScreen extends React.Component {
 }
 
 export default StackNavigator({
-  RowExample.: {screen: RowExample., navigationOptions: {header: {visible: true}}},
-  GridExample.: {screen: GridExample., navigationOptions: {header: {visible: true}}},
-  SectionExample.: {screen: SectionExample., navigationOptions: {header: {visible: true}}},
+  RowExample: {screen: RowExample, navigationOptions: {header: {visible: true}}},
+  GridExample: {screen: GridExample, navigationOptions: {header: {visible: true}}},
+  SectionExample: {screen: SectionExample, navigationOptions: {header: {visible: true}}},
   PluginExamplesScreen: {screen: PluginExamplesScreen}
 }, {
   headerMode: 'screen',
