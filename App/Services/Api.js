@@ -35,7 +35,6 @@ const create = (baseURL = 'https://infinite.red/files/') => {
   // way at this level.
   //
   const getSpeakers = () => api.get('schedule.json')
-  const getNearby = () => api.get('nearby.json')
 
   // ------
   // STEP 3
@@ -51,8 +50,7 @@ const create = (baseURL = 'https://infinite.red/files/') => {
   //
   return {
     // a list of the API functions from step 2
-    getSpeakers,
-    getNearby
+    getSpeakers
   }
 }
 

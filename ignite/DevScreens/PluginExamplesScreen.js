@@ -8,9 +8,9 @@ import { Images } from './DevTheme'
 
 // Examples Render Engine
 import ExamplesRegistry from '../../App/Services/ExamplesRegistry'
-import SectionExample. from '../Examples/Containers/ignite-ir-boilerplate/examples/SectionExample.js.ejs'
-import GridExample. from '../Examples/Containers/ignite-ir-boilerplate/examples/GridExample.js.ejs'
-import RowExample. from '../Examples/Containers/ignite-ir-boilerplate/examples/RowExample.js.ejs'
+import SectionExample from '../Examples/Containers/ignite-ir-boilerplate/examples/SectionExample.js.ejs'
+import GridExample from '../Examples/Containers/ignite-ir-boilerplate/examples/GridExample.js.ejs'
+import RowExample from '../Examples/Containers/ignite-ir-boilerplate/examples/RowExample.js.ejs'
 import RoundedButton from '../../App/Components/RoundedButton'
 import '../Examples/Components/MapsExample.js'
 import '../Examples/Components/animatableExample.js'
@@ -49,17 +49,17 @@ class PluginExamplesScreen extends React.Component {
 
           <View style={styles.screenButtons} />
 
-            <RoundedButton onPress={() => this.props.navigation.navigate('SectionExample.')}>
-              Sections Example
-            </RoundedButton>
+          <RoundedButton onPress={() => this.props.navigation.navigate('SectionExample')}>
+            Sections Example
+          </RoundedButton>
 
-            <RoundedButton onPress={() => this.props.navigation.navigate('GridExample.')}>
-              Grid Example
-            </RoundedButton>
+          <RoundedButton onPress={() => this.props.navigation.navigate('GridExample')}>
+            Grid Example
+          </RoundedButton>
 
-            <RoundedButton onPress={() => this.props.navigation.navigate('RowExample.')}>
-              Row Example
-            </RoundedButton>
+          <RoundedButton onPress={() => this.props.navigation.navigate('RowExample')}>
+            Row Example
+          </RoundedButton>
 
         </ScrollView>
       </View>
@@ -68,9 +68,9 @@ class PluginExamplesScreen extends React.Component {
 }
 
 export default StackNavigator({
-  RowExample.: {screen: RowExample., navigationOptions: {header: {visible: true}}},
-  GridExample.: {screen: GridExample., navigationOptions: {header: {visible: true}}},
-  SectionExample.: {screen: SectionExample., navigationOptions: {header: {visible: true}}},
+  RowExample: {screen: RowExample, navigationOptions: {header: {visible: true}}},
+  GridExample: {screen: GridExample, navigationOptions: {header: {visible: true}}},
+  SectionExample: {screen: SectionExample, navigationOptions: {header: {visible: true}}},
   PluginExamplesScreen: {screen: PluginExamplesScreen}
 }, {
   headerMode: 'screen',
