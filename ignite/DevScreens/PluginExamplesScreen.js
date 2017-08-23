@@ -49,17 +49,17 @@ class PluginExamplesScreen extends React.Component {
 
           <View style={styles.screenButtons} />
 
-            <RoundedButton onPress={() => this.props.navigation.navigate('SectionExample')}>
-              Sections Example
-            </RoundedButton>
+          <RoundedButton onPress={() => this.props.navigation.navigate('SectionExample')}>
+            Sections Example
+          </RoundedButton>
 
-            <RoundedButton onPress={() => this.props.navigation.navigate('GridExample')}>
-              Grid Example
-            </RoundedButton>
+          <RoundedButton onPress={() => this.props.navigation.navigate('GridExample')}>
+            Grid Example
+          </RoundedButton>
 
-            <RoundedButton onPress={() => this.props.navigation.navigate('RowExample')}>
-              Row Example
-            </RoundedButton>
+          <RoundedButton onPress={() => this.props.navigation.navigate('RowExample')}>
+            Row Example
+          </RoundedButton>
 
         </ScrollView>
       </View>
