@@ -257,7 +257,7 @@ class LocationScreen extends React.Component {
                 <PhotoView
                   source={Images.venueFloorplan}
                   maximumZoomScale={3}
-                  androidScaleType="center"
+                  androidScaleType='center'
                   style={styles.venueMapImage} />
               </View>
             </View>
