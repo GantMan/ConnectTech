@@ -115,7 +115,7 @@ const images = {
   twitterIcon: require('../Images/Icons/icon-twitter-mustard.png'),
   uberButton: require('../Images/uber-button.png'),
   usageExamples: require('../Images/Icons/icon-usage-examples.png'),
-  venueFloorplan: require('../Images/CobbGalleriaFloorplan.png'),
+  venueFloorplan: require('../Images/CobbGalleriaFloorplan.jpg'),
   voodoo: require('../Images/img-voodoo.jpg'),
   waterfront: require('../Images/img-waterfront.jpg')
 }

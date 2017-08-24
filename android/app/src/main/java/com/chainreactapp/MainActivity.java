@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.widget.ImageView;
 
 import com.facebook.react.ReactActivity;
+import com.reactnative.photoview.PhotoViewPackage;
 import com.reactnativecomponent.splashscreen.RCTSplashScreen;
 
 

@@ -10,6 +10,7 @@ import {
   PanResponder,
   LayoutAnimation
 } from 'react-native'
+import PhotoView from 'react-native-photo-view'
 import BackgroundGradient from '../Components/BackgroundGradient'
 import Icon from 'react-native-vector-icons/FontAwesome'
 
@@ -253,10 +254,11 @@ class LocationScreen extends React.Component {
             </View>
             <View style={styles.venueMap}>
               <View style={styles.venueMapContainer}>
-                <Image
+                <PhotoView
                   source={Images.venueFloorplan}
-                  style={styles.venueMapImage}
-                />
+                  maximumZoomScale={3}
+                  androidScaleType="center"
+                  style={styles.venueMapImage} />
               </View>
             </View>
           </View>
