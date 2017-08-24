@@ -2,7 +2,8 @@ import React from 'react'
 import { Image, TouchableOpacity } from 'react-native'
 import styles from './Styles/SocialMediaButtonStyles'
 import ExamplesRegistry from '../Services/ExamplesRegistry'
-import { Images } from '../Themes'
+import { Colors } from '../Themes'
+import Icon from 'react-native-vector-icons/FontAwesome'
 
 // Example
 ExamplesRegistry.addComponentExample('SocialMediaButton', () =>
@@ -21,7 +22,6 @@ interface SocialMediaButtonProps {
 
 const SocialMediaButton = (props: SocialMediaButtonProps) => {
   const { network, style, spacing, onPress } = props
-  const imageSource = network === 'twitter' ? Images.twitterIcon : Images.githubIcon
   const spacingShim = spacing === 'right' ? 'right' : 'left'
 
   return (
@@ -30,7 +30,11 @@ const SocialMediaButton = (props: SocialMediaButtonProps) => {
       onPress={onPress}
       hitSlop={{ top: 10, left: 10, bottom: 10, right: 10 }}
     >
-      <Image source={imageSource} />
+      <Icon
+        name={network}
+        size={37}
+        color={Colors.red}
+      />
     </TouchableOpacity>
   )
 }

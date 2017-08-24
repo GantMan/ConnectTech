@@ -248,7 +248,7 @@ class ScheduleScreen extends Component {
   }
 
   render () {
-    const { isCurrentDay, activeDay, data } = this.state
+    const { activeDay, data } = this.state
     return (
       <BackgroundGradient style={styles.linearGradient}>
         <DayToggle

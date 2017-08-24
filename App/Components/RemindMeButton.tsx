@@ -1,7 +1,8 @@
 import React from 'react'
 import { View, Text, TouchableOpacity, Image } from 'react-native'
-import { Images } from '../Themes'
+import { Colors } from '../Themes'
 import styles from './Styles/RemindMeButtonStyle'
+import Icon from 'react-native-vector-icons/FontAwesome'
 
 interface RemindMeProps {
   on: boolean
@@ -10,13 +11,17 @@ interface RemindMeProps {
 
 const RemindMeButton = (props: RemindMeProps) => {
   const { on, onPress } = props
-  const icon = on ? Images.activeNotificationIcon : Images.inactiveNotificationIcon
   const buttonText = on ? 'Turn Off' : 'Remind Me'
 
   return (
     <TouchableOpacity onPress={onPress}>
       <View style={[styles.button, on && styles.activeButton]}>
-        <Image source={icon} style={styles.icon} />
+        <Icon
+          name={ on ? 'bell-slash' : 'bell-o' }
+          size={15}
+          color={ on ? '#fff' : Colors.red }
+          style={styles.icon}
+        />
         <Text style={[styles.text, on && styles.activeText]}>
           {buttonText}
         </Text>
