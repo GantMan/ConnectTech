@@ -3183,8 +3183,9 @@ ignite-i18n@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/ignite-i18n/-/ignite-i18n-1.0.0.tgz#4e7f5ecebf00ceeac0b52a1a2fb5227b5ecb3faa"
 
-"ignite-ir-boilerplate@file:/Users/gantman/Documents/Projects/rn/ignite-ir-next":
+ignite-ir-boilerplate@^2.0.2:
   version "2.0.2"
+  resolved "https://registry.yarnpkg.com/ignite-ir-boilerplate/-/ignite-ir-boilerplate-2.0.2.tgz#64d5d015d93ad019febc3922483d5a867fa98e6f"
   dependencies:
     ramda "^0.23.0"
 
@@ -5159,6 +5160,10 @@ react-native-i18n@^1.0.0:
 react-native-maps@0.15.2:
   version "0.15.2"
   resolved "https://registry.yarnpkg.com/react-native-maps/-/react-native-maps-0.15.2.tgz#4f63b9501b25d124f0ef1839529e54a6461c2c49"
+
+react-native-photo-view@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/react-native-photo-view/-/react-native-photo-view-1.4.0.tgz#b6cf3ccc471ca8164e5e9ba1a5ed7c38e64952a8"
 
 react-native-push-notification@^2.2.1:
   version "2.2.1"

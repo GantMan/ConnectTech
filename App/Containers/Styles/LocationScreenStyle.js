@@ -127,8 +127,8 @@ export default StyleSheet.create({
     backgroundColor: Colors.snow
   },
   venueMapImage: {
-    resizeMode: 'contain',
     flexShrink: 1,
-    paddingHorizontal: 20
+    width: 350,
+    height: 370
   }
 })
