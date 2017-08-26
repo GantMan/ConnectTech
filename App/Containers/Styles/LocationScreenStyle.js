@@ -12,15 +12,22 @@ export default StyleSheet.create({
     fontFamily: Fonts.type.semiBold,
     fontSize: 31,
     letterSpacing: 0.2,
-    color: Colors.snow
+    color: Colors.snow,
+    textShadowOffset: {width: 2, height: 2},
+    textShadowRadius: 1,
+    textShadowColor: '#000'
   },
   address: {
     fontFamily: Fonts.type.medium,
     fontSize: 15,
     letterSpacing: 0.47,
     lineHeight: 23,
+    paddingTop: 35,
     textAlign: 'center',
-    color: Colors.lightPurple
+    color: Colors.lightPurple,
+    textShadowOffset: {width: 4, height: 4},
+    textShadowRadius: 3,
+    textShadowColor: '#000'
   },
   map: {
     width: '100%',
