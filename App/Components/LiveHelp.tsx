@@ -16,9 +16,6 @@ const tweetWithMention = () => {
 const LiveHelp = (props) => {
   return (
     <View style={styles.liveHelp}>
-      <Text style={styles.liveHelpPhone}>
-        (360) 562-0450
-      </Text>
       <Text style={styles.liveHelpText}>
         Message us at anytime for directions, suspicious activity,
         violations of our <Text style={styles.link} onPress={() => Linking.openURL('http://connect.tech/conduct.html')}>Code of Conduct</Text>, or any other concern.
