@@ -29,7 +29,7 @@ class SpeakerScreen extends Component {
     // setSelectedEvent(item)
     setSelectedSpeaker(item)
 
-    navigation.navigate('TalkDetail')
+    navigation.navigate('SpeakerDetail')
   }
 
   componentDidMount () {
