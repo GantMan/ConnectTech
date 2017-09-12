@@ -3,7 +3,7 @@ import { BackHandler, ScrollView, Text, View, Image, TouchableOpacity } from 're
 import BackgroundGradient from '../Components/BackgroundGradient'
 import SocialMediaButton from '../Components/SocialMediaButton'
 import { NavigationActions } from 'react-navigation'
-import ScheduleActions from '../Redux/ScheduleRedux'
+import ScheduleActions, { getTalks } from '../Redux/ScheduleRedux'
 import { connect } from 'react-redux'
 // Add Actions - replace 'Your' with whatever your reducer is called :)
 // import YourActions from '../Redux/YourRedux'
@@ -34,6 +34,9 @@ class TalkDetail extends React.Component {
           {speaker.name}
         </Text>
         <Text style={styles.description}>
+          {speaker.company}
+        </Text>
+        <Text style={styles.description}>
           {speaker.bio}
         </Text>
         <View style={styles.social}>
@@ -56,6 +59,27 @@ class TalkDetail extends React.Component {
     )
   }
 
+  renderTalk = (talk, index) => {
+    return (
+      <View key={index}>
+        <Text style={styles.heading}>
+          {talk.title}
+        </Text>
+        <Text style={styles.description}>
+          {talk.description}
+        </Text>
+        <Text style={styles.description}>
+          Time: {talk.time}
+        </Text>
+      </View>
+    )
+  }
+
+  renderTalks = () => {
+    const { talkInfo } = this.props
+    return (talkInfo.map((talk, index) => this.renderTalk(talk, index)))
+  }
+
   render () {
     return (
       <BackgroundGradient style={styles.linearGradient}>
@@ -69,13 +93,17 @@ class TalkDetail extends React.Component {
             <View style={styles.cardShadow2} />
             <Image
               style={styles.avatar}
-              source={{uri: `https://infinite.red/images/chainreact/gant.png`}}
+              source={{uri: `https://infinite.red/images/chainreact/${this.props.talkInfo[0].image}.png`}}
             />
             <View style={styles.card}>
               <Text style={styles.sectionHeading}>
                 ABOUT
               </Text>
               {this.renderSpeaker(this.props.speaker)}
+              <Text style={styles.sectionHeading}>
+                TALKS
+              </Text>
+              { this.renderTalks() }
             </View>
           </View>
         </ScrollView>
@@ -86,7 +114,8 @@ class TalkDetail extends React.Component {
 
 const mapStateToProps = (state) => {
   return {
-    speaker: state.schedule.selectedSpeaker
+    speaker: state.schedule.selectedSpeaker,
+    talkInfo: getTalks(state.schedule.selectedSpeaker.name, state.schedule.speakerSchedule)
   }
 }
 

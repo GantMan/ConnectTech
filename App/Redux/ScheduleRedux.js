@@ -2,7 +2,7 @@ import { createReducer, createActions } from 'reduxsauce'
 import Immutable from 'seamless-immutable'
 import DebugConfig from '../Config/DebugConfig'
 import Config from '../Config/AppConfig'
-import { filter, compose, uniq, flatten, pluck } from 'ramda'
+import { filter, compose, uniq, flatten, pluck, propEq } from 'ramda'
 
 /* ------------- Types and Action Creators ------------- */
 
@@ -89,3 +89,6 @@ export const getSpeakers = (speakerSchedule) => {
   const cleanSpeakerList = compose(uniq, flatten, pluck('speakerInfo'))
   return cleanSpeakerList(gimmeTalks(speakerSchedule))
 }
+
+export const getTalks = (name, speakerSchedule) =>
+  filter(propEq('speaker', name), speakerSchedule)
