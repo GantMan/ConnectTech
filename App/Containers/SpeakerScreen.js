@@ -24,13 +24,12 @@ class SpeakerScreen extends Component {
     )
   }
 
-  onEventPress = (item) => {
-    const { navigation, setSelectedEvent } = this.props
-    setSelectedEvent(item)
+  onSpeakerPress = (item) => {
+    const { navigation, setSelectedSpeaker } = this.props
+    // setSelectedEvent(item)
+    setSelectedSpeaker(item)
 
-    item.type === 'talk'
-      ? navigation.navigate('TalkDetail')
-      : navigation.navigate('BreakDetail')
+    navigation.navigate('TalkDetail')
   }
 
   componentDidMount () {
@@ -75,9 +74,7 @@ class SpeakerScreen extends Component {
         name={item.bio}
         avatarURL={item.speakerPhoto || 'https://infinite.red/images/chainreact/gant.png'}
         description={item.name}
-        onPress={() => this.onEventPress(null)}
-        onPressTwitter={this.funcOrFalse(this.props.onPressTwitter, item.twitter)}
-        onPressGithub={this.funcOrFalse(this.props.onPressGithub, item.github)}
+        onPress={() => this.onSpeakerPress(item)}
       />
     )
   }
@@ -111,7 +108,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     getScheduleUpdates: () => dispatch(ScheduleActions.getScheduleUpdates()),
-    setSelectedEvent: data => dispatch(ScheduleActions.setSelectedEvent(data)),
+    setSelectedSpeaker: data => dispatch(ScheduleActions.setSelectedSpeaker(data)),
     onPressGithub: url => dispatch(ScheduleActions.visitGithub(url)),
     onPressTwitter: url => dispatch(ScheduleActions.visitTwitter(url))
   }
