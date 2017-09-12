@@ -1,7 +1,6 @@
 import React from 'react'
 import { BackHandler, ScrollView, Text, View, Image, TouchableOpacity } from 'react-native'
 import BackgroundGradient from '../Components/BackgroundGradient'
-import TalkInfo from '../Components/TalkInfo'
 import SocialMediaButton from '../Components/SocialMediaButton'
 import { NavigationActions } from 'react-navigation'
 import ScheduleActions from '../Redux/ScheduleRedux'
@@ -11,8 +10,6 @@ import { connect } from 'react-redux'
 import { Images } from '../Themes'
 import styles from './Styles/TalkDetailScreenStyle'
 import NotificationActions from '../Redux/NotificationRedux'
-import SBHelper from '../Lib/SpecialButtonHelper'
-import { contains } from 'ramda'
 
 class TalkDetail extends React.Component {
   static navigationOptions = {
@@ -60,7 +57,6 @@ class TalkDetail extends React.Component {
   }
 
   render () {
-    const {title, eventStart, setReminder, removeReminder} = this.props
     return (
       <BackgroundGradient style={styles.linearGradient}>
         <ScrollView>
