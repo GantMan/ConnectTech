@@ -209,17 +209,19 @@ class ScheduleScreen extends Component {
     const isFinished = currentTime > eventEnd
 
     if (item.type === 'talk') {
+      const graphic = item.image || item.speakerInfo[0].image
+      // console.tron.log(graphic)
       return (
         <Talk
           type={item.type}
           name={item.speaker}
-          avatarURL={`https://infinite.red/images/chainreact/${item.image}.png`}
+          avatarURL={graphic}
           title={item.title}
           start={eventStart}
           duration={eventDuration}
           onPress={() => this.onEventPress(item)}
-          onPressTwitter={this.funcOrFalse(this.props.onPressTwitter, item.speakerInfo[0].twitter)}
-          onPressGithub={this.funcOrFalse(this.props.onPressGithub, item.speakerInfo[0].github)}
+          onPressTwitter={this.funcOrFalse(this.props.onPressTwitter, item.speakerInfo && item.speakerInfo[0].twitter)}
+          onPressGithub={this.funcOrFalse(this.props.onPressGithub, item.speakerInfo && item.speakerInfo[0].github)}
           setReminder={() => setReminder(item.title)}
           removeReminder={() => removeReminder(item.title)}
           currentTime={currentTime}
@@ -264,7 +266,6 @@ class ScheduleScreen extends Component {
           keyExtractor={(item, idx) => idx}
           contentContainerStyle={styles.listContent}
         />
-
       </BackgroundGradient>
     )
   }
