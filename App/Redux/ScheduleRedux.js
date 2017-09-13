@@ -2,7 +2,7 @@ import { createReducer, createActions } from 'reduxsauce'
 import Immutable from 'seamless-immutable'
 import DebugConfig from '../Config/DebugConfig'
 import Config from '../Config/AppConfig'
-import { filter, compose, uniq, flatten, pluck } from 'ramda'
+import { filter, compose, uniq, flatten, pluck, propEq } from 'ramda'
 
 /* ------------- Types and Action Creators ------------- */
 
@@ -13,6 +13,7 @@ const { Types, Creators } = createActions({
   lockCurrentTime: ['time'],
   unlockCurrentTime: null,
   setSelectedEvent: ['event'],
+  setSelectedSpeaker: ['speaker'],
   clearSelectedEvent: null,
   updateSchedule: ['schedule'],
   getScheduleUpdates: null,
@@ -36,6 +37,7 @@ export const INITIAL_STATE = Immutable({
   currentTime: initialTime,
   ignoreUpdates: false,
   selectedEvent: null,
+  selectedSpeaker: null,
   speakerSchedule: require('../Fixtures/schedule.json').schedule
 })
 
@@ -48,6 +50,9 @@ export const updateCurrentTime = (state, { time }) => {
 export const setSelectedEvent = (state, { event }) => {
   return state.merge({ selectedEvent: event })
 }
+
+export const setSelectedSpeaker = (state, { speaker }) =>
+  state.merge({ selectedSpeaker: speaker })
 
 export const clearSelectedEvent = (state) => {
   return state.merge({ selectedEvent: null })
@@ -73,6 +78,7 @@ export const reducer = createReducer(INITIAL_STATE, {
   [Types.LOCK_CURRENT_TIME]: lockCurrentTime,
   [Types.UNLOCK_CURRENT_TIME]: unlockCurrentTime,
   [Types.SET_SELECTED_EVENT]: setSelectedEvent,
+  [Types.SET_SELECTED_SPEAKER]: setSelectedSpeaker,
   [Types.CLEAR_SELECTED_EVENT]: clearSelectedEvent,
   [Types.UPDATE_SCHEDULE]: updateSchedule
 })
@@ -83,3 +89,6 @@ export const getSpeakers = (speakerSchedule) => {
   const cleanSpeakerList = compose(uniq, flatten, pluck('speakerInfo'))
   return cleanSpeakerList(gimmeTalks(speakerSchedule))
 }
+
+export const getTalks = (name, speakerSchedule) =>
+  filter(propEq('speaker', name), speakerSchedule)
