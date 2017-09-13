@@ -31,8 +31,7 @@ export default StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     padding: Metrics.doubleBaseMargin,
-    borderTopLeftRadius: Metrics.cardRadius,
-    borderTopRightRadius: Metrics.cardRadius,
+    borderRadius: Metrics.cardRadius,
     backgroundColor: Colors.snow
   },
   infoText: {
