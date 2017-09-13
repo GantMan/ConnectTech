@@ -4,8 +4,8 @@ import { Colors, Metrics, Fonts } from '../../Themes/'
 export default StyleSheet.create({
   container: {
     flex: 1,
-    marginVertical: Metrics.baseMargin,
-    marginHorizontal: Metrics.doubleBaseMargin
+    marginVertical: Metrics.baseMargin / 2,
+    marginHorizontal: Metrics.baseMargin
   },
   currentDay: {
     marginLeft: 16,
@@ -30,9 +30,8 @@ export default StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     justifyContent: 'space-between',
-    padding: Metrics.doubleBaseMargin,
-    borderTopLeftRadius: Metrics.cardRadius,
-    borderTopRightRadius: Metrics.cardRadius,
+    padding: Metrics.baseMargin,
+    borderRadius: Metrics.cardRadius,
     backgroundColor: Colors.snow
   },
   infoText: {

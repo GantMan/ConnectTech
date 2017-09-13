@@ -1,6 +1,5 @@
 import React from 'react'
 import { View, Text, Image, TouchableWithoutFeedback, LayoutAnimation, Animated } from 'react-native'
-import TalkInfo from './TalkInfo'
 import styles from './Styles/TalkStyle'
 import PushNotification from 'react-native-push-notification'
 import PNHelpers from '../Lib/PushNotificationHelpers'
@@ -103,16 +102,6 @@ export default class Talk extends React.Component<TalkProps, TalkState> {
                 <Image style={styles.avatar} source={{uri: avatarURL}} />
               </FadeIn>
             </View>
-            <TalkInfo
-              start={start}
-              duration={duration}
-              remindMe={this.props.isSpecial}
-              isFinished={isFinished || isActive}
-              showWhenFinished={this.props.showWhenFinished}
-              toggleRemindMe={SBHelper.toggleReminder(title, start, isSpecial, setReminder, removeReminder)}
-              onPressGithub={this.props.onPressGithub}
-              onPressTwitter={this.props.onPressTwitter}
-            />
           </Animated.View>
         </TouchableWithoutFeedback>
       </View>

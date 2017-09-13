@@ -12,9 +12,13 @@ export default StyleSheet.create({
     backgroundColor: Colors.snow,
     marginVertical: Metrics.smallMargin
   },
+  sectionHeader: {
+    padding: Metrics.baseMargin,
+    backgroundColor: Colors.transparent
+  },
   boldLabel: {
     fontWeight: 'bold',
-    color: Colors.text
+    color: Colors.frost
   },
   label: {
     color: Colors.text
