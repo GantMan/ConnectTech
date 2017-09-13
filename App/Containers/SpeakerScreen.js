@@ -90,9 +90,8 @@ class SpeakerScreen extends Component {
           data={this.props.speakers}
           extraData={this.props}
           renderItem={this.renderItem}
-          keyExtractor={(item, idx) => item.name}
+          keyExtractor={(item, idx) => idx}
           contentContainerStyle={styles.listContent}
-          getItemLayout={this.getItemLayout}
           showsVerticalScrollIndicator={false}
         />
       </BackgroundGradient>
