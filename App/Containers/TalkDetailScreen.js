@@ -69,6 +69,7 @@ class TalkDetail extends React.Component {
 
   render () {
     const {title, eventStart, setReminder, removeReminder} = this.props
+    const talkGraphic = this.props.image || this.props.speakerInfo[0].image
     return (
       <BackgroundGradient style={styles.linearGradient}>
         <ScrollView>
@@ -81,7 +82,7 @@ class TalkDetail extends React.Component {
             <View style={styles.cardShadow2} />
             <Image
               style={styles.avatar}
-              source={{uri: this.props.image}}
+              source={{uri: talkGraphic}}
             />
             <View style={styles.card}>
               <Text style={styles.sectionHeading}>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { AppState, View, SectionList, Text, Image } from 'react-native'
+import { AppState, View, SectionList, Text } from 'react-native'
 import BackgroundGradient from '../Components/BackgroundGradient'
 import DayToggle from '../Components/DayToggle'
 import Talk from '../Components/Talk'
