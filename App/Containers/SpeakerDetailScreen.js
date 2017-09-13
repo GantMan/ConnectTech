@@ -93,7 +93,7 @@ class TalkDetail extends React.Component {
             <View style={styles.cardShadow2} />
             <Image
               style={styles.avatar}
-              source={{uri: `https://infinite.red/images/chainreact/${this.props.talkInfo[0].image}.png`}}
+              source={{uri: this.props.speaker.image}}
             />
             <View style={styles.card}>
               <Text style={styles.sectionHeading}>

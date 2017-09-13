@@ -72,7 +72,7 @@ class SpeakerScreen extends Component {
     return (
       <Speaker
         name={item.bio}
-        avatarURL={item.speakerPhoto || 'https://infinite.red/images/chainreact/gant.png'}
+        avatarURL={item.image || item.speakerInfo[0].image || 'https://infinite.red/images/chainreact/gant.png'}
         description={item.name}
         onPress={() => this.onSpeakerPress(item)}
       />
