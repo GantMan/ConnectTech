@@ -1,7 +1,7 @@
 import React from 'react'
 import {
   ScrollView,
-  View,
+  View
 } from 'react-native'
 import BackgroundGradient from '../Components/BackgroundGradient'
 import Icon from 'react-native-vector-icons/FontAwesome'
