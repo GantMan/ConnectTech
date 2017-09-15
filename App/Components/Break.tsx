@@ -76,24 +76,10 @@ export default class Break extends React.Component<BreakProps, BreakState> {
                 {timeframe}
               </Text>
             </View>
-            {this.renderSponsor()}
           </View>
         </View>
       </View>
     )
-  }
-
-  renderSponsor () {
-    const { type } = this.props
-
-    if (type === 'coffee') {
-      return (
-        <View style={styles.sponsor}>
-          <Image source={Images.sponsor} />
-          <Text style={styles.sponsorText}>by Qlik Playground</Text>
-        </View>
-      )
-    }
   }
 
   renderWrapper () {
