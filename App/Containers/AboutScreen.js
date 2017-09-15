@@ -1,10 +1,7 @@
 import React from 'react'
 import {
   ScrollView,
-  TouchableOpacity,
   View,
-  Text,
-  LayoutAnimation
 } from 'react-native'
 import BackgroundGradient from '../Components/BackgroundGradient'
 import Icon from 'react-native-vector-icons/FontAwesome'
@@ -36,8 +33,8 @@ class AboutScreen extends React.Component {
           <View style={styles.container}>
             <Twitter />
             <View style={styles.tabsContainer}>
-            <LiveHelp />
-          </View>
+              <LiveHelp />
+            </View>
           </View>
         </ScrollView>
       </BackgroundGradient>
