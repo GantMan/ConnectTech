@@ -15,7 +15,8 @@
               "bio":"Community leader. Google Developer Expert\r\n"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Workshop"
      },
      {
         "title":"Progressive Web Apps from scratch",
@@ -32,7 +33,8 @@
               "bio":"Jad is a fullstack teacher and an active conference speaker.\r\n\r\nHe's on a mission to inspire developers around the world by coaching at Le Wagon coding bootcamp in Europe and regularly speaking at international conferences.\r\n\r\nLately, Jad's focus lies on spreading knowledge about Progressive Web Apps and mentoring developers through online courses, blog articles and workshops for startups & enterprises.\r\n\r\n<a href=\"https://jadjoubran.io\">jadjoubran.io</a>"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Workshop"
      },
      {
         "title":"Functional Programming for the Web & JS",
@@ -55,7 +57,8 @@
               "bio":"Jeremy is a web developer with a master's degree in computer science. He has many years of experience in front-end development and full-stack development, working heavily with JavaScript and Ruby. He has presented numerous times at conferences such as Fluent Conf and RailsConf. He is passionate about front-end development and its future, taking that passion to the world of Elm too. He is currently authoring a book on Elm with The Pragmatic Programmers."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Workshop"
      },
      {
         "title":"Node Camp",
@@ -72,7 +75,8 @@
               "bio":"Jeremy is a Client Developer Advocate for Azure at Microsoft. Jeremy wrote his first program in 1982, was recognized in the \"who's who in Quake\" list for programming the first implementation of \"Midnight Capture the Flag\" in Quake C and has been developing enterprise applications for 20 years. For the past 15 years he has specialized in web-based delivery of line of business applications. Jeremy is the author of four technology books, a six year Microsoft MVP for Windows Platform Development, a Telerik Kendo UI Developer Expert, and speaks and writes regularly on web-based topics such as AngularJS. Jeremy is vegan and spends most of his free time running, hiking and camping with his family, watching retro science fiction movies with his daughter and playing 9-ball and one pocket."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Workshop"
      },
      {
         "title":"Design and iterative testing: how to create a winning design, every time!",
@@ -89,7 +93,8 @@
               "bio":"Marisa Morby has a background in User Experience copywriting, and marketing. She specializes in digital optimization, user research, and user experience flow for web and mobile applications. "
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Workshop"
      },
      {
         "title":"Angular + Spring + Bootstrap = JHipster (Full day workshop)",
@@ -112,7 +117,8 @@
               "bio":"Java Champion and Developer Advocate at Okta with a passion for skiing, mountain biking, VWs, and good . Driving a '66 21-window and a '90 Syncro. Made in Montana. @mraible on Twitter."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Workshop"
      },
      {
         "title":"How To Develop Like A Designer (workshop)",
@@ -135,7 +141,8 @@
               "bio":"Brandy is the founder and creative director for 9th Path, a user-focused creative services firm. Her career has been spent producing award-winning solutions for top consumer brands like Ford, The Home Depot, and WebM, as well as enterprise solutions for industry verticals including retail, medical, and finance. She has created results-driven interactive experiences on a variety of platforms, devices, and spaces, and also teaches interaction design at corporate and collegiate levels with a focus on user behavior, intuitive design and critical thinking.\r\n \r\nAdditionally, Brandy has built and managed high-performing teams in multiple industry environments, from app dev to advertising. She excels at finding the right mix of people for business and culture, and ensures their success through communication, coaching, and collaboration. She facilitates the sharing of experiential knowledge through FullCircle, a company driven to connect seasoned mentors with individuals experiencing change in their career."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Workshop"
      },
      {
         "title":"Ionic Workshop: From Native to Web",
@@ -152,7 +159,8 @@
               "bio":"A developer for the Ionic Framework, avid craft beer lover, and stumbling musician. "
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Workshop"
      },
      {
         "title":"Redux with React Workshop",
@@ -175,7 +183,8 @@
               "bio":"Technology enthusiast, proud Eagle Scout, and software craftsman, I have a passion for the web and software development."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Workshop"
      },
      {
         "title":"React: Beginner to Advanced",
@@ -192,7 +201,8 @@
               "bio":"Taggart is a front end developer passionate about the future of the browser and building powerful web applications.  He is a believer in declarative, functional, human-readable code and abstractions that make our lives as developers easier."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Workshop"
      },
      {
         "title":"JS and IoT: Alexa, bots and more",
@@ -221,7 +231,8 @@
               "bio":"Britney is a Software Application Developer at CNN Digital | Turner on the Emerging Technologies Team. Britney has a science background, with a BS in Dietetics from the University of Georgia. Her love of science and math make her a natural fit for web development. She learned the tools of the trade in General Assembly's Web Development Immersive course. Her strengths lie in learning new tasks quickly and innovation. She enjoys seemingly impossible challenges and creating beautiful, simplified web experiences for everyone. She is currently developing Amazon Echo, Echo Show, Google Home, Facebook Instant Articles, and Apple News technology for CNN."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Workshop"
      },
      {
         "title":"Intro to Flexbox with Real Word Examples",
@@ -238,7 +249,8 @@
               "bio":"Jennifer Bland is a Senior Software Developer for Hearst Autos, specializing in MEAN stack development. She has more than ten years of development experience working for companies like CNN, Coca-Cola and Apple Computer. Jennifer is the author of the book “Developing e-Business Applications Using Lotus Domino on the AS/400\", published by IBM.\r\n\r\nShe runs the website codeprep.io which provides interview questions to assist programmers in preparation for job interviews. Her personal website is jenniferbland.com.\r\n\r\nJennifer holds a B.A. in History from Furman University and an MBA from San Jose State University.\r\n"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Web-Html-Css (Ballroom ABE)"
      },
      {
         "title":"WebVR: Portable VR Experiences for the Web",
@@ -255,7 +267,8 @@
               "bio":"Kesha Williams is a software engineer with over 20 years’ experience specializing in web application development. In addition to being a software engineer with Chick-fil-A, she trains and mentors thousands of software developers in the US, Europe, and Asia while teaching at the University of California.  She's authored courses on Java, Machine Learning (ML), Artificial Intelligence (AI), and Augmented Reality (AR).  She most recently won the Think Different Innovation Award from Chick-fil-A for her work on investigating how emerging technologies like Artificial Intelligence (AI), Augmented Reality (AR), Computer Vision/Facial Recognition, and the Internet of Things (IOT) can enhance restaurant operations and customer experiences. In her spare time, she leads the Georgia chapter of Technovation, serves as a mentor with the New York Academy of Sciences, and conducts free Hour of Code sessions for children at her local library. "
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Web-Html-Css (Ballroom ABE)"
      },
      {
         "title":"I Know I Should Use SVGs But Don't Know How",
@@ -272,7 +285,8 @@
               "bio":"Colin Lord is a Senior Front End Developer for Modea in Blacksburg, Virginia. He has spent the last decade working the front end, primarily in the music industry and healthcare industry."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Web-Html-Css (Ballroom ABE)"
      },
      {
         "title":"Vue.js - The Next Big Thing In JavaScript",
@@ -289,7 +303,8 @@
               "bio":"Burke Holland is a front-end developer living in Nashville, TN; the greatest city in the world."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Web-Html-Css (Ballroom ABE)"
      },
      {
         "title":"Show me how you REST!",
@@ -306,7 +321,8 @@
               "bio":"Hacker, Musician, Technologist, Mentor, Education Enthusiast, Blogger "
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Web-Html-Css (Ballroom ABE)"
      },
      {
         "title":"What's New in Android O?",
@@ -323,15 +339,16 @@
               "bio":"As a Platform Technical Advisor and Lead, Douglas brings over fifteen years of building highly visible solutions in the enterprise and consumer spaces spanning financial institutions such as Nasdaq to educational stalwarts like Pearson to technology giants like RIM. Douglas is currently focused at enabling teams to deliver mobile solutions on the Android platform and advising on technical challenges faced.  In his off hours, you can find Douglas speaking at local user groups on technology in the Atlanta area when not teaching young kids fun Mathematics and Science topics."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Android (Room 115)"
      },
      {
-        "title":"Android Architecture Revamped",
+        "title":"Notifications on Android: Bridging the Gap Between Android Versions",
         "location":"UNASSIGNED (Android)",
-        "description":"In May 2017 Google announced major additions to the fundamental Android APIs used to architect apps.  In this talk we will explore what changes were made, why they were made, and how it affects Android app development going forward.  You will learn what you need to get starting building apps the \"new\" way.",
+        "description":"Notifications can “make or break” your app.  Good notifications increase user engagement.  Bad notifications cause users to block your notifications or, even worse, uninstall your app.  In this talk we will explore one facet of “good” notifications - leveraging the latest notification features while providing a comparable experience on older versions of Android.  Along the way I will highlight pivotal notification feature additions and breaking API changes, clarify which versions of Android support newly added features, outline how those features fallback on older devices when using the NotificationCompat library. You will leave this talk ready to make informed decisions about how to bridge the gap between notification user experience on old and new versions of Android.",
         "speaker":"Kristin Marsicano",
         "time":"09/21/2017 11:10 AM",
-        "duration":60,
+        "duration":40,
         "speakerInfo":[
            {
               "name":"Kristin Marsicano",
@@ -340,7 +357,8 @@
               "bio":"Kristin Marsicano is an Android developer at Big Nerd Ranch, and the co-author of Android Programming: The Big Nerd Ranch Guide.  Prior to working at Big Nerd Ranch, Kristin spent five years teaching introductory Computer Science courses at Georgia Tech.  Always an educator at heart, she is passionate about learning, software development, and the intersection of the two.  When she is not teaching or developing apps, you can find Kristin cooking for her growing family, doing yoga, or learning something new (like Vue.js)."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Android (Room 115)"
      },
      {
         "title":"A Pragmatic Overview of Machine Learning in Android",
@@ -357,7 +375,8 @@
               "bio":"Matt Compton is the Android Lead at Dragon Army, where he works to build top-notch mobile apps for clients. From his home in Midtown, he enjoys playing board games, solving puzzles, and experimenting with new technology."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Android (Room 115)"
      },
      {
         "title":"Defensive Android Security",
@@ -374,7 +393,8 @@
               "bio":"Android and iOS Sensei at Big Nerd Ranch"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Android (Room 115)"
      },
      {
         "title":"Mobile Development For Arduino 201",
@@ -391,7 +411,8 @@
               "bio":"Bryan Richardson is a native of Atlanta, Georgia. After graduating from Morehouse College with a degree in economics, he became interested in software development and currently works as an Android software engineer at stable|kernel, an Atlanta mobile app development company. He is passionate about coding and relishes creating robust, refined and exciting projects of the mobile industry. In his spare time, he enjoys gardening, reading, and listening to NPR."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Android (Room 115)"
      },
      {
         "title":"WebAssembly: Disrupting JavaScript since 2017",
@@ -408,7 +429,8 @@
               "bio":"Dan Callahan is a Staff Software Engineer in Mozilla's Developer Relations team, where he focuses on emerging technologies. Dan previously worked on the Mozilla Persona project, an attempt at replacing passwords with user-friendly public key cryptography built on open web standards. Dan tweets as <a href=\"https://twitter.com/callahad\">@callahad</a> and swears he has every intention to blog at <a href=\"https://dancallahan.info\">https://dancallahan.info</a>."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Core JS & Frameworks  (Ballroom F)"
      },
      {
         "title":"Get More Done with Vue.js",
@@ -425,7 +447,8 @@
               "bio":"Jonathan is a Senior Front End Developer at Scripps Networks Interactive working with a team of developers on the websites for their portfolio of popular lifestyle brands including HGTV, DIY Network, and Great American Country."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Advanced JS (Ballroom D)"
      },
      {
         "title":"Javascript Best Practices for Performance & Memory",
@@ -442,7 +465,8 @@
               "bio":"My strengths as a software engineer include designing code and database architectures, solving memory leaks and performance issues, and the invention of new app features. My current project uses the Angular 1 and Fabric.js frameworks. I specialize in the HTML5 canvas."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Advanced JS (Ballroom D)"
      },
      {
         "title":"TypeScript for Scalable Apps",
@@ -459,7 +483,8 @@
               "bio":"A developer for the Ionic Framework, avid craft beer lover, and stumbling musician. "
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Advanced JS (Ballroom D)"
      },
      {
         "title":"Dojo 2: Rethinking Reactive Architectures",
@@ -476,7 +501,8 @@
               "bio":"Dylan Schiemann is CEO of SitePen and co-founder of the Dojo Toolkit."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Advanced JS (Ballroom D)"
      },
      {
         "title":"The State of Mobile Web",
@@ -493,7 +519,8 @@
               "bio":"Erica Stanley is a software engineer, researcher and tinkerer. Always eager to explore the intersection of emerging technologies and social science, Erica has worked with various technologies at the heart of virtual, augmented and mixed reality for over 16 years.  She is also passionately working towards gender and multicultural inclusion in tech, via education and exposure to opportunities. Erica co-founded the Atlanta network of Women Who Code and sits on the advisory board of 100 Girls of Code."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"General Mobile (Room 113)"
      },
      {
         "title":"The end of \"Native\" as we know it",
@@ -510,7 +537,8 @@
               "bio":"Shawn Johnson is a founding hero at Mobile App Hero.   He has over 20 years of experience building solutions on various platforms. He has extensive experience creating mobile solutions for Fortune 500 companies including AT&T, IHG, Coke, HomeDepot."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"General Mobile (Room 113)"
      },
      {
         "title":"PWA FTW",
@@ -527,7 +555,8 @@
               "bio":"Maker, Student, Teacher, Eater, Hiker and er of all s"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"General Mobile (Room 113)"
      },
      {
         "title":"Cooking with Jen! The delicious combo of NativeScript, Angular, and Firebase",
@@ -544,7 +573,8 @@
               "bio":"Jen Looper is a Developer Advocate at Telerik with over 13 years' experience as a web and mobile developer, specializing in creating cross-platform educational and fitness-oriented mobile apps. She's a multilingual multiculturalist with a passion for hardware hacking and learning new things every day. Visit her online at http://www.ladeezfirstmedia.com, or via Twitter @jenlooper."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"General Mobile (Room 113)"
      },
      {
         "title":"Geolocation with Mobile Apps",
@@ -561,7 +591,8 @@
               "bio":"Builds mobile apps at Polanco Media in sunny South Florida.  Builds realtime location sharing platforms at Condesa.io.  "
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"General Mobile (Room 113)"
      },
      {
         "title":"Swift 101 for the non-developer, part I",
@@ -578,7 +609,8 @@
               "bio":""
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"iOS (Room 115)"
      },
      {
         "title":"Swift 101 for the non-developer, part II",
@@ -595,7 +627,8 @@
               "bio":"Author, Wife, Beer and Coffee Lover"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"iOS (Room 115)"
      },
      {
         "title":"iOS Coordinators in Practice",
@@ -612,7 +645,8 @@
               "bio":"A passionate software craftsman, Brian loves to build great mobile apps  to help people get things done. He started working with iOS when it was still called \"iPhone OS,\" and co-authored \"Android Programming: The Big Nerd Ranch Guide.\""
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"iOS (Room 115)"
      },
      {
         "title":"Type Erasure in Swift",
@@ -629,7 +663,8 @@
               "bio":"I am an experienced software engineer specialized in iOS development currently working at Farfetch. I am looking for a new challenge, to strengthen my skills and to expand my areas of expertise. Also, I am passionate about music."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"iOS (Room 115)"
      },
      {
         "title":"What the Swiftly Func?",
@@ -646,7 +681,8 @@
               "bio":"iOS developer at POSSIBLE Mobile. "
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"iOS (Room 115)"
      },
      {
         "title":"Web Accessibility",
@@ -663,7 +699,8 @@
               "bio":"<p>Will Jayroe is a multi-disciplinary professional specializing in Solutions Architecture, User Interface and Front-End Technology consulting, User Experience strategy, Visual and Interaction Design.</p>"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Design-UI-UX (Room 103)"
      },
      {
         "title":"Enterprise Innovation for UX, UI, and IxD ",
@@ -680,7 +717,8 @@
               "bio":""
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Design-UI-UX (Room 103)"
      },
      {
         "title":"Material Design that Delights",
@@ -703,7 +741,8 @@
               "bio":"An experienced developer, start-up founder, and international speaker, Abraham Williams brings a broad range of skills to his current role as a senior developer at Bendyworks. A top 1% contributor at Stack Overflow and an active member of Google Developer Groups, Abraham has been recognized by Google as a Developer Expert for his ability to identify technology problems and provide quality solutions in the community."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Design-UI-UX (Room 103)"
      },
      {
         "title":"Design & Interactivity Without Sacrificing Speed ",
@@ -720,7 +759,8 @@
               "bio":"Abby Beck a Senior Product Designer at Google for the Accelerated Mobile Pages (AMP) team. She is a classically trained designer from the School of Visual Arts and has worked in the publishing industry in NYC, retail merchandising, and for Bay Area software companies large (Twitter, Pivotal Labs) and small. She has worked on a wide range of problems for a wide range of users (social networks, marketing products, dev tools, and hardware usage with guides). She also taught a UX Immersive course at General Assembly.  While she loves everything about design, her passion lies in systems and simplifying complex user needs. "
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Design-UI-UX (Room 103)"
      },
      {
         "title":"UX Your Life",
@@ -737,7 +777,8 @@
               "bio":"Author, creative director, UXer, photographer, teacher, and super dad. All in the ATL."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Design-UI-UX (Room 103)"
      },
      {
         "title":"Get Your Node.js API Swaggering with OpenAPI Spec",
@@ -754,7 +795,8 @@
               "bio":"Builds mobile apps at Polanco Media in sunny South Florida.  Builds realtime location sharing platforms at Condesa.io.  "
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Node-server-side (Room 104)"
      },
      {
         "title":"Make Alexa Great Again",
@@ -771,7 +813,8 @@
               "bio":"Shortly after it arrived at his home in 1993, Jordan began disassembling his first computer - his mother was not happy. She breathed more easily when he moved from hardware into programming. Jordan's experience includes development and instruction at startups, agencies, Fortune 100 companies, and universities, as well as numerous open source projects. His programming experience includes JavaScript (and Node.js), PHP, Java, Natural, Perl, and more. He speaks regularly at (and helps organize) local user groups and conferences big and small. Jordan's primary mission for over 10 years has been to evangelize technology of all sorts and share what he has learned to help others grow. In his down time he enjoys puzzles of all sorts and board games!"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Node-server-side (Room 104)"
      },
      {
         "title":"TypeScript for Node.js Development",
@@ -788,7 +831,8 @@
               "bio":"Jeremy is a Client Developer Advocate for Azure at Microsoft. Jeremy wrote his first program in 1982, was recognized in the \"who's who in Quake\" list for programming the first implementation of \"Midnight Capture the Flag\" in Quake C and has been developing enterprise applications for 20 years. For the past 15 years he has specialized in web-based delivery of line of business applications. Jeremy is the author of four technology books, a six year Microsoft MVP for Windows Platform Development, a Telerik Kendo UI Developer Expert, and speaks and writes regularly on web-based topics such as AngularJS. Jeremy is vegan and spends most of his free time running, hiking and camping with his family, watching retro science fiction movies with his daughter and playing 9-ball and one pocket."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Node-server-side (Room 104)"
      },
      {
         "title":"Robust Error Handling in Node.js",
@@ -805,7 +849,8 @@
               "bio":"Lewis Ellis is a software engineer working for Sentry, the open source crash reporting and error tracking service. He maintains Sentry's <a href=\"https://github.com/getsentry/raven-node\">Node.js client</a> which reports 100 million errors every week.\r\n\r\nBesides contributing to <a href=\"http://github.com/lewisjellis\">open source</a>, he likes numbers, security, Redis, Lua, and JavaScript trivia.\r\n"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Node-server-side (Room 104)"
      },
      {
         "title":"The fastest way to create a REST API in Node.js ",
@@ -822,7 +867,8 @@
               "bio":"Shikhir currently works at TeleSign as a Director of Product Innovation. He specializes in JavaScript technologies, enterprise mobility, and cryptography. Prior to joining TeleSign, he worked at Sencha, BlackBerry, Lockheed Martin, Sun Microsystems and a couple of startups."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Node-server-side (Room 104)"
      },
      {
         "title":"What The Doc?!?!",
@@ -839,7 +885,8 @@
               "bio":"Helping To Improve Technical People, Ideas, and Organizations | Tech Speaker | Learner Support Evangelist"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Practices & other tech (Room 102)"
      },
      {
         "title":"React + ASP.NET Core = Awesome!",
@@ -856,7 +903,8 @@
               "bio":"Lee has been writing software for almost two decades in Javascript, C# and Objective-C mostly. He loves to learn new things and then show others what he's learned. "
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Practices & other tech (Room 102)"
      },
      {
         "title":"/[Rr]eg(ular\\s)?[Ee]x(p$|pression)?/",
@@ -873,7 +921,8 @@
               "bio":"Shortly after it arrived at his home in 1993, Jordan began disassembling his first computer - his mother was not happy. She breathed more easily when he moved from hardware into programming. Jordan's experience includes development and instruction at startups, agencies, Fortune 100 companies, and universities, as well as numerous open source projects. His programming experience includes JavaScript (and Node.js), PHP, Java, Natural, Perl, and more. He speaks regularly at (and helps organize) local user groups and conferences big and small. Jordan's primary mission for over 10 years has been to evangelize technology of all sorts and share what he has learned to help others grow. In his down time he enjoys puzzles of all sorts and board games!"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Practices & other tech (Room 102)"
      },
      {
         "title":"Develop Hip APIs and Apps with Spring Boot and Angular",
@@ -890,7 +939,8 @@
               "bio":"Java Champion and Developer Advocate at Okta with a passion for skiing, mountain biking, VWs, and good . Driving a '66 21-window and a '90 Syncro. Made in Montana. @mraible on Twitter."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Practices & other tech (Room 102)"
      },
      {
         "title":"Vendor Neutral Serverless Apps in Python/Zappa",
@@ -913,7 +963,8 @@
               "bio":"Polyglot Programmer. Hiking Enthusiast. Philosopher.  Ram Vedam Is a graduate student in Computer Science at Georgia Tech. Ram has a passion for computer science and software development. In his free time, he plays around with many different things to expand his knowledge both in the theoretical and practical applications of technology as well as organizes the Atlanta Functional Programming Meetup. His current interests include web development, Artificial Intelligence, Operating Systems, Programming languages and of course Lisp (All Lisps, from Clojure to CL). He is just your standard regular guy"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Practices & other tech (Room 102)"
      },
      {
         "title":"React Router - what's new?",
@@ -930,7 +981,8 @@
               "bio":"Tim is CTO at Showcase IDX. His open source work with React Community (formerly Rackt) focuses on React Router, Redux and webpack-preset. He also reverse-engineered the Tesla Model S API so he can control his car from his watch. Hailing from Atlanta, you may catch him around town DJing your favorite party or biking along the Silver Comet Trail."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"React in Practice (Room 106)"
      },
      {
         "title":"Recompose your React.js components embracing a functional style",
@@ -947,7 +999,8 @@
               "bio":"Jeff Barczewski has been a software engineer, architect, and instructor for over 25 years. He is the founder of CodeWinds and Inspired Horizons, a training and consulting firm based in St. Louis, MO. He has taught workshops at conferences such as JazzCon.tech, Strange Loop, JSConf, and Nodevember. He is the author of many open source projects including redux-logic, pkglink, and bench-rest. He is married, father of one, Catholic, who enjoys snow skiing in the Rockies.\r\n\r\n"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"React Fundamentals (Room 105)"
      },
      {
         "title":"Hitchhiker's guide to React",
@@ -964,7 +1017,8 @@
               "bio":"Taggart is a front end developer passionate about the future of the browser and building powerful web applications.  He is a believer in declarative, functional, human-readable code and abstractions that make our lives as developers easier."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"React in Practice (Room 106)"
      },
      {
         "title":"Griddle: a React Datagrid component",
@@ -981,24 +1035,26 @@
               "bio":"Ryan Lanciaux is a professional software developer in Ann Arbor, MI. Although he programs in several languages, his current area of focus is front-end development. Ryan attempts to contribute to the development community through his (often neglected) blog."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"React in Practice (Room 106)"
      },
      {
         "title":"Add Powerful UI Components to Your React Apps",
         "location":"Room F (React in Practice)",
         "description":"React can be used to build user interfaces for web apps, but React developers have to provide the components to build the UI.\r\nIn this presentation, you will learn how you can add powerful components to your React apps.",
-        "speaker":"Daniel Gallo",
+        "speaker":"Marc Gusmano",
         "time":"09/21/2017 03:50 PM",
         "duration":50,
         "speakerInfo":[
            {
-              "name":"Daniel Gallo",
-              "image":"http://cfp.connect-js.com/system/avatars/589/large/LYop9-_S_400x400.jpeg?1500909531",
-              "twitter":"DanielJGallo",
-              "bio":"I'm a passionate engineer with a background in JavaScript and .NET (C#)!"
+              "name":"Marc Gusmano",
+              "image":"http://cfp.connect-js.com/system/avatars/614/large/AAEAAQAAAAAAAApUAAAAJDc5NGY1Nzc1LWQ5YzYtNDZiNy04ZGM5LTZiNWFiOTVmNGNmMA.jpg?1500909631",
+              "twitter":"",
+              "bio":""
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"React in Practice (Room 106)"
      },
      {
         "title":"JavaScript fundamentals for React",
@@ -1015,7 +1071,8 @@
               "bio":"Chris Aquino is the director of web engineering at Big Nerd Ranch, and co-author of Front-End Web Development: The Big Nerd Ranch Guide. As a developer, he hopes to provide users with meaningful experiences of data. In his current role, he is dedicated to helping his team and his students build a better web. Chris delights in wind-up toys, espresso, and all forms of barbecue."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"React Fundamentals (Room 105)"
      },
      {
         "title":"Strategies for learning React",
@@ -1032,7 +1089,8 @@
               "bio":"Ryan Lanciaux is a professional software developer in Ann Arbor, MI. Although he programs in several languages, his current area of focus is front-end development. Ryan attempts to contribute to the development community through his (often neglected) blog."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"React Fundamentals (Room 105)"
      },
      {
         "title":"Get Started with Redux",
@@ -1049,7 +1107,8 @@
               "bio":"Jeremy is a web developer with a master's degree in computer science. He has many years of experience in front-end development and full-stack development, working heavily with JavaScript and Ruby. He has presented numerous times at conferences such as Fluent Conf and RailsConf. He is passionate about front-end development and its future, taking that passion to the world of Elm too. He is currently authoring a book on Elm with The Pragmatic Programmers."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"React Fundamentals (Room 105)"
      },
      {
         "title":"The State of State Management in React",
@@ -1066,7 +1125,8 @@
               "bio":"Jonathan is a Senior Front End Developer at Scripps Networks Interactive working with a team of developers on the websites for their portfolio of popular lifestyle brands including HGTV, DIY Network, and Great American Country."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"React Fundamentals (Room 105)"
      },
      {
         "title":"React and GraphQL with Apollo",
@@ -1083,7 +1143,8 @@
               "bio":"I'm married, a father of two, and Lead Front-End Software Engineer at Care Logistics in Alpharetta, GA. I've spent the majority of my professional career programming in Javascript starting in 2002, with a few years in PHP, Java, and Clojure."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"React Fundamentals (Room 105)"
      },
      {
         "title":"You don't know Angular",
@@ -1100,7 +1161,8 @@
               "bio":"Currently a freelance mobile application consultant, Josh brings over 14 years of design, architecture, development and passion to his projects and presentations. In the almost 6 years he has been in the mobile space, he has brought hundreds of applications to market for companies ranging from Fortune 500 to startup, as well as contributing to many open source projects. End to end application structure, including mobile and server application architecture, are just a few of the tools Josh has collected over the years and he is passionate about sharing them with others."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Angular (Ballroom C)"
      },
      {
         "title":"What's coming in Angular 5!",
@@ -1117,7 +1179,8 @@
               "bio":"Community leader. Google Developer Expert\r\n"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Angular (Ballroom C)"
      },
      {
         "title":"D3 + Angular = Visual Awesomesauce",
@@ -1134,7 +1197,8 @@
               "bio":"John is your friendly neighborhood kilted coder. He has a passion for creating UI, a love of JavaScript-ing all the things, and a drive for both teaching and learning. He's a geeky ginger kilted running dad who codes because he loves it."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Angular (Ballroom C)"
      },
      {
         "title":"ng3000: What is Angular 2 and 4, Why Did They Skip Angular 3, and Why Should I Update from Angular 1.x?",
@@ -1151,7 +1215,8 @@
               "bio":"Whitley is a Senior Software Engineer at The Home Depot, where she works with Angular, Node, Java, and Pivotal Cloud Foundry. She is a graduate of the University of Notre Dame. She enjoys running, reading, coding, cooking, and spending time with her feisty dog, Sophie. "
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Angular (Ballroom C)"
      },
      {
         "title":"How do Angular components communicate?",
@@ -1168,7 +1233,8 @@
               "bio":"I help web development teams learn and become fluent with Angular. I provide Angular expertise, mentoring and training through code reviews, architecture consulting, bug fixing."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Angular (Ballroom C)"
      },
      {
         "title":"The Journey",
@@ -1185,7 +1251,8 @@
               "bio":"Brandy is the founder and creative director for 9th Path, a user-focused creative services firm. Her career has been spent producing award-winning solutions for top consumer brands like Ford, The Home Depot, and WebM, as well as enterprise solutions for industry verticals including retail, medical, and finance. She has created results-driven interactive experiences on a variety of platforms, devices, and spaces, and also teaches interaction design at corporate and collegiate levels with a focus on user behavior, intuitive design and critical thinking.\r\n \r\nAdditionally, Brandy has built and managed high-performing teams in multiple industry environments, from app dev to advertising. She excels at finding the right mix of people for business and culture, and ensures their success through communication, coaching, and collaboration. She facilitates the sharing of experiential knowledge through FullCircle, a company driven to connect seasoned mentors with individuals experiencing change in their career."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":null
      },
      {
         "title":"JavaScript Today, Tomorrow, and one Alternative",
@@ -1202,7 +1269,8 @@
               "bio":"Tirell Mckinnon is a software engineer at Skookum located in Charlotte, NC.  He is a family man, code writer, avid learner, and a member of the Army National Guard. Frontend development has always been his passion and he has always had a curiosity of deeply understanding software."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Advanced JS (Ballroom D)"
      },
      {
         "title":"Introduction to Functional Reactive Programming",
@@ -1219,7 +1287,8 @@
               "bio":"Corinna Cohn has been creating websites since 1995 and has written web apps for radio stations, research projects, scientific publishing, and business-to-business clients. Over the past several years, Corinna has worked with Backbone, Ember, and Angular to design and write single-page applications. Corinna has written ugly, unmaintainable code but is now working to bring the principles of clean code, unit tests, and high-quality refactoring into the realm of JavaScript web application"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Core JS & Frameworks  (Ballroom F)"
      },
      {
         "title":"Lunch - keynote room",
@@ -1231,7 +1300,8 @@
         "speakerInfo":[
 
         ],
-        "type":"lunch"
+        "type":"lunch",
+        "room":null
      },
      {
         "title":"How I Cut My Working Hours in Half and Somehow Managed to Get More Done",
@@ -1248,7 +1318,8 @@
               "bio":"<p>Jason Lengstorf is a developer, designer, author, and friendly bear. He's worked in nearly every role in an agency, from DevOps to sales, and uses his 14+ years of experience to offer a unique, cross-functional approach to solving complex problems. He lives in Austin, TX, spends most of his disposable income on food and travel, and can often be spotted in the forest foraging for nuts and berries.</p>"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":null
      },
      {
         "title":"Escape Callback Hell and enter Callback Heaven with Async Await",
@@ -1265,7 +1336,8 @@
               "bio":"Jennifer Bland is a Senior Software Developer for Hearst Autos, specializing in MEAN stack development. She has more than ten years of development experience working for companies like CNN, Coca-Cola and Apple Computer. Jennifer is the author of the book “Developing e-Business Applications Using Lotus Domino on the AS/400\", published by IBM.\r\n\r\nShe runs the website codeprep.io which provides interview questions to assist programmers in preparation for job interviews. Her personal website is jenniferbland.com.\r\n\r\nJennifer holds a B.A. in History from Furman University and an MBA from San Jose State University.\r\n"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Core JS & Frameworks  (Ballroom F)"
      },
      {
         "title":"Energize your development flow with CLIs",
@@ -1288,7 +1360,21 @@
               "bio":"Pearl Latteier is a software engineer at Bendyworks in Madison WI. She builds JavaScript applications for web and mobile, and she has spoken at conferences around the world on topics including Progressive Web Apps, Web Components, and Polymer. Before becoming a software developer, Pearl earned a PhD in from the University of Wisconsin-Madison, where for five years she taught courses in the Department of Communication Arts."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Core JS & Frameworks  (Ballroom F)"
+     },
+     {
+        "title":"Afternoon Break",
+        "location":"Room ABE (Core JS & Frameworks)",
+        "description":"TBD",
+        "speaker":"",
+        "time":"09/21/2017 03:20 PM",
+        "duration":30,
+        "speakerInfo":[
+
+        ],
+        "type":"coffee",
+        "room":null
      },
      {
         "title":"Finally, Enterprise JavaScript Is Easy!",
@@ -1305,7 +1391,8 @@
               "bio":"Geertjan Wielenga is focused on free and open source technologies for enterprise development with JavaScript and Java. He worked for Sun Mircosystems and is currently a product manager at Oracle."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Core JS & Frameworks  (Ballroom F)"
      },
      {
         "title":"Conf Reception (inside venue)",
@@ -1317,7 +1404,8 @@
         "speakerInfo":[
 
         ],
-        "type":"party"
+        "type":"party",
+        "room":null
      },
      {
         "title":"Web Components: Lego bricks of the web",
@@ -1340,7 +1428,8 @@
               "bio":"Pearl Latteier is a software engineer at Bendyworks in Madison WI. For the past several years, she has focused primarily on building data-intensive JavaScript applications for web and mobile, most recently with React JS and React Native. She is also experienced with server-side technologies including Ruby on Rails, Node, and PHP. Before becoming a software developer, Pearl earned a PhD in from the University of Wisconsin-Madison, where for five years she taught courses in the Department of Communication Arts."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Web-Html-Css (Ballroom ABE)"
      },
      {
         "title":" Make your animations perform well",
@@ -1357,7 +1446,8 @@
               "bio":"Anna works as a Front-end Developer and Designer at Lunar Logic, the no-management company based in Kraków, Poland. She is always trying to find ways to make people fall in love with coding and has a long history of organizing coding workshops for WebMuses and Rails Girls. In her spare time she practices Pilates, plays Hearthstone and reads scifi and fantasy books."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Web-Html-Css (Ballroom ABE)"
      },
      {
         "title":"An Accessible Guide to Accessibility",
@@ -1374,7 +1464,8 @@
               "bio":"Nick is a senior software engineer at the <a href=\"https://www.usds.gov/\">United States Digital Service</a>. Prior to that, he worked at Opower, Google, and Microsoft, and graduated from Cornell. He has contributed to open source projects like Eslint, Bower, Foundation, and Chai. He writes about technology and politics on <a href=\"https://medium.com/@nickheiner\">Medium</a>."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Web-Html-Css (Ballroom ABE)"
      },
      {
         "title":"Sense & SVG-ibility",
@@ -1391,7 +1482,8 @@
               "bio":""
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Web-Html-Css (Ballroom ABE)"
      },
      {
         "title":"The Decentralized Social Web",
@@ -1408,7 +1500,8 @@
               "bio":"I am a Senior Web Developer at Intercontinental Exchange, where, among other things, I wrote and maintain the CSS for The New York Stock Exchange. I am the author of <a href=\"https://manning.com/books/css-in-depth\">CSS in Depth</a>."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Web-Html-Css (Ballroom ABE)"
      },
      {
         "title":"Secure Network Communications",
@@ -1425,7 +1518,8 @@
               "bio":"Android and iOS Sensei at Big Nerd Ranch"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Android (Room 115)"
      },
      {
         "title":"Introduction to Kotlin",
@@ -1442,7 +1536,8 @@
               "bio":"David Greenhalgh is an Android Developer and Instructor at Big Nerd Ranch. In his time away from creating top-notch course material, he hones his experience in Kotlin to make way for the future of Android development."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Android (Room 115)"
      },
      {
         "title":"Building Libraries for Kotlin",
@@ -1459,7 +1554,8 @@
               "bio":"Eric Maxwell is a Product Engineer at Realm and co-organizer of the Columbus Kotlin User Group. He has spent over a decade architecting and developing software for various companies across many industries. He has developed and taught courses on Java, Android and iOS. When he’s not working, he enjoys time with family, traveling and improv comedy."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Android (Room 115)"
      },
      {
         "title":"Kotlin Coroutines in Android",
@@ -1476,7 +1572,21 @@
               "bio":"CTO of FIXD Automotive, volunteer organizer with Code for Atlanta"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Android (Room 115)"
+     },
+     {
+        "title":"Go to General Mobile",
+        "location":"UNASSIGNED (Android)",
+        "description":"",
+        "speaker":"",
+        "time":"09/22/2017 03:00 PM",
+        "duration":60,
+        "speakerInfo":[
+
+        ],
+        "type":"talk",
+        "room":"Practices & other tech (Room 102)"
      },
      {
         "title":"Creating high performance graphics in the browser with WebGL",
@@ -1493,7 +1603,8 @@
               "bio":"I am a construction worker turned Technical Evangelist at Microsoft, which is like a developer who talks to developers, and I'm based out of Philadelphia, PA."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Advanced JS (Ballroom D)"
      },
      {
         "title":"No REST for the weary... Introducing GraphQL",
@@ -1510,7 +1621,8 @@
               "bio":"Founder and lead developer for Clio + Calliope Web Development leveraging over 15 years of experience with software engineering to build high-value applications"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Advanced JS (Ballroom D)"
      },
      {
         "title":"Using Chrome Developer Tools",
@@ -1527,7 +1639,8 @@
               "bio":"Micah is a full-stack developer specializing in building websites and applications for enterprises using WordPress and React. "
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Advanced JS (Ballroom D)"
      },
      {
         "title":"Fun with Fabric.js",
@@ -1544,7 +1657,8 @@
               "bio":"My strengths as a software engineer include designing code and database architectures, solving memory leaks and performance issues, and the invention of new app features. My current project uses the Angular 1 and Fabric.js frameworks. I specialize in the HTML5 canvas."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Advanced JS (Ballroom D)"
      },
      {
         "title":"Integrating Performance Across the DevOps Lifecycle",
@@ -1561,7 +1675,8 @@
               "bio":""
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Advanced JS (Ballroom D)"
      },
      {
         "title":"Unlocking the power of speech recognition in your app with Titanium+Hyperloop",
@@ -1578,7 +1693,8 @@
               "bio":"Brenton House is a Senior Mobile Architect for Shockoe with over 20 years experience in mobile, API, and web development.  He has worked with many clients across various industries including broadcasting, advertising, retail, financial services, transportation, and publishing.  His passion for everything mobile together with his mobile strategy and design experience, drive him to create captivating products that inspire and delight audiences."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"General Mobile (Room 113)"
      },
      {
         "title":"Going Web Native",
@@ -1595,7 +1711,8 @@
               "bio":"Marcus Hellberg is a developer advocate at Vaadin. He works with modern web technologies like Web Components and Progressive Web Applications. His background is in embedded systems but has worked on everything web related for the past 11+ years. "
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"General Mobile (Room 113)"
      },
      {
         "title":"iOS & Android Apps in C# with Xamarin",
@@ -1612,7 +1729,8 @@
               "bio":"I am a construction worker turned Technical Evangelist at Microsoft, which is like a developer who talks to developers, and I'm based out of Philadelphia, PA."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"General Mobile (Room 113)"
      },
      {
         "title":"An Introduction to Bluetooth Beacons",
@@ -1629,7 +1747,8 @@
               "bio":"Anthony is a maker, a nerd, and an IDI.o.T. (Instructional Developer for the Internet of Things).  He regularly speaks at conferences on web development, user analytics, xAPI, and how IoT can be used with online courseware.  "
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"General Mobile (Room 113)"
      },
      {
         "title":"Porting an Experience from iOS to Android ",
@@ -1646,7 +1765,8 @@
               "bio":"Zack Simon is a UX/UI designer at Big Nerd Ranch, where he conducts user testing and designs web and mobile apps. He works closely with developers to deliver award-winning apps to clients around the globe. In his free time, Zack enjoys designing games and illustrating. "
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"General Mobile (Room 113)"
      },
      {
         "title":"Striking a Balance with UI Tests",
@@ -1663,7 +1783,8 @@
               "bio":"Jesse Black brings nine years of programming experience to stable|kernel as a software engineer. His passion for programming stems from a love of logic and a need to automate tedious paperwork responsibilities while working for his family’s business. Jesse has a bachelor’s degree in mathematics from New York University. When he's not solving clients needs, he enjoys dusting off old mathematics textbooks, learning Dart and going to see live music."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"iOS (Room 115)"
      },
      {
         "title":"Crossing the Giant Chasm of Swift",
@@ -1680,7 +1801,8 @@
               "bio":"Patrick is CTO of Colligo Vox, a Mobile solutions consulting company based out of Atlanta. With 30 years of professional experience, he orchestrates and implements successful mobile initiatives ranging from Big Enterprise children’s educational games. Along with his focus of delivering bullet-proof, awesomely kickass solutions, he educates the development community via meetups and the techMatters.fm podcast."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"iOS (Room 115)"
      },
      {
         "title":"How to Build a View Controller",
@@ -1697,10 +1819,11 @@
               "bio":"A passionate software craftsman, Brian loves to build great mobile apps  to help people get things done. He started working with iOS when it was still called \"iPhone OS,\" and co-authored \"Android Programming: The Big Nerd Ranch Guide.\""
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"iOS (Room 115)"
      },
      {
-        "title":"TBD",
+        "title":"Go to General Mobile",
         "location":"115 (iOS)",
         "description":"TBD",
         "speaker":"",
@@ -1709,10 +1832,11 @@
         "speakerInfo":[
 
         ],
-        "type":"party"
+        "type":"talk",
+        "room":"iOS (Room 115)"
      },
      {
-        "title":"TBD",
+        "title":"Go to General Mobile",
         "location":"115 (iOS)",
         "description":"TBD",
         "speaker":"",
@@ -1721,7 +1845,8 @@
         "speakerInfo":[
 
         ],
-        "type":"party"
+        "type":"talk",
+        "room":"iOS (Room 115)"
      },
      {
         "title":"UX Design Story for Product Adoption",
@@ -1738,7 +1863,8 @@
               "bio":"Katie Stroud is the master story crafter for product adoption and corporate culture."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Design-UI-UX (Room 103)"
      },
      {
         "title":"Icons Behaving Badly",
@@ -1755,7 +1881,8 @@
               "bio":"Andrew is a UI developer and designer at NCR, focusing on POS (point-of-sale) and clienteling solutions. He has two decades of development experience in languages such as JavaScript, Visual Basic, Python, and C, and will admit to having developed a content management solution with Delphi and Perl if backed into a corner."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Design-UI-UX (Room 103)"
      },
      {
         "title":"Modern Web APIs for a Better User Experience",
@@ -1778,7 +1905,8 @@
               "bio":"Jad is a fullstack teacher and an active conference speaker.\r\n\r\nHe's on a mission to inspire developers around the world by coaching at Le Wagon coding bootcamp in Europe and regularly speaking at international conferences.\r\n\r\nLately, Jad's focus lies on spreading knowledge about Progressive Web Apps and mentoring developers through online courses, blog articles and workshops for startups & enterprises.\r\n\r\n<a href=\"https://jadjoubran.io\">jadjoubran.io</a>"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Design-UI-UX (Room 103)"
      },
      {
         "title":"What Big Data is Missing: Remembering Our Humanity",
@@ -1795,7 +1923,8 @@
               "bio":"Marisa Morby has a background in User Experience copywriting, and marketing. She specializes in digital optimization, user research, and user experience flow for web and mobile applications. "
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Design-UI-UX (Room 103)"
      },
      {
         "title":"When developer must become designer; how to be a one-person UX team",
@@ -1812,7 +1941,8 @@
               "bio":"Angel Banks specializes in UX strategy and design for enterprise, finance, healthcare, and biotech applications. She currently works as a UX designer. Angel has a background in front-end development, project management, product management. Active in the Atlanta tech community, she was a co-organizer of the ATL AngularJS meetup group and is now on the leadership team of Women Who Code Atlanta, co-organizer of ngATL Angular Conference and a UX and Coding Mentor at General Assembly. "
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Design-UI-UX (Room 103)"
      },
      {
         "title":"Production-Ready Node.js",
@@ -1829,7 +1959,8 @@
               "bio":"JavaScript Junkie and Heroku's Languages team engineering manager."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Node-server-side (Room 104)"
      },
      {
         "title":"IoT Prototyping with Node.js and Firebase",
@@ -1846,12 +1977,13 @@
               "bio":"Jen is a Developer Advocate on Cloud at Google. In this role she helps developers build cool stuff on all sorts of platforms. If she’s away from her laptop, she’s probably skating around a roller derby track, or hanging from aerial silk."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Node-server-side (Room 104)"
      },
      {
-        "title":"Deploying and Debugging Node.js Apps on the Cloud",
+        "title":"Extending Cloud Intelligence to IoT Devices with Node.js",
         "location":"103 (Node-server-side)",
-        "description":"Okay, so you can build Node.js apps locally, now let's talk about getting them on the cloud via Mac, Windows, or Linux! This session will show how to publish or deploy apps to Azure from Visual Studio, VS Code, and the command line. This talk will also review tools and capabilities of Azure Web Apps such as editing code online in the browser or enabling continuous deployment with GitHub. Additional topics that will be covered include how to remote debug live apps on your local machine, managing web apps such as scaling and staging, and monitoring to get real-time status info.",
+        "description":"This session will focus on the tools and resources available around the emerging technology Azure IoT Edge that allows developers to extend cloud intelligence to edge devices with emphasis on Node.js. IoT Edge also enables a gateway that opens up all kinds of scenarios like communicating between devices in real time, operating your IoT solution with an intermittent cloud connection, or enforcing additional security requirements. Whether this is your first time with IoT or you are an expert, this is hot-off-the-press technology and I will do my best to show how to get started and integrate it with existing applications.",
         "speaker":"Kristin Ottofy",
         "time":"09/22/2017 01:00 PM",
         "duration":60,
@@ -1863,7 +1995,8 @@
               "bio":"Kristin is a developer, maker, and mentor with a passion to inspire students, startups, and other developers to build innovative applications using leading edge technology. She specializes in internet of things and web applications and has also worked with many different technologies from chatbots to HoloLens. She has a background in computer science along with math and engineering education. She loves to build open source projects and encourage everyone to create with, think about, and enjoy code. If you tweet her, some LEDs will probably light up!"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Node-server-side (Room 104)"
      },
      {
         "title":"Blow Your Mind with NPM",
@@ -1880,7 +2013,8 @@
               "bio":"Agilist working as part of product development teams to support and accelerate development through fast feedback. I help teams to craft more executable user stories. Strong understanding of needs of product team competencies testing, programming, product ownership, and user experience. Testing teacher, unit and integration test review and advisement, exploratory testing coach. Test automator and exploratory tester. Meetup founder, conference organizer, speaker, workshop facilitator, author, podcaster, and blogger."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Node-server-side (Room 104)"
      },
      {
         "title":"Building Real World Node.JS Microservices ",
@@ -1897,7 +2031,8 @@
               "bio":"James Truitt an agile software developer and technologist. He’s has 17+ years of experience creating software for the TV Broadcasting field. His focus and passion is learning and sharing all things dealing with the cloud. When he’s not behind a computer you’ll find him in the stands cheering on him kids in a local basketball arena."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Node-server-side (Room 104)"
      },
      {
         "title":"Get Rails out of your Ruby",
@@ -1914,7 +2049,8 @@
               "bio":"Coming out of Atlanta, Georgia, Steve is a software engineer and leader looking to help people become more productive. Throughout his time at different SaaS companies, Steve has come to realize the power of software creating a lever to amplify customers' abilities. Steve is at a point where he is looking to increase thought leadership and help others become better along the way."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Practices & other tech (Room 102)"
      },
      {
         "title":"What the Heck is OAuth and OpenID Connect?",
@@ -1931,7 +2067,8 @@
               "bio":"Java Champion and Developer Advocate at Okta with a passion for skiing, mountain biking, VWs, and good . Driving a '66 21-window and a '90 Syncro. Made in Montana. @mraible on Twitter."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Practices & other tech (Room 102)"
      },
      {
         "title":"Cross-Platform Desktop Apps with Electron",
@@ -1948,7 +2085,8 @@
               "bio":"David is a husband, father of 5 boys, geek, musician, motorcyclist, and Microsoft MVP living in North GA. He's a software developer for LeanKit, and runs on a high-octane mixture of caffeine and bacon."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Practices & other tech (Room 102)"
      },
      {
         "title":"How to Learn",
@@ -1965,7 +2103,8 @@
               "bio":"Toby Ho is a veteran JavaScript developer in Atlanta. He blogs at tobyho.com and is passionate about helping others learn. He is active in the open source community where his proudest work is Test’em - a Javascript test runner."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Practices & other tech (Room 102)"
      },
      {
         "title":"Building a Serverless Microservice with AWS",
@@ -1982,7 +2121,8 @@
               "bio":"Tara is a technical evangelist for Amazon Web Services, dedicating her time to help developers build apps, games, and technical solutions in the AWS cloud. Tara has most recently been working on evangelizing mobile, gaming, IoT, serverless backend architectures, and cross-platform development with AWS.  "
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Practices & other tech (Room 102)"
      },
      {
         "title":"Lessons from the trenches - Designing Resilient Bulletproof React/Redux Apps Part 1",
@@ -1999,7 +2139,8 @@
               "bio":"Jeff Barczewski has been a software engineer, architect, and instructor for over 25 years. He is the founder of CodeWinds and Inspired Horizons, a training and consulting firm based in St. Louis, MO. He has taught workshops at conferences such as JazzCon.tech, Strange Loop, JSConf, and Nodevember. He is the author of many open source projects including redux-logic, pkglink, and bench-rest. He is married, father of one, Catholic, who enjoys snow skiing in the Rockies.\r\n\r\n"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"React in Practice (Room 106)"
      },
      {
         "title":"Lessons from the trenches - Designing Resilient Bulletproof React/Redux Apps Part 2",
@@ -2016,7 +2157,8 @@
               "bio":"Jeff Barczewski has been a software engineer, architect, and instructor for over 25 years. He is the founder of CodeWinds and Inspired Horizons, a training and consulting firm based in St. Louis, MO. He has taught workshops at conferences such as JazzCon.tech, Strange Loop, JSConf, and Nodevember. He is the author of many open source projects including redux-logic, pkglink, and bench-rest. He is married, father of one, Catholic, who enjoys snow skiing in the Rockies.\r\n\r\n"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"React in Practice (Room 106)"
      },
      {
         "title":"Tame the Async Redux Beast with redux-logic",
@@ -2033,7 +2175,8 @@
               "bio":"Ray Gesualdo is a full-stack JavaScript developer, speaker and mentor from Atlanta, GA. He started his career in the e-learning development industry, working with web-adjacent processes and systems before moving into front end engineering. Currently, he leads the front-end and user experience development at 3Blades, a data science-focused startup. Ray loves working with client- and server-side JavaScript; experimenting with serverless architectures and functional programming; and teaching and equipping others in technology. "
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"React in Practice (Room 106)"
      },
      {
         "title":"Lightning Fast React Apps",
@@ -2050,7 +2193,8 @@
               "bio":"Founder and lead developer for Clio + Calliope Web Development leveraging over 15 years of experience with software engineering to build high-value applications"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"React in Practice (Room 106)"
      },
      {
         "title":"Building Realtime Mobile Apps with React Native and Elixir",
@@ -2067,7 +2211,8 @@
               "bio":"Osa Gaius is a Software Engineer at Mailchimp. Previously, he was an engineer at Luma, where he worked on realtime web apps and spread the word about functional programming. In his free time, Osa crafts EDM instrumentals and dances Tango."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"React in Practice (Room 106)"
      },
      {
         "title":"Make Your React App Run Smoothly... with TDD Part I",
@@ -2084,7 +2229,8 @@
               "bio":"Van Wilson is a Front-End UI Developer with Cardinal Solutions Group. When he is not testing code, he’s forcing his family to go on long hikes with him."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"React Fundamentals (Room 105)"
      },
      {
         "title":"Make Your React App Run Smoothly... with TDD Part II",
@@ -2101,7 +2247,8 @@
               "bio":"Van Wilson is a Front-End UI Developer with Cardinal Solutions Group. When he is not testing code, he’s forcing his family to go on long hikes with him."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"React Fundamentals (Room 105)"
      },
      {
         "title":"Rapid Applications with React Native",
@@ -2118,7 +2265,8 @@
               "bio":"Inspirational technology strategist.  Tinkerer at heart, but with a passion to ship a quality product at the end.  Love leadership and teaching has driven me to many conferences worldwide."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"React Fundamentals (Room 105)"
      },
      {
         "title":"CSS-in-React with styled-components",
@@ -2135,7 +2283,8 @@
               "bio":"Ray Gesualdo is a full-stack JavaScript developer, speaker and mentor from Atlanta, GA. He started his career in the e-learning development industry, working with web-adjacent processes and systems before moving into front end engineering. Currently, he leads the front-end and user experience development at 3Blades, a data science-focused startup. Ray loves working with client- and server-side JavaScript; experimenting with serverless architectures and functional programming; and teaching and equipping others in technology. "
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"React Fundamentals (Room 105)"
      },
      {
         "title":"Testing the JavaScript stack with Jest",
@@ -2152,7 +2301,8 @@
               "bio":"I'm a front end web and native developer for Ventiv here in Atlanta. I've been working with React for since beginning of 2014. I advocate Redux when building at scale with React. I am always looking for new patterns that further separate concerns in React components.  This conference I hope to share all the lessons learned from the past four years and explain how to build high performance and maintainable React applications."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"React Fundamentals (Room 105)"
      },
      {
         "title":"Angular's User Authentication Tool Belt",
@@ -2169,7 +2319,8 @@
               "bio":"<p>Ryan is a full-stack JavaScript developer and works mostly with Angular and Node. He's a Google Developer Expert, Developer Advocate at Auth0, and also runs Angularcasts.io, a screencast site offering end-to-end Angular and JavaScript training.</p>"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Angular (Ballroom C)"
      },
      {
         "title":"The best kept secrets of Angular CLI",
@@ -2186,7 +2337,8 @@
               "bio":"I help web development teams learn and become fluent with Angular. I provide Angular expertise, mentoring and training through code reviews, architecture consulting, bug fixing."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Angular (Ballroom C)"
      },
      {
         "title":"Myths of Angular 2: What Angular Really Is",
@@ -2203,7 +2355,8 @@
               "bio":"John is your friendly neighborhood kilted coder. He has a passion for creating UI, a love of JavaScript-ing all the things, and a drive for both teaching and learning. He's a geeky ginger kilted running dad who codes because he loves it."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Angular (Ballroom C)"
      },
      {
         "title":"Using a Component Library to Create Compelling User Interfaces in Angular",
@@ -2220,7 +2373,8 @@
               "bio":""
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Angular (Ballroom C)"
      },
      {
         "title":"Angular Wizardry for AngularJS Folks",
@@ -2237,7 +2391,8 @@
               "bio":"Wilson is a mobile web evangelist and Angular developer. He is the founder of Canal, a platform for student life. Wilson is also the developer of a Node framework called Boat, which makes it easy to write REST APIs using Angular-style code."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Angular (Ballroom C)"
      },
      {
         "title":"Machine Learning Guided User Interfaces",
@@ -2254,7 +2409,8 @@
               "bio":"JavaScript veteran from the browser wars. Now working on Microsoft Edge, Visual Studio Code and ChakraCore. AI fanboy, avid presenter and trainer."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":null
      },
      {
         "title":"Dive into RxJS Observables",
@@ -2271,7 +2427,8 @@
               "bio":"Jeremy is a web developer with a master's degree in computer science. He has many years of experience in front-end development and full-stack development, working heavily with JavaScript and Ruby. He has presented numerous times at conferences such as Fluent Conf and RailsConf. He is passionate about front-end development and its future, taking that passion to the world of Elm too. He is currently authoring a book on Elm with The Pragmatic Programmers."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Core JS & Frameworks  (Ballroom F)"
      },
      {
         "title":"Reactive Programming with RxJS: A Beginner’s Perspective",
@@ -2288,7 +2445,8 @@
               "bio":"Tracy is the Co-Founder of This Dot Labs, Google Developer Expert, JavaScript developer, and serial entrepreneur. She is also the creator of This.JavaScript, ng-cruise, Modern.Web podcast, RxWorkshop, and Contributor Days. You can find her on Twitter @ladyleet.\r\n"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Core JS & Frameworks  (Ballroom F)"
      },
      {
         "title":"Lunch 2.0 - keynote room",
@@ -2300,7 +2458,8 @@
         "speakerInfo":[
 
         ],
-        "type":"lunch"
+        "type":"lunch",
+        "room":null
      },
      {
         "title":"Javascript ES6: The Good Parts",
@@ -2317,24 +2476,26 @@
               "bio":"Josh is an O’Reilly author, developer advocate, and recovering engineer. He is a senior developer evangelist at Mozilla. Previously he worked as a developer evangelist at PubNub, Nokia, Palm / HP, and Sun. He is passionate about user interfaces and education. Josh lives in sunny Eugene, Oregon."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Core JS & Frameworks  (Ballroom F)"
      },
      {
-        "title":"Advanced TypeScript",
+        "title":"Stop JavaScripting Like It's 1999",
         "location":"Room ABE (Core JS & Frameworks)",
-        "description":"This Advanced Typescript session will cover some of the nuances of TypeScript and server-side JavaScript development.  As the old adage goes, \"Bad data in gives bad data out.\"  To create performance optimized, scalable JavaScript with reduction in runtime errors, it is imperative to understand how to develop quality TypeScript.",
-        "speaker":"Joshua Davis",
+        "description":"JavaScript is moving fast.  Last year’s best practices are quickly becoming today’s anti-patterns as we experience fundamental shifts in the language. With so many outdated learning resources out there, it's hard to know if we're doing things right.",
+        "speaker":"Hunter Loftis",
         "time":"09/22/2017 02:00 PM",
         "duration":60,
         "speakerInfo":[
            {
-              "name":"Joshua Davis",
-              "image":"http://cfp.connect-js.com/system/avatars/517/large/profile.png?1491534515",
-              "twitter":"a11smiles",
-              "bio":"Joshua Davis, a Cloud Solutions Architect for Microsoft, is a seasoned developer across multiple platforms and languages. His experience ranges desktop, mainframe, mobile and cloud computing in both, Microsoft and Open Source technologies."
+              "name":"Hunter Loftis",
+              "image":"http://cfp.connect-js.com/system/avatars/532/large/avatar_large800x600.jpg?1492470055",
+              "twitter":"hunterloftis",
+              "bio":"JavaScript Junkie and Heroku's Languages team engineering manager."
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Core JS & Frameworks  (Ballroom F)"
      },
      {
         "title":"Going Serverless with OpenWhisk",
@@ -2351,7 +2512,8 @@
               "bio":"Raymond Camden is a developer advocate for IBM. His work focuses on LoopBack, serverless, hybrid mobile development, Node.js, HTML5, and web standards in general. He's a published author and presents at conferences and user groups on a variety of topics. Raymond can be reached at his blog (www.raymondcamden.com), @raymondcamden on Twitter, or via email at raymondcamden@gmail.com.\r\n"
            }
         ],
-        "type":"talk"
+        "type":"talk",
+        "room":"Advanced JS (Ballroom D)"
      },
      {
         "title":"Prizes and closing ceremonies",
@@ -2363,7 +2525,8 @@
         "speakerInfo":[
 
         ],
-        "type":"party"
+        "type":"talk",
+        "room":null
      },
      {
         "title":"After Party (near downtown)",
@@ -2375,7 +2538,8 @@
         "speakerInfo":[
 
         ],
-        "type":"party"
+        "type":"party",
+        "room":null
      }
   ]
 }
