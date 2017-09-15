@@ -86,8 +86,21 @@ export const reducer = createReducer(INITIAL_STATE, {
 /* ------------- Selectors ------------- */
 export const getSpeakers = (speakerSchedule) => {
   const gimmeTalks = filter((event) => event.type === 'talk')
-  const cleanSpeakerList = compose(uniq, flatten, pluck('speakerInfo'))
-  return cleanSpeakerList(gimmeTalks(speakerSchedule))
+  const getCleanSpeakerList = compose(uniq, flatten, pluck('speakerInfo'))
+  const cleanSpeakerList = getCleanSpeakerList(gimmeTalks(speakerSchedule))
+  const getLastName = (name) => {
+    const splitName = name.split(' ')
+
+    return splitName[splitName.length - 1]
+  }
+  const sortedSpeakerList = cleanSpeakerList.slice().sort((a, b) => {
+    const aLast = getLastName(a.name)
+    const bLast = getLastName(b.name)
+
+    return (aLast > bLast) ? 1 : ((bLast > aLast) ? -1 : 0)
+  })
+
+  return sortedSpeakerList
 }
 
 export const getTalks = (name, speakerSchedule) =>
