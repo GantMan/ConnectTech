@@ -51,6 +51,13 @@ export default StyleSheet.create({
     letterSpacing: 0,
     lineHeight: 18
   },
+  location: {
+    fontFamily: Fonts.type.base,
+    fontSize: 12,
+    color: '#7a7a7a',
+    letterSpacing: 0,
+    lineHeight: 18
+  },
   avatar: {
     width: Metrics.images.avatar,
     height: Metrics.images.avatar,

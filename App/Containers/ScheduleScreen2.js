@@ -204,15 +204,16 @@ class ScheduleScreen extends Component {
   renderItem = ({item}) => {
     const { isCurrentDay } = this.state
     const { currentTime, setReminder, removeReminder } = this.props
-    const { eventDuration, eventStart, eventEnd, eventFinal, special } = item
+    const { eventDuration, eventStart, eventEnd, eventFinal, special, room } = item
     const isActive = isWithinRange(currentTime, eventStart, eventEnd)
     const isFinished = currentTime > eventEnd
 
     if (item.type === 'talk') {
       const graphic = item.image || item.speakerInfo[0].image
-      // console.tron.log(graphic)
+
       return (
         <Talk
+          room={room}
           type={item.type}
           name={item.speaker}
           avatarURL={graphic}

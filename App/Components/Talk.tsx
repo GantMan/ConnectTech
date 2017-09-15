@@ -9,6 +9,7 @@ import FadeIn from 'react-native-fade-in-image'
 interface TalkProps {
   title: string
   name: string
+  room: string
   avatarURL: string
   start: Date
   duration: number
@@ -70,7 +71,8 @@ export default class Talk extends React.Component<TalkProps, TalkState> {
       isFinished,
       isSpecial,
       setReminder,
-      removeReminder
+      removeReminder,
+      room
     } = this.props
 
     const animatedStyle = {
@@ -97,6 +99,7 @@ export default class Talk extends React.Component<TalkProps, TalkState> {
               <View style={styles.infoText}>
                 <Text style={styles.title}>{title}</Text>
                 <Text style={styles.name}>{name}</Text>
+                <Text style={styles.location}>{room}</Text>
               </View>
               <FadeIn>
                 <Image style={styles.avatar} source={{uri: avatarURL}} />
