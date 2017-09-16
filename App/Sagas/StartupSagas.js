@@ -5,9 +5,6 @@ import ScheduleActions from '../Redux/ScheduleRedux'
 // process STARTUP actions
 export function * startup (action) {
   yield put(ScheduleActions.trackCurrentTime())
-  /* ********************************************************
-  * Readonly API Calls are better handled through code push *
-  * *********************************************************/
-  // yield put(ScheduleActions.getScheduleUpdates())
+  yield put(ScheduleActions.getScheduleUpdates())
   // yield put(LocationActions.getNearbyUpdates())
 }

@@ -209,7 +209,7 @@ class ScheduleScreen extends Component {
     const isFinished = currentTime > eventEnd
 
     if (item.type === 'talk') {
-      const graphic = item.image || item.speakerInfo[0].image
+      const graphic = item.image || (item.speakerInfo && item.speakerInfo[0] && item.speakerInfo[0].image)
 
       return (
         <Talk
@@ -221,8 +221,8 @@ class ScheduleScreen extends Component {
           start={eventStart}
           duration={eventDuration}
           onPress={() => this.onEventPress(item)}
-          onPressTwitter={this.funcOrFalse(this.props.onPressTwitter, item.speakerInfo && item.speakerInfo[0].twitter)}
-          onPressGithub={this.funcOrFalse(this.props.onPressGithub, item.speakerInfo && item.speakerInfo[0].github)}
+          onPressTwitter={this.funcOrFalse(this.props.onPressTwitter, item.speakerInfo && item.speakerInfo[0] && item.speakerInfo[0].twitter)}
+          onPressGithub={this.funcOrFalse(this.props.onPressGithub, item.speakerInfo && item.speakerInfo[0] && item.speakerInfo[0].github)}
           setReminder={() => setReminder(item.title)}
           removeReminder={() => removeReminder(item.title)}
           currentTime={currentTime}

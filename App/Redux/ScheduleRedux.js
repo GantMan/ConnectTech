@@ -68,6 +68,7 @@ export const unlockCurrentTime = (state) => {
 
 // Store API
 export const updateSchedule = (state, { schedule }) => {
+  console.tron.log('SUCCESS API UPDATE')
   return state.merge({ speakerSchedule: schedule })
 }
 
