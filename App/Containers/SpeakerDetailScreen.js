@@ -71,6 +71,9 @@ class TalkDetail extends React.Component {
         <Text style={styles.description}>
           Time: {talk.time}
         </Text>
+        <Text style={styles.description}>
+          Location: {talk.room}
+        </Text>
       </View>
     )
   }
