@@ -39,7 +39,7 @@
      {
         "title":"Functional Programming for the Web & JS",
         "location":"UNASSIGNED (Adv JS)",
-        "description":"PART I (morning) - Functional Web with Elm\r\nElm is a functional programming language that compiles to JavaScript and allows building robust and type-safe web apps with no runtime exceptions. Get hands-on experience with the Elm syntax and tooling as well as functional programming concepts by learning how to build type-safe apps with Elm. You will leave this workshop fully equipped to start utilizing Elm on new projects or integrating it into existing JavaScript projects.\r\n\r\nPART 2 (afternoon) - Functional JavaScript for people who hate math\r\nUsed properly, functional programming means cleaner code, easier maintenance, and simpler testing. But most of us will never use it. Why? Because functional programming is usually explained with jargon, complex math, and some nonsense about monads or whatever. And math is hard, so most of us run away screaming. But here's the thing: functional programming doesn't actually require math. This workshop will teach you how to get the benefits of functional programming today — no math required.",
+        "description":"PART I (morning) - Functional Web with Elm\r\nElm is a functional programming language that compiles to JavaScript and allows building robust and type-safe web apps with no runtime exceptions. Get hands-on experience with the Elm syntax and tooling as well as functional programming concepts by learning how to build type-safe apps with Elm. You will leave this workshop fully equipped to start utilizing Elm on new projects or integrating it into existing JavaScript projects.\r\n\r\nPART 2 (afternoon) - Functional JavaScript for people who hate math\r\nUsed properly, functional programming means cleaner code, easier maintenance, and simpler testing. But most of us will never use it. Why? Because functional programming is usually explained with jargon, complex math, and some nonsense about monads or whatever. And math is hard, so most of us run away screaming. But here's the thing: functional programming doesn't actually require math. This workshop will teach you how to get the benefits of functional programming today â€” no math required.",
         "speaker":"Jason Lengstorf,Jeremy Fairbank",
         "time":"09/20/2017 09:00 AM",
         "duration":480,
@@ -114,7 +114,7 @@
               "name":"Matt Raible",
               "image":"http://cfp.connect-js.com/system/avatars/588/large/mattraible-headshot.jpg?1500937627",
               "twitter":"mraible",
-              "bio":"Java Champion and Developer Advocate at Okta with a passion for skiing, mountain biking, VWs, and good . Driving a '66 21-window and a '90 Syncro. Made in Montana. @mraible on Twitter."
+              "bio":"Java Champion and Developer Advocate at Okta with a passion for skiing, mountain biking, VWs, and good ïº. Driving a '66 21-window and a '90 Syncro. Made in Montana. @mraible on Twitter."
            }
         ],
         "type":"talk",
@@ -222,7 +222,7 @@
               "name":"Katie Owen",
               "image":"http://cfp.connect-js.com/system/avatars/620/large/KatieOwen.jpg?1494427488",
               "twitter":"@knhowen",
-              "bio":"Katie has her DMA in music and played all over the world with the likes of the Atlanta Symphony, Charleston Symphony, and the Hollywood Concert Orchestra before perusing a career in code. As a developer, she mixes her musical expertise with her coding prowess to create detailed, custom, engaging user experiences and products as a Software Application Developer on CNN’s Off Platform & Emerging Tech team. She lives in O4W with her husband Dave and their two cats Chloe & Pepper. When she’s not coding, you can find her on her bike exploring the Beltline and beyond."
+              "bio":"Katie has her DMA in music and played all over the world with the likes of the Atlanta Symphony, Charleston Symphony, and the Hollywood Concert Orchestra before perusing a career in code. As a developer, she mixes her musical expertise with her coding prowess to create detailed, custom, engaging user experiences and products as a Software Application Developer on CNNâ€™s Off Platform & Emerging Tech team. She lives in O4W with her husband Dave and their two cats Chloe & Pepper. When sheâ€™s not coding, you can find her on her bike exploring the Beltline and beyond."
            },
            {
               "name":"Britney Dossett",
@@ -246,7 +246,7 @@
               "name":"Jennifer Bland",
               "image":"http://cfp.connect-js.com/system/avatars/332/large/Jennifer-Bland-headshot.jpg?1494079160",
               "twitter":"ratracegrad",
-              "bio":"Jennifer Bland is a Senior Software Developer for Hearst Autos, specializing in MEAN stack development. She has more than ten years of development experience working for companies like CNN, Coca-Cola and Apple Computer. Jennifer is the author of the book “Developing e-Business Applications Using Lotus Domino on the AS/400\", published by IBM.\r\n\r\nShe runs the website codeprep.io which provides interview questions to assist programmers in preparation for job interviews. Her personal website is jenniferbland.com.\r\n\r\nJennifer holds a B.A. in History from Furman University and an MBA from San Jose State University.\r\n"
+              "bio":"Jennifer Bland is a Senior Software Developer for Hearst Autos, specializing in MEAN stack development. She has more than ten years of development experience working for companies like CNN, Coca-Cola and Apple Computer. Jennifer is the author of the book â€œDeveloping e-Business Applications Using Lotus Domino on the AS/400\", published by IBM.\r\n\r\nShe runs the website codeprep.io which provides interview questions to assist programmers in preparation for job interviews. Her personal website is jenniferbland.com.\r\n\r\nJennifer holds a B.A. in History from Furman University and an MBA from San Jose State University.\r\n"
            }
         ],
         "type":"talk",
@@ -264,7 +264,7 @@
               "name":"Kesha Williams",
               "image":"http://cfp.connect-js.com/system/avatars/513/large/Screen_Shot_2017-08-23_at_10.52.34_AM.png?1503500000",
               "twitter":"KeshaWillz",
-              "bio":"Kesha Williams is a software engineer with over 20 years’ experience specializing in web application development. In addition to being a software engineer with Chick-fil-A, she trains and mentors thousands of software developers in the US, Europe, and Asia while teaching at the University of California.  She's authored courses on Java, Machine Learning (ML), Artificial Intelligence (AI), and Augmented Reality (AR).  She most recently won the Think Different Innovation Award from Chick-fil-A for her work on investigating how emerging technologies like Artificial Intelligence (AI), Augmented Reality (AR), Computer Vision/Facial Recognition, and the Internet of Things (IOT) can enhance restaurant operations and customer experiences. In her spare time, she leads the Georgia chapter of Technovation, serves as a mentor with the New York Academy of Sciences, and conducts free Hour of Code sessions for children at her local library. "
+              "bio":"Kesha Williams is a software engineer with over 20 yearsâ€™ experience specializing in web application development. In addition to being a software engineer with Chick-fil-A, she trains and mentors thousands of software developers in the US, Europe, and Asia while teaching at the University of California.  She's authored courses on Java, Machine Learning (ML), Artificial Intelligence (AI), and Augmented Reality (AR).  She most recently won the Think Different Innovation Award from Chick-fil-A for her work on investigating how emerging technologies like Artificial Intelligence (AI), Augmented Reality (AR), Computer Vision/Facial Recognition, and the Internet of Things (IOT) can enhance restaurant operations and customer experiences. In her spare time, she leads the Georgia chapter of Technovation, serves as a mentor with the New York Academy of Sciences, and conducts free Hour of Code sessions for children at her local library. "
            }
         ],
         "type":"talk",
@@ -345,7 +345,7 @@
      {
         "title":"Notifications on Android: Bridging the Gap Between Android Versions",
         "location":"UNASSIGNED (Android)",
-        "description":"Notifications can “make or break” your app.  Good notifications increase user engagement.  Bad notifications cause users to block your notifications or, even worse, uninstall your app.  In this talk we will explore one facet of “good” notifications - leveraging the latest notification features while providing a comparable experience on older versions of Android.  Along the way I will highlight pivotal notification feature additions and breaking API changes, clarify which versions of Android support newly added features, outline how those features fallback on older devices when using the NotificationCompat library. You will leave this talk ready to make informed decisions about how to bridge the gap between notification user experience on old and new versions of Android.",
+        "description":"Notifications can â€œmake or breakâ€ your app.  Good notifications increase user engagement.  Bad notifications cause users to block your notifications or, even worse, uninstall your app.  In this talk we will explore one facet of â€œgoodâ€ notifications - leveraging the latest notification features while providing a comparable experience on older versions of Android.  Along the way I will highlight pivotal notification feature additions and breaking API changes, clarify which versions of Android support newly added features, outline how those features fallback on older devices when using the NotificationCompat library. You will leave this talk ready to make informed decisions about how to bridge the gap between notification user experience on old and new versions of Android.",
         "speaker":"Kristin Marsicano",
         "time":"09/21/2017 11:10 AM",
         "duration":40,
@@ -363,7 +363,7 @@
      {
         "title":"A Pragmatic Overview of Machine Learning in Android",
         "location":"UNASSIGNED (Android)",
-        "description":"This talk is aimed at providing context for what TensorFlow is and how it operates, by using language and explanations that anyone can understand. I’m not focused on being mathematically rigorous, but rather on being pragmatic and helpful. Together, we’ll explore the background and context behind TensorFlow, discussing an overview of machine learning and neural networks. We’ll walk through a few examples of TensorFlow in action, such as image and character recognition. Most importantly, we will see how this new technology can help you today by integrating with Android applications.",
+        "description":"This talk is aimed at providing context for what TensorFlow is and how it operates, by using language and explanations that anyone can understand. Iâ€™m not focused on being mathematically rigorous, but rather on being pragmatic and helpful. Together, weâ€™ll explore the background and context behind TensorFlow, discussing an overview of machine learning and neural networks. Weâ€™ll walk through a few examples of TensorFlow in action, such as image and character recognition. Most importantly, we will see how this new technology can help you today by integrating with Android applications.",
         "speaker":"Matthew Compton",
         "time":"09/21/2017 01:10 PM",
         "duration":60,
@@ -435,7 +435,7 @@
      {
         "title":"Get More Done with Vue.js",
         "location":"UNASSIGNED (Adv JS)",
-        "description":"Vue.js is a framework for building user interfaces that’s designed to be simple and flexible with a heavy focus on performance. In this session, you’ll learn what Vue.js is and how its simplicity and flexibility combined with its performance and developer experience can help you get more done.",
+        "description":"Vue.js is a framework for building user interfaces thatâ€™s designed to be simple and flexible with a heavy focus on performance. In this session, youâ€™ll learn what Vue.js is and how its simplicity and flexibility combined with its performance and developer experience can help you get more done.",
         "speaker":"Jonathan Kemp",
         "time":"09/21/2017 11:10 AM",
         "duration":60,
@@ -507,7 +507,7 @@
      {
         "title":"The State of Mobile Web",
         "location":"117 (General Mobile)",
-        "description":"Making the right technology decisions for mobile app development is crucial to minimize costs and time to market, while ensuring user adoption and scalability. Using Javascript frameworks and APIs, developers can now build hybrid apps, progressive web apps and native apps that marry the best of the web with the best native mobile apps.  In this session we’ll dive into the technologies behind these next-gen web features and learn how they’re driving the evolution of mobile and web development.  We’ll examine:\r\n\r\n* Hybrid Technologies, such as Ionic 2\r\n* Native Mobile Development with Javascript, including React Native and NativeScript\r\n* Progressive Web Apps\r\n* How they compare and use cases for their application",
+        "description":"Making the right technology decisions for mobile app development is crucial to minimize costs and time to market, while ensuring user adoption and scalability. Using Javascript frameworks and APIs, developers can now build hybrid apps, progressive web apps and native apps that marry the best of the web with the best native mobile apps.  In this session weâ€™ll dive into the technologies behind these next-gen web features and learn how theyâ€™re driving the evolution of mobile and web development.  Weâ€™ll examine:\r\n\r\n* Hybrid Technologies, such as Ionic 2\r\n* Native Mobile Development with Javascript, including React Native and NativeScript\r\n* Progressive Web Apps\r\n* How they compare and use cases for their application",
         "speaker":"Erica Stanley",
         "time":"09/21/2017 10:00 AM",
         "duration":60,
@@ -543,7 +543,7 @@
      {
         "title":"PWA FTW",
         "location":"117 (General Mobile)",
-        "description":"Progressive Web Apps For The Win! There’s a lot of talk about PWAs not being able to replace native mobile apps, and guess what. It’s true! That doesn’t mean we should dismiss them, it means we should take advantage of what they can do for our current web apps. Let's take our regular, already awesome, Angular app and 'progress' it to include pre-caching, home screen implementation & push notifications to make it faster and more engaging!",
+        "description":"Progressive Web Apps For The Win! Thereâ€™s a lot of talk about PWAs not being able to replace native mobile apps, and guess what. Itâ€™s true! That doesnâ€™t mean we should dismiss them, it means we should take advantage of what they can do for our current web apps. Let's take our regular, already awesome, Angular app and 'progress' it to include pre-caching, home screen implementation & push notifications to make it faster and more engaging!",
         "speaker":"Tara Z. Manicsic",
         "time":"09/21/2017 01:10 PM",
         "duration":60,
@@ -552,7 +552,7 @@
               "name":"Tara Z. Manicsic",
               "image":"http://cfp.connect-js.com/system/avatars/450/large/10.17.16_Tara3783.jpg?1484172628",
               "twitter":"@tzmanics",
-              "bio":"Maker, Student, Teacher, Eater, Hiker and er of all s"
+              "bio":"Maker, Student, Teacher, Eater, Hiker and ï˜er of all ï¶s"
            }
         ],
         "type":"talk",
@@ -579,7 +579,7 @@
      {
         "title":"Geolocation with Mobile Apps",
         "location":"117 (General Mobile)",
-        "description":"A powerful component of mobile development is being able to have our apps work with and respond to a device’s location. Whether developing natively or using cross-platform tools, there are several methods for obtaining location. Since we are dealing with our user’s privacy, and their device’s battery life, we want to do it right!",
+        "description":"A powerful component of mobile development is being able to have our apps work with and respond to a deviceâ€™s location. Whether developing natively or using cross-platform tools, there are several methods for obtaining location. Since we are dealing with our userâ€™s privacy, and their deviceâ€™s battery life, we want to do it right!",
         "speaker":"Adam Paxton",
         "time":"09/21/2017 03:50 PM",
         "duration":60,
@@ -652,12 +652,12 @@
         "title":"Type Erasure in Swift",
         "location":"115 (iOS)",
         "description":"Much has been told about type erasure, however it is still a matter of great distress for most developers!\r\nI would like to present an example of how type erasure can be applied to solve an everyday issue!",
-        "speaker":"Gonçalo Alvarez",
+        "speaker":"GonÃ§alo Alvarez",
         "time":"09/21/2017 02:20 PM",
         "duration":60,
         "speakerInfo":[
            {
-              "name":"Gonçalo Alvarez",
+              "name":"GonÃ§alo Alvarez",
               "image":"http://cfp.connect-js.com/system/avatars/497/large/2504f0f.jpg?1500909574",
               "twitter":"goncaloalvarez",
               "bio":"I am an experienced software engineer specialized in iOS development currently working at Farfetch. I am looking for a new challenge, to strengthen my skills and to expand my areas of expertise. Also, I am passionate about music."
@@ -687,7 +687,7 @@
      {
         "title":"Web Accessibility",
         "location":"106 (Design-UI-UX)",
-        "description":"Web Accessibility is for everyone – it means making Websites flexible enough to meet a broad range of preferences, needs and situations. This includes not only individuals with visual, auditory or physical disabilities but anyone with limited Internet connectivity, temporary disabilities (e.g. a broken arm), or changing abilities due to aging.",
+        "description":"Web Accessibility is for everyone â€“ it means making Websites flexible enough to meet a broad range of preferences, needs and situations. This includes not only individuals with visual, auditory or physical disabilities but anyone with limited Internet connectivity, temporary disabilities (e.g. a broken arm), or changing abilities due to aging.",
         "speaker":"Will Jayroe",
         "time":"09/21/2017 10:00 AM",
         "duration":60,
@@ -723,7 +723,7 @@
      {
         "title":"Material Design that Delights",
         "location":"106 (Design-UI-UX)",
-        "description":"By reputation, programmers aren’t great designers. “Designed by developers” usually implies a terrible user experience. Material Design is helping to change this. Google’s UX designers have developed and refined the principles behind Material Design through testing with billions of users. Using Material Design, you can create intuitive experiences with smooth animations that delight users and showcase your brand. We’ll explain Material Design principles and show you how to implement them.",
+        "description":"By reputation, programmers arenâ€™t great designers. â€œDesigned by developersâ€ usually implies a terrible user experience. Material Design is helping to change this. Googleâ€™s UX designers have developed and refined the principles behind Material Design through testing with billions of users. Using Material Design, you can create intuitive experiences with smooth animations that delight users and showcase your brand. Weâ€™ll explain Material Design principles and show you how to implement them.",
         "speaker":"Pearl Latteier,Abraham Williams",
         "time":"09/21/2017 01:10 PM",
         "duration":60,
@@ -747,7 +747,7 @@
      {
         "title":"Design & Interactivity Without Sacrificing Speed ",
         "location":"106 (Design-UI-UX)",
-        "description":"Web design shouldn’t be hindered by the need for a fast, smooth loading site. However, all too often web designers find themselves choosing between creative design choices and prioritizing speed. The AMP (Accelerated Mobile Pages) Project has worked with agencies like MetaLab, North Kingdom, and Grain & Mortar to fix this by creating well-designed AMP pages that take full advantage of AMP's interactive capabilities. Now anyone can access these AMP page templates from AMPstart.com, a library of components and pages all available to download and use across the web. Not only are these pages engaging, they take full advantage of AMP's components- all ready to be used on your own site. Join Abby Beck, UX designer from Google to learn more about how you can keep design at the forefront of any web project without sacrificing speed.",
+        "description":"Web design shouldnâ€™t be hindered by the need for a fast, smooth loading site. However, all too often web designers find themselves choosing between creative design choices and prioritizing speed. The AMP (Accelerated Mobile Pages) Project has worked with agencies like MetaLab, North Kingdom, and Grain & Mortar to fix this by creating well-designed AMP pages that take full advantage of AMP's interactive capabilities. Now anyone can access these AMP page templates from AMPstart.com, a library of components and pages all available to download and use across the web. Not only are these pages engaging, they take full advantage of AMP's components- all ready to be used on your own site. Join Abby Beck, UX designer from Google to learn more about how you can keep design at the forefront of any web project without sacrificing speed.",
         "speaker":"Abby Beck",
         "time":"09/21/2017 02:20 PM",
         "duration":60,
@@ -783,7 +783,7 @@
      {
         "title":"Get Your Node.js API Swaggering with OpenAPI Spec",
         "location":"103 (Node-server-side)",
-        "description":"Let’s explore how using OpenAPI Spec and Swagger tools can make building Node.js APIs even better!\r\n",
+        "description":"Letâ€™s explore how using OpenAPI Spec and Swagger tools can make building Node.js APIs even better!\r\n",
         "speaker":"Adam Paxton",
         "time":"09/21/2017 10:00 AM",
         "duration":60,
@@ -936,7 +936,7 @@
               "name":"Matt Raible",
               "image":"http://cfp.connect-js.com/system/avatars/588/large/mattraible-headshot.jpg?1500937627",
               "twitter":"mraible",
-              "bio":"Java Champion and Developer Advocate at Okta with a passion for skiing, mountain biking, VWs, and good . Driving a '66 21-window and a '90 Syncro. Made in Montana. @mraible on Twitter."
+              "bio":"Java Champion and Developer Advocate at Okta with a passion for skiing, mountain biking, VWs, and good ïº. Driving a '66 21-window and a '90 Syncro. Made in Montana. @mraible on Twitter."
            }
         ],
         "type":"talk",
@@ -945,7 +945,7 @@
      {
         "title":"Vendor Neutral Serverless Apps in Python/Zappa",
         "location":"102 (Practices & other tech)",
-        "description":"Today, no one wants to be responsible for a server.  You want to present a great customer experience and the backend is a necessary evil and you cannot do without.  Here enters “Serverless” with the promise to do provide your backend without servers.",
+        "description":"Today, no one wants to be responsible for a server.  You want to present a great customer experience and the backend is a necessary evil and you cannot do without.  Here enters â€œServerlessâ€ with the promise to do provide your backend without servers.",
         "speaker":"Atif Mahmood,Ram Vedam",
         "time":"09/21/2017 03:50 PM",
         "duration":60,
@@ -1257,7 +1257,7 @@
      {
         "title":"JavaScript Today, Tomorrow, and one Alternative",
         "location":"Room ABE (Core JS & Frameworks)",
-        "description":"JavaScript today ES6 features that’s what we are working with. JavaScript tomorrow ES2016/2017 solid features in smaller doses. We now have tools like babel, typescript the alternative to allow us to write language standardized but not officially browser supported yet features. Let's explore the language.",
+        "description":"JavaScript today ES6 features thatâ€™s what we are working with. JavaScript tomorrow ES2016/2017 solid features in smaller doses. We now have tools like babel, typescript the alternative to allow us to write language standardized but not officially browser supported yet features. Let's explore the language.",
         "speaker":"Tirell Mckinnon",
         "time":"09/21/2017 10:00 AM",
         "duration":60,
@@ -1306,7 +1306,7 @@
      {
         "title":"How I Cut My Working Hours in Half and Somehow Managed to Get More Done",
         "location":"Room ABE (Core JS & Frameworks)",
-        "description":"<p>Three hours. In an average eight-hour workday, the average developer will get <em>maybe</em> three hours of actual work done. Between distractions, interruptions, overloaded schedules, and tight deadlines, it can feel like we'll never get <em>anything</em> done. In this talk, Jason Lengstorf shares his story of grinding out 70–90 hours a week, and the surprisingly simple changes he made to turbocharge his productivity, earn more money, and <strong>work an average of 37 hours a week in 2016</strong> — while also rediscovering life outside of work.</p>",
+        "description":"<p>Three hours. In an average eight-hour workday, the average developer will get <em>maybe</em> three hours of actual work done. Between distractions, interruptions, overloaded schedules, and tight deadlines, it can feel like we'll never get <em>anything</em> done. In this talk, Jason Lengstorf shares his story of grinding out 70â€“90 hours a week, and the surprisingly simple changes he made to turbocharge his productivity, earn more money, and <strong>work an average of 37 hours a week in 2016</strong> â€” while also rediscovering life outside of work.</p>",
         "speaker":"Jason Lengstorf",
         "time":"09/21/2017 12:30 PM",
         "duration":30,
@@ -1333,7 +1333,7 @@
               "name":"Jennifer Bland",
               "image":"http://cfp.connect-js.com/system/avatars/332/large/Jennifer-Bland-headshot.jpg?1494079160",
               "twitter":"ratracegrad",
-              "bio":"Jennifer Bland is a Senior Software Developer for Hearst Autos, specializing in MEAN stack development. She has more than ten years of development experience working for companies like CNN, Coca-Cola and Apple Computer. Jennifer is the author of the book “Developing e-Business Applications Using Lotus Domino on the AS/400\", published by IBM.\r\n\r\nShe runs the website codeprep.io which provides interview questions to assist programmers in preparation for job interviews. Her personal website is jenniferbland.com.\r\n\r\nJennifer holds a B.A. in History from Furman University and an MBA from San Jose State University.\r\n"
+              "bio":"Jennifer Bland is a Senior Software Developer for Hearst Autos, specializing in MEAN stack development. She has more than ten years of development experience working for companies like CNN, Coca-Cola and Apple Computer. Jennifer is the author of the book â€œDeveloping e-Business Applications Using Lotus Domino on the AS/400\", published by IBM.\r\n\r\nShe runs the website codeprep.io which provides interview questions to assist programmers in preparation for job interviews. Her personal website is jenniferbland.com.\r\n\r\nJennifer holds a B.A. in History from Furman University and an MBA from San Jose State University.\r\n"
            }
         ],
         "type":"talk",
@@ -1434,7 +1434,7 @@
      {
         "title":" Make your animations perform well",
         "location":"105",
-        "description":"\r\n\r\nAnimations have been around the web for some time already; badly implemented can be deadly to the website’s performance and the user’s delight. Let’s learn together what are the best techniques to get our animations smooth and how the browser renders our page to know where to look for optimisations.",
+        "description":"\r\n\r\nAnimations have been around the web for some time already; badly implemented can be deadly to the websiteâ€™s performance and the userâ€™s delight. Letâ€™s learn together what are the best techniques to get our animations smooth and how the browser renders our page to know where to look for optimisations.",
         "speaker":"Anna Migas",
         "time":"09/22/2017 11:00 AM",
         "duration":60,
@@ -1443,7 +1443,7 @@
               "name":"Anna Migas",
               "image":"http://cfp.connect-js.com/system/avatars/506/large/1653947_737950792884261_1019734455_n.jpg?1496258249",
               "twitter":"szynszyliszys",
-              "bio":"Anna works as a Front-end Developer and Designer at Lunar Logic, the no-management company based in Kraków, Poland. She is always trying to find ways to make people fall in love with coding and has a long history of organizing coding workshops for WebMuses and Rails Girls. In her spare time she practices Pilates, plays Hearthstone and reads scifi and fantasy books."
+              "bio":"Anna works as a Front-end Developer and Designer at Lunar Logic, the no-management company based in KrakÃ³w, Poland. She is always trying to find ways to make people fall in love with coding and has a long history of organizing coding workshops for WebMuses and Rails Girls. In her spare time she practices Pilates, plays Hearthstone and reads scifi and fantasy books."
            }
         ],
         "type":"talk",
@@ -1551,7 +1551,7 @@
               "name":"Eric Maxwell",
               "image":"http://cfp.connect-js.com/system/avatars/671/large/Screen_Shot_2017-08-10_at_10.15.53_AM.png?1502385547",
               "twitter":"@emmax",
-              "bio":"Eric Maxwell is a Product Engineer at Realm and co-organizer of the Columbus Kotlin User Group. He has spent over a decade architecting and developing software for various companies across many industries. He has developed and taught courses on Java, Android and iOS. When he’s not working, he enjoys time with family, traveling and improv comedy."
+              "bio":"Eric Maxwell is a Product Engineer at Realm and co-organizer of the Columbus Kotlin User Group. He has spent over a decade architecting and developing software for various companies across many industries. He has developed and taught courses on Java, Android and iOS. When heâ€™s not working, he enjoys time with family, traveling and improv comedy."
            }
         ],
         "type":"talk",
@@ -1609,7 +1609,7 @@
      {
         "title":"No REST for the weary... Introducing GraphQL",
         "location":"UNASSIGNED (Adv JS)",
-        "description":"RESTful APIs can make fetching data pretty hairy sometimes, but fetching data doesn’t have to be so difficult. Enter GraphQL… the query language where you can ask for exactly what you need with a single HTTP request. Come learn what all the buzz is about!",
+        "description":"RESTful APIs can make fetching data pretty hairy sometimes, but fetching data doesnâ€™t have to be so difficult. Enter GraphQLâ€¦ the query language where you can ask for exactly what you need with a single HTTP request. Come learn what all the buzz is about!",
         "speaker":"Sia Karamalegos",
         "time":"09/22/2017 11:00 AM",
         "duration":60,
@@ -1699,7 +1699,7 @@
      {
         "title":"Going Web Native",
         "location":"117 (General Mobile)",
-        "description":"In this talk, we'll take a look at the evolving Web platform and how it's becoming possible to build applications that rival native apps in usability and functionality, while still maintaining the best parts of Web – low friction and simple sharing. ",
+        "description":"In this talk, we'll take a look at the evolving Web platform and how it's becoming possible to build applications that rival native apps in usability and functionality, while still maintaining the best parts of Web â€“ low friction and simple sharing. ",
         "speaker":"Marcus Hellberg",
         "time":"09/22/2017 11:00 AM",
         "duration":60,
@@ -1753,7 +1753,7 @@
      {
         "title":"Porting an Experience from iOS to Android ",
         "location":"117 (General Mobile)",
-        "description":"In the current iOS-first world, we are often asked to create an Android app based on an existing iOS app. While we often think this process is purely technical, a largely overlooked aspect of the process is ensuring the experience matches the user’s expectations of that platform. In this design-centered session, we’ll be covering mental model differences between iOS and Android, UI components on both platforms, and what to do when when you can’t lean on platform-standard UI in your port.",
+        "description":"In the current iOS-first world, we are often asked to create an Android app based on an existing iOS app. While we often think this process is purely technical, a largely overlooked aspect of the process is ensuring the experience matches the userâ€™s expectations of that platform. In this design-centered session, weâ€™ll be covering mental model differences between iOS and Android, UI components on both platforms, and what to do when when you canâ€™t lean on platform-standard UI in your port.",
         "speaker":"Zack Simon",
         "time":"09/22/2017 03:00 PM",
         "duration":60,
@@ -1780,7 +1780,7 @@
               "name":"Jesse Black",
               "image":"http://cfp.connect-js.com/system/avatars/383/large/JesseB.jpg?1467295442",
               "twitter":"@JesseBlack82",
-              "bio":"Jesse Black brings nine years of programming experience to stable|kernel as a software engineer. His passion for programming stems from a love of logic and a need to automate tedious paperwork responsibilities while working for his family’s business. Jesse has a bachelor’s degree in mathematics from New York University. When he's not solving clients needs, he enjoys dusting off old mathematics textbooks, learning Dart and going to see live music."
+              "bio":"Jesse Black brings nine years of programming experience to stable|kernel as a software engineer. His passion for programming stems from a love of logic and a need to automate tedious paperwork responsibilities while working for his familyâ€™s business. Jesse has a bachelorâ€™s degree in mathematics from New York University. When he's not solving clients needs, he enjoys dusting off old mathematics textbooks, learning Dart and going to see live music."
            }
         ],
         "type":"talk",
@@ -1789,7 +1789,7 @@
      {
         "title":"Crossing the Giant Chasm of Swift",
         "location":"115 (iOS)",
-        "description":"When moving into Swift, it’s easy to become overwhelmed with the weirdness and the shackles. Depending upon which language(s) you’ve used in the past, the post-beginner learning curve for Swift can be daunting. Introductory tutorials aren’t too bad to stomach, but when you want to create anything of value, a giant valley opens up before you. I will show you ways to move past this pain and become a more productive and well-rounded Swift craftsman.",
+        "description":"When moving into Swift, itâ€™s easy to become overwhelmed with the weirdness and the shackles. Depending upon which language(s) youâ€™ve used in the past, the post-beginner learning curve for Swift can be daunting. Introductory tutorials arenâ€™t too bad to stomach, but when you want to create anything of value, a giant valley opens up before you. I will show you ways to move past this pain and become a more productive and well-rounded Swift craftsman.",
         "speaker":"Patrick Seda",
         "time":"09/22/2017 11:00 AM",
         "duration":60,
@@ -1798,7 +1798,7 @@
               "name":"Patrick Seda",
               "image":"http://cfp.connect-js.com/system/avatars/75/large/patrickTM_490.png?1496246048",
               "twitter":"pxtrick",
-              "bio":"Patrick is CTO of Colligo Vox, a Mobile solutions consulting company based out of Atlanta. With 30 years of professional experience, he orchestrates and implements successful mobile initiatives ranging from Big Enterprise children’s educational games. Along with his focus of delivering bullet-proof, awesomely kickass solutions, he educates the development community via meetups and the techMatters.fm podcast."
+              "bio":"Patrick is CTO of Colligo Vox, a Mobile solutions consulting company based out of Atlanta. With 30 years of professional experience, he orchestrates and implements successful mobile initiatives ranging from Big Enterprise childrenâ€™s educational games. Along with his focus of delivering bullet-proof, awesomely kickass solutions, he educates the development community via meetups and the techMatters.fm podcast."
            }
         ],
         "type":"talk",
@@ -1929,7 +1929,7 @@
      {
         "title":"When developer must become designer; how to be a one-person UX team",
         "location":"106 (Design-UI-UX)",
-        "description":"As a developer with limited resources, experience, and time, how can you embrace your inner UX designer? What is UX and why should you care? Is there really a difference between UX and UI? Which design tools should you use?\r\n\r\nIn this session I’ll provide you a UX checklist to take you from developer to designer/developer.",
+        "description":"As a developer with limited resources, experience, and time, how can you embrace your inner UX designer? What is UX and why should you care? Is there really a difference between UX and UI? Which design tools should you use?\r\n\r\nIn this session Iâ€™ll provide you a UX checklist to take you from developer to designer/developer.",
         "speaker":"Angel Banks",
         "time":"09/22/2017 03:00 PM",
         "duration":60,
@@ -1974,7 +1974,7 @@
               "name":"Jen Tong",
               "image":"http://cfp.connect-js.com/system/avatars/615/large/jtong-2016-square-3000.jpg?1496246848",
               "twitter":"MimmingCodes",
-              "bio":"Jen is a Developer Advocate on Cloud at Google. In this role she helps developers build cool stuff on all sorts of platforms. If she’s away from her laptop, she’s probably skating around a roller derby track, or hanging from aerial silk."
+              "bio":"Jen is a Developer Advocate on Cloud at Google. In this role she helps developers build cool stuff on all sorts of platforms. If sheâ€™s away from her laptop, sheâ€™s probably skating around a roller derby track, or hanging from aerial silk."
            }
         ],
         "type":"talk",
@@ -2019,7 +2019,7 @@
      {
         "title":"Building Real World Node.JS Microservices ",
         "location":"103 (Node-server-side)",
-        "description":"“Microservces are small services with independent lifecycles that work together” -Sam Newman. In this talk I'll be presenting some core principles I think represent what makes microservices work well using Node.JS and Docker. After a brief introduction of what microservices are and why they are important, we'll spend the bulk of the time looking at how BDD, CQRS, and Event Sourcing coupled with modern CI/CD techniques can help you deploy containers to a Docker swarm in any cloud. We’ll explore best practices, code, and tooling to get the job done right. I'd say that beginners will get a sense of what microservices are and what makes different, whereas more experienced practitioners will get an insight into practical advice into how to implement them.",
+        "description":"â€œMicroservces are small services with independent lifecycles that work togetherâ€ -Sam Newman. In this talk I'll be presenting some core principles I think represent what makes microservices work well using Node.JS and Docker. After a brief introduction of what microservices are and why they are important, we'll spend the bulk of the time looking at how BDD, CQRS, and Event Sourcing coupled with modern CI/CD techniques can help you deploy containers to a Docker swarm in any cloud. Weâ€™ll explore best practices, code, and tooling to get the job done right. I'd say that beginners will get a sense of what microservices are and what makes different, whereas more experienced practitioners will get an insight into practical advice into how to implement them.",
         "speaker":"James Truitt",
         "time":"09/22/2017 03:00 PM",
         "duration":60,
@@ -2028,7 +2028,7 @@
               "name":"James Truitt",
               "image":"http://cfp.connect-js.com/system/avatars/686/large/Headshot_2.jpg?1502995389",
               "twitter":"@auburnjames",
-              "bio":"James Truitt an agile software developer and technologist. He’s has 17+ years of experience creating software for the TV Broadcasting field. His focus and passion is learning and sharing all things dealing with the cloud. When he’s not behind a computer you’ll find him in the stands cheering on him kids in a local basketball arena."
+              "bio":"James Truitt an agile software developer and technologist. Heâ€™s has 17+ years of experience creating software for the TV Broadcasting field. His focus and passion is learning and sharing all things dealing with the cloud. When heâ€™s not behind a computer youâ€™ll find him in the stands cheering on him kids in a local basketball arena."
            }
         ],
         "type":"talk",
@@ -2037,7 +2037,7 @@
      {
         "title":"Get Rails out of your Ruby",
         "location":"102 (Practices & other tech)",
-        "description":"We’ll look into what it means to have a framework agnostic architecture in your Ruby app by covering what this means, why you would want it, and strategies to achieve it. Leveraging an architecture that doesn’t depend on Rails will allow the business logic and domain to naturally emerge.",
+        "description":"Weâ€™ll look into what it means to have a framework agnostic architecture in your Ruby app by covering what this means, why you would want it, and strategies to achieve it. Leveraging an architecture that doesnâ€™t depend on Rails will allow the business logic and domain to naturally emerge.",
         "speaker":"Steve Bussey",
         "time":"09/22/2017 10:00 AM",
         "duration":60,
@@ -2055,7 +2055,7 @@
      {
         "title":"What the Heck is OAuth and OpenID Connect?",
         "location":"102 (Practices & other tech)",
-        "description":"OAuth is not an API or a service: it is an open standard for authorization and any developer can implement it. OAuth is a standard that applications can use to provide client applications with “secure delegated access”. OAuth works over HTTP and authorizes Devices, APIs, Servers and Applications with access tokens rather than credentials, which we will go over in depth below. OpenID Connect (OIDC) is built on top of the OAuth 2.0 protocol. It allows clients to verify the identity of the user and, as well as to obtain their basic profile information. This session covers how OAuth/OIDC works, when to use them, and frameworks/services that simplify authentication.",
+        "description":"OAuth is not an API or a service: it is an open standard for authorization and any developer can implement it. OAuth is a standard that applications can use to provide client applications with â€œsecure delegated accessâ€. OAuth works over HTTP and authorizes Devices, APIs, Servers and Applications with access tokens rather than credentials, which we will go over in depth below. OpenID Connect (OIDC) is built on top of the OAuth 2.0 protocol. It allows clients to verify the identity of the user and, as well as to obtain their basic profile information. This session covers how OAuth/OIDC works, when to use them, and frameworks/services that simplify authentication.",
         "speaker":"Matt Raible",
         "time":"09/22/2017 11:00 AM",
         "duration":60,
@@ -2064,7 +2064,7 @@
               "name":"Matt Raible",
               "image":"http://cfp.connect-js.com/system/avatars/588/large/mattraible-headshot.jpg?1500937627",
               "twitter":"mraible",
-              "bio":"Java Champion and Developer Advocate at Okta with a passion for skiing, mountain biking, VWs, and good . Driving a '66 21-window and a '90 Syncro. Made in Montana. @mraible on Twitter."
+              "bio":"Java Champion and Developer Advocate at Okta with a passion for skiing, mountain biking, VWs, and good ïº. Driving a '66 21-window and a '90 Syncro. Made in Montana. @mraible on Twitter."
            }
         ],
         "type":"talk",
@@ -2100,7 +2100,7 @@
               "name":"Toby Ho",
               "image":"http://cfp.connect-js.com/system/avatars/12/large/avatar.jpg?1408126251",
               "twitter":"airportyh",
-              "bio":"Toby Ho is a veteran JavaScript developer in Atlanta. He blogs at tobyho.com and is passionate about helping others learn. He is active in the open source community where his proudest work is Test’em - a Javascript test runner."
+              "bio":"Toby Ho is a veteran JavaScript developer in Atlanta. He blogs at tobyho.com and is passionate about helping others learn. He is active in the open source community where his proudest work is Testâ€™em - a Javascript test runner."
            }
         ],
         "type":"talk",
@@ -2163,7 +2163,7 @@
      {
         "title":"Tame the Async Redux Beast with redux-logic",
         "location":"Room F (React in Practice)",
-        "description":"Keeping our Redux applications tidy can be difficult once we start adding business logic, especially asynchronous code. Where do we write it? How do we write it? And how does our code interact with Redux? Together, we’ll answer these questions and more by exploring how redux-logic lets us “bring our own code” and integrate it in a structured, declarative way with Redux.",
+        "description":"Keeping our Redux applications tidy can be difficult once we start adding business logic, especially asynchronous code. Where do we write it? How do we write it? And how does our code interact with Redux? Together, weâ€™ll answer these questions and more by exploring how redux-logic lets us â€œbring our own codeâ€ and integrate it in a structured, declarative way with Redux.",
         "speaker":"Ray Gesualdo",
         "time":"09/22/2017 01:00 PM",
         "duration":60,
@@ -2181,7 +2181,7 @@
      {
         "title":"Lightning Fast React Apps",
         "location":"Room F (React in Practice)",
-        "description":"App loading and run time affect your bottom line. Fancy features aren’t worth if anything users leave the app out of frustration. Every second counts! React is super fast, but you could be shooting yourself in the foot with design decisions. Come learn how to make your React apps lightning fast!",
+        "description":"App loading and run time affect your bottom line. Fancy features arenâ€™t worth if anything users leave the app out of frustration. Every second counts! React is super fast, but you could be shooting yourself in the foot with design decisions. Come learn how to make your React apps lightning fast!",
         "speaker":"Sia Karamalegos",
         "time":"09/22/2017 02:00 PM",
         "duration":60,
@@ -2217,7 +2217,7 @@
      {
         "title":"Make Your React App Run Smoothly... with TDD Part I",
         "location":"Room D (React Fundamentals)",
-        "description":"Have you ever changed some code, and had other code break unexpectedly?\r\nLearn how to reduce  or eliminate those “regressions” and write better code initially, by using test-driven development with your React app. You’ll leave this workshop prepared to write unit, integration, and end-to-end tests for your React app.",
+        "description":"Have you ever changed some code, and had other code break unexpectedly?\r\nLearn how to reduce  or eliminate those â€œregressionsâ€ and write better code initially, by using test-driven development with your React app. Youâ€™ll leave this workshop prepared to write unit, integration, and end-to-end tests for your React app.",
         "speaker":"Van Wilson",
         "time":"09/22/2017 10:00 AM",
         "duration":60,
@@ -2226,7 +2226,7 @@
               "name":"Van Wilson",
               "image":"http://cfp.connect-js.com/system/avatars/604/large/van-wilson-on-top-of-willis-tower.jpg?1494211425",
               "twitter":"vanwilson",
-              "bio":"Van Wilson is a Front-End UI Developer with Cardinal Solutions Group. When he is not testing code, he’s forcing his family to go on long hikes with him."
+              "bio":"Van Wilson is a Front-End UI Developer with Cardinal Solutions Group. When he is not testing code, heâ€™s forcing his family to go on long hikes with him."
            }
         ],
         "type":"talk",
@@ -2244,7 +2244,7 @@
               "name":"Van Wilson",
               "image":"http://cfp.connect-js.com/system/avatars/604/large/van-wilson-on-top-of-willis-tower.jpg?1494211425",
               "twitter":"vanwilson",
-              "bio":"Van Wilson is a Front-End UI Developer with Cardinal Solutions Group. When he is not testing code, he’s forcing his family to go on long hikes with him."
+              "bio":"Van Wilson is a Front-End UI Developer with Cardinal Solutions Group. When he is not testing code, heâ€™s forcing his family to go on long hikes with him."
            }
         ],
         "type":"talk",
@@ -2253,7 +2253,7 @@
      {
         "title":"Rapid Applications with React Native",
         "location":"Room D (React Fundamentals)",
-        "description":"Every so often building something is simple. Press button, receive bacon. Life can be simple again. Haven’t we built the same house, or given the same hair cut over and over? 80% of mobile app development is the same old song. So why is mobile so difficult/expensive? It’s not with React Native.",
+        "description":"Every so often building something is simple. Press button, receive bacon. Life can be simple again. Havenâ€™t we built the same house, or given the same hair cut over and over? 80% of mobile app development is the same old song. So why is mobile so difficult/expensive? Itâ€™s not with React Native.",
         "speaker":"Gant Laborde",
         "time":"09/22/2017 01:00 PM",
         "duration":60,
@@ -2271,7 +2271,7 @@
      {
         "title":"CSS-in-React with styled-components",
         "location":"Room D (React Fundamentals)",
-        "description":"CSS in production applications is hard and our industry has worked to mitigate this in multiple ways. Pre/post-processors brought code organization and logic. Class naming conventions helped with specificity. CSS Modules took a big leap forward by providing a certain level of modularity. But CSS never truly matched the level of componentization in its web counterpart, JavaScript...until now. Learn how styled-components leverages React’s component paradigm to provide completely modularized and declarative styling in your React applications.",
+        "description":"CSS in production applications is hard and our industry has worked to mitigate this in multiple ways. Pre/post-processors brought code organization and logic. Class naming conventions helped with specificity. CSS Modules took a big leap forward by providing a certain level of modularity. But CSS never truly matched the level of componentization in its web counterpart, JavaScript...until now. Learn how styled-components leverages Reactâ€™s component paradigm to provide completely modularized and declarative styling in your React applications.",
         "speaker":"Ray Gesualdo",
         "time":"09/22/2017 02:00 PM",
         "duration":60,
@@ -2307,7 +2307,7 @@
      {
         "title":"Angular's User Authentication Tool Belt",
         "location":"Room C (Angular)",
-        "description":"Your Angular app is nearly done and now you just need to add authentication before it goes out to the real world. Simple, right? Not always. There are a lot of moving parts when it comes to authentication in general and it gets even worse for single page apps. Fortunately for us, Angular provides some great tools that help to make our lives easier when it comes to implementing authentication. In this session you’ll learn about Angular’s user authentication tool belt and how you can get started with it today.",
+        "description":"Your Angular app is nearly done and now you just need to add authentication before it goes out to the real world. Simple, right? Not always. There are a lot of moving parts when it comes to authentication in general and it gets even worse for single page apps. Fortunately for us, Angular provides some great tools that help to make our lives easier when it comes to implementing authentication. In this session youâ€™ll learn about Angularâ€™s user authentication tool belt and how you can get started with it today.",
         "speaker":"Ryan Chenkie",
         "time":"09/22/2017 10:00 AM",
         "duration":60,
@@ -2343,7 +2343,7 @@
      {
         "title":"Myths of Angular 2: What Angular Really Is",
         "location":"Room C (Angular)",
-        "description":"At ng-Europe in 2014, the Angular team announced Angular 2. Unfortunately, the drastic changes were not well received by many. While things have changed since that announcement during the development of Angular 2, unfortunately many people remember the things said there instead of what was actually done. This session will give an introductory look at the basics of Angular, bust some myths about Angular, and give a look at “why Angular”.",
+        "description":"At ng-Europe in 2014, the Angular team announced Angular 2. Unfortunately, the drastic changes were not well received by many. While things have changed since that announcement during the development of Angular 2, unfortunately many people remember the things said there instead of what was actually done. This session will give an introductory look at the basics of Angular, bust some myths about Angular, and give a look at â€œwhy Angularâ€.",
         "speaker":"John Niedzwiecki",
         "time":"09/22/2017 01:00 PM",
         "duration":60,
@@ -2431,9 +2431,9 @@
         "room":"Core JS & Frameworks  (Ballroom F)"
      },
      {
-        "title":"Reactive Programming with RxJS: A Beginner’s Perspective",
+        "title":"Reactive Programming with RxJS: A Beginnerâ€™s Perspective",
         "location":"Room ABE (Core JS & Frameworks)",
-        "description":"Why beginners should train yourself to do reactive programming in your first months of learning. As a beginner, you don’t have a set way of programming, and adopting a declarative functional style will help you prepare for the future of reactive programming. Learn the importance of RxJS, simple implementation, and how to think reactively.",
+        "description":"Why beginners should train yourself to do reactive programming in your first months of learning. As a beginner, you donâ€™t have a set way of programming, and adopting a declarative functional style will help you prepare for the future of reactive programming. Learn the importance of RxJS, simple implementation, and how to think reactively.",
         "speaker":"Tracy Lee",
         "time":"09/22/2017 11:00 AM",
         "duration":40,
@@ -2464,7 +2464,7 @@
      {
         "title":"Javascript ES6: The Good Parts",
         "location":"Room ABE (Core JS & Frameworks)",
-        "description":"Javascript is in the middle of a rapid change. Thanks to new specs and auto-updating browsers, new language features and APIs are at your fingertips. Navigating the bounty of riches is difficult. Which parts should we actually use today, and which are still half baked? What provides real value to your code and which is just syntax sugar.  In this talk I’ll cover the four main features you can actually use today, and how to get them running in your own applications.\r\n",
+        "description":"Javascript is in the middle of a rapid change. Thanks to new specs and auto-updating browsers, new language features and APIs are at your fingertips. Navigating the bounty of riches is difficult. Which parts should we actually use today, and which are still half baked? What provides real value to your code and which is just syntax sugar.  In this talk Iâ€™ll cover the four main features you can actually use today, and how to get them running in your own applications.\r\n",
         "speaker":"Josh Marinacci",
         "time":"09/22/2017 01:00 PM",
         "duration":60,
@@ -2473,7 +2473,7 @@
               "name":"Josh Marinacci",
               "image":"http://cfp.connect-js.com/system/avatars/331/large/headshot2-small.jpg?1492202332",
               "twitter":"joshmarinacci",
-              "bio":"Josh is an O’Reilly author, developer advocate, and recovering engineer. He is a senior developer evangelist at Mozilla. Previously he worked as a developer evangelist at PubNub, Nokia, Palm / HP, and Sun. He is passionate about user interfaces and education. Josh lives in sunny Eugene, Oregon."
+              "bio":"Josh is an Oâ€™Reilly author, developer advocate, and recovering engineer. He is a senior developer evangelist at Mozilla. Previously he worked as a developer evangelist at PubNub, Nokia, Palm / HP, and Sun. He is passionate about user interfaces and education. Josh lives in sunny Eugene, Oregon."
            }
         ],
         "type":"talk",
@@ -2482,7 +2482,7 @@
      {
         "title":"Stop JavaScripting Like It's 1999",
         "location":"Room ABE (Core JS & Frameworks)",
-        "description":"JavaScript is moving fast.  Last year’s best practices are quickly becoming today’s anti-patterns as we experience fundamental shifts in the language. With so many outdated learning resources out there, it's hard to know if we're doing things right.",
+        "description":"JavaScript is moving fast.  Last yearâ€™s best practices are quickly becoming todayâ€™s anti-patterns as we experience fundamental shifts in the language. With so many outdated learning resources out there, it's hard to know if we're doing things right.",
         "speaker":"Hunter Loftis",
         "time":"09/22/2017 02:00 PM",
         "duration":60,
