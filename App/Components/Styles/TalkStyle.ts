@@ -13,7 +13,7 @@ export default StyleSheet.create({
   },
   active: {
     marginLeft: 6,
-    marginRight: 34,
+    marginRight: 10,
     borderRadius: 5,
     shadowOffset: {
       width: 1,
