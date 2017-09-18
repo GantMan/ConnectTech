@@ -37,7 +37,7 @@ class TalkDetail extends React.Component {
           {speaker.company}
         </Text>
         <Text style={styles.description}>
-          {speaker.bio}
+          {speaker.bio.replace(/<(?:.|\n)*?>/gm, '')}
         </Text>
         <View style={styles.social}>
           { speaker.twitter &&
@@ -70,6 +70,9 @@ class TalkDetail extends React.Component {
         </Text>
         <Text style={styles.description}>
           Time: {talk.time}
+        </Text>
+        <Text style={styles.description}>
+          Location: {talk.room}
         </Text>
       </View>
     )

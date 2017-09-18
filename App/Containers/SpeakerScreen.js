@@ -71,7 +71,7 @@ class SpeakerScreen extends Component {
   renderItem = ({item}) => {
     return (
       <Speaker
-        name={item.bio}
+        name={'@' + item.twitter.replace('@', '')}
         avatarURL={item.image || item.speakerInfo[0].image || 'https://infinite.red/images/chainreact/gant.png'}
         description={item.name}
         onPress={() => this.onSpeakerPress(item)}

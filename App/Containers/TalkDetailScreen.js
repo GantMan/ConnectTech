@@ -92,6 +92,12 @@ class TalkDetail extends React.Component {
                 {this.props.title}
               </Text>
               <Text style={styles.description}>
+                {this.props.room}
+              </Text>
+              <Text style={styles.sectionHeading}>
+                DETAILS
+              </Text>
+              <Text style={styles.description}>
                 {this.props.description}
               </Text>
               <Text style={styles.sectionHeading}>
